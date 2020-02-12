@@ -237,11 +237,7 @@ We determine the extent of the hurricane according to the magnitude of the hurri
 
 This model give an optimal strategy on which counties should be ordered to evacuate and where to.
 
-\begin{figure}[tbp]
-  \centering{
-  \includegraphics[width=0.6\textwidth]{./picture/figure1.png}}
-  \caption{The Extent of the Hurricane in Mississippi}\label{figure1}
-\end{figure}
+
 
 \section{The Demand Distribution Model}
 
@@ -292,11 +288,7 @@ In the case of low loading rates usually, more people are responding to instruct
 
 In the case of low loading rate, people gradually reach the station node within the time range of evacuation, but for the high loading rate, a large number of people rush to the station node during the final phase of evacuation,as is shown in Figure ~\ref{fig:2}.
 
-\begin{figure}[htbp]
-  \centering
- \caption{Behavioral Response Curves}\label{fig:2}
-  \includegraphics[width=0.7\textwidth]{./picture/figure2.png}
- \end{figure}
+
 
 In the case of a hurricane, the initial phase of withdrawal is usually slow, and the demand for station nodes is not greater than the capacity of the vehicle. But in the final phase of the evacuation, the demand may be concentrated, and the cumulative result is that the demand for a station node is greater than the capacity of the vehicle. At this moment, we need  to send vehicles from another station node to meet their needs, carrying away for the rest. With the demand of the other station node considering again, a reasonable, optimizing transportation route can be arranged.
 
@@ -313,11 +305,6 @@ In the case of a hurricane, the initial phase of withdrawal is usually slow, and
 
 VRP \cite{Dikas2016Solving,He2015Model} generally defined as: on a range of clients point (location known or can be estimated) in satisfying certain constraints (such as the demand for goods, the delivery time of delivery, the vehicle capacity constraints, etc.), reasonably arrange the vehicle distribution route, making the vehicle through them in an orderly way to achieve a certain goal (such as the shortest mileage and least cost, least time, use as little as possible and so on). The representation of VPR can be seen in Figure 3.
 
-\begin{figure}[tbp]
-  \centering{
-  \includegraphics[width=0.7\textwidth]{./picture/figure3.png}}
-  \caption{A Typical Vehicle Routing Problem}\label{Figure3}
-\end{figure}
 
 Based on the traditional VRP, a comprehensive evacuation planning model is established to satisfy the constraint conditions:
 \begin{itemize}
@@ -441,19 +428,10 @@ As shown in the figure above, it is necessary to calculate the time required for
 
 Because the evacuation and time of personnel also satisfied the curve of $S$ type curve, it can be used to draw the time-varying personnel evacuation curve of hurricane from category 1 - 5, which can be seen in figure4.
 
-\begin{figure}[h]
-  \centering{
-  \includegraphics[width=0.7\textwidth]{./picture/figure5.png}}
-  \caption{The time-varying personnel evacuation curve of hurricane from category 1 - 5}\label{figure4}
-\end{figure}
+
 
 On the basis of guarantee the safety of life, we put forward the optimization scheme, when hurricane prediction level too high, let let evacuated inland areas, in order to improve the economic benefit of coastal, and reduce economic loss. The maximum population density due to coastal areas, and abide by the $S$ type curve evacuation rules.
 
-\begin{figure}[h]
-  \centering{
-  \includegraphics[width=0.7\textwidth]{./picture/figure6.png}}
-  \caption{Optimize personnel evacuation curve}\label{figure5}
-\end{figure}
 
 Under the same Five - level hurricane conditions, the optimization scheme minimizes the economic loss under the conditions of increasing the cost of the smaller time. It has been proved that evacuating in the right time can get better effect, which has a positive effect on the subsequent development of evacuation plan.
 
@@ -497,12 +475,12 @@ Advantage: Inland remove first can reduce the road pressure; Coastal remove late
 Here are simulation programmes we used in our model as follow.\\
 
 \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
-\lstinputlisting[language=Matlab]{./code/mcmthesis-matlab1.m}
+% \lstinputlisting[language=Matlab]{./code/mcmthesis-matlab1.m}
 
 \section{Second appendix}
 
 some more text \textcolor[rgb]{0.98,0.00,0.00}{\textbf{Input C++ source:}}
-\lstinputlisting[language=C++]{./code/mcmthesis-sudoku.cpp}
+% \lstinputlisting[language=C++]{./code/mcmthesis-sudoku.cpp}
 
 \end{appendices}
 \end{document}
