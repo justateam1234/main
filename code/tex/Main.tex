@@ -52,13 +52,6 @@
 
 \begin{abstract}
 
-In the premise of guaranteeing the life safety of all the evacuees, we established the comprehensive evacuation planning model point of view from the shortest evacuation time, lowest evacuation risk, low economic losses angles to reduce the loss to minimum.
-
-First of all, We determine the evacuation zone and safety zone according to the category and the landing site of the hurricane, and define the county in the evacuation zone as the station nodes. Through the model of optimal path selection model which can be used to select the sanctuaries in the safety zone, we established the sanctuary selection model.
-
-Then, using the Thiessen Polygon to determine the coverage of each station node, and analyzing the characteristics of the demand generated from the station node, we establish the demand distribution model according to the uncertainty of demand.
-
-Finally, based on the theory of the traditional VRP (Vehicle Routing Problem), taking the shortest time and lowest risk and low economic losses as the total constraint conditions, considering the road carrying capacity constraints, refuge capacity, garage capacity constraint conditions and so on, according to the category and the landing site of the hurricane, the comprehensive evacuation planning model is established. The processing conditions under the category 1-5 hurricane conditions are simulated, and the shortest time is obtained under the model condition, which is the shortest release time before the hurricane.
 
 
 \begin{keywords}
@@ -87,50 +80,19 @@ VRP; optimal path; Tyson polygon; Time-varying curve; \\ \hspace*{1.2cm}Time-var
 \section{Introduction}
 \subsection{Background}
 
-Natural disasters(such as hurricanes, floods, earthquakes, etc.) have always been a kind of obstacles that are difficult to overcome for mankind. Most area along the coast are often hit by hurricanes or typhoon, causing major economic losses and human casualties.
-
-Ten years ago hurricane Katrina had a devastating effect on the economies of several states, causing many deaths and much suffering.
-
-All hurricanes are assigned a category: from 1 (the weakest) to 5 (the strongest, like Katrina). The category and the location of landfall are first predicted about 4 days in advance. Predictions are revised using updated information 48 hours later, and the final (most accurate) predictions become available 24 hours ahead of the expected landfall. The category of the hurricane and the actual location of the landfall determine which counties will be flooded. In addition, driving conditions in surrounding counties might be seriously affected by the size of the hurricane.
 
 \subsection{Problem Restatement}
 
-Build a model to advise MSEMA on an optimal strategy: which counties should be ordered to evacuate, when, and where to. The first page of your manuscript should be a one page non-technical, executive summary for the governor of Mississippi. It should describe your main recommendations, the criteria you used to evaluate their effectiveness, and any caveats you believe are important to mention.
 
-Time permitting, your model should also account for the fact that evacuations initiated in Louisiana, Alabama, and Mississippi affect each other. For example, a large portion of the New Orleans population will likely evacuate through Jackson, MS using highways 59 and 55. If the population of Jackson needs to evacuate, much of it will be directed North within MS or West toward Monroe, LA. Parts of coastal counties in MS will evacuate through Mobile, AL.
-
-Despite these interdependencies, the decisions in each state are rarely made collaboratively. So, if you are a governor in one of these states and you order the evacuation later than the others, the population of your state might be at disadvantage since the roads will be already clogged by then. If the hurricane turns out to be stronger than expected, your constituents might end up stuck in traffic in affected areas. On the other hand, if you order the evacuation too early, this disruption carries a high economic cost - coastal areas generate much revenue for your state and early predictions about the expected hurricane strength/landfall time/location might be inaccurate.
 
 \subsection{Our Work}
 
-Originally topic asked us to review the current evacuation strategies of Mississippi. However, they did not give any current strategies, but just let us to establish a new personnel evacuation model, which is used to solve the question which counties should be ordered to evacuate, when, and where to. In addition, the size of the hurricane might seriously affect the driving conditions and the evacuation in Mississippi for its surrounding counties will also have to evacuate their constituents. On the one hand, if you order the evacuation later than the others, the population of your state end up stuck in traffic in affected areas. On the other hand, if you order the evacuation too early, this disruption carries a high economic cost : coastal areas generate much revenue for your state and early predictions about the expected hurricane strength/landfall time/location might be inaccurate.
-
-For the question of which counties should be evacuated and where to, we established a sanctuary selection model. We determine the extent of the hurricane according to the magnitude of the hurricane. Assume that the landing site of the hurricane is near the coastal area in southern Mississippi, we use the latitude to determine the extent of the hurricane in Mississippi according to the category, and define the area within the extent as the evacuation zone. All counties within the evacuation zone are required to evacuate, and outside the evacuation area, we can define it to be the safety zone. Selected in the safety zone, the sanctuaries are the closest counties to put all the evacuees form evacuation counties, the ratio of the number of evacuation counties to sanctuaries is $r$ ( with the increase of hurricane levels, the mass evacuation of neighboring states will be evacuated to Mississippi, and the number of shelters must be increased), and the selection should take into account the evacuate time, risk factor( including the extent of the surrounding driving environment and the impact of neighboring states), tolerance and so on.
-
-In view of the uncertainty of the demand of the personnel during the evacuation process, we established a demand distribution model. In the event of natural disasters, the cumulative percentage of evacuation demand can be calculated by the time-varying curve function. The demand distribution defines the number of people arriving at the assembly point during the evacuation process, depending on the potential population of the evacuation area depending on the transport system. This demand not only has spatial dependence, but also has time dependence.
-
-For the question of when to evacuate, we established a comprehensive evacuation planning model, based on the theory of the traditional VRP, establishing total constraints: the shortest time and lowest risk to solve the optimal solution, and the optimal solution should also meet the road capacity constraints and shelter capacity constraints. By selecting the optimal path between the station nodes and the point of refuge and considering the proportion of the population in each county, the model can rationally allocated the vehicle. We can meet the number of people gathered at the station nodes, the traffic flow of the road conform to the s-type distribution law, the road congestion condition and other comprehensive consideration to solve the shortest time.
-
-In addition, we further considered the mass evacuation of floating population will affect the relative capacity of refuge, traffic congestion degree, etc., and put forward the optimization scheme: when the forecast hat hurricane level is high, we can arrange inland evacuation ahead to reduce the road pressure, and coastal remove later can increase the economic benefit, reducing the loss in a certain extent.
-
-Finally, we considered the evacuation time, evacuation risk and economic loss comprehensively to get the optimal solution.
 
 \section{Assumptions}
 
 \begin{itemize}
-\item We consider individual car traffic and organized public bus transports.
-  Most people will try to get to the safe places using their own car if possible. However, there are also people that do not have access to private transportation and rely on public transportation via buses.
-\item Individual traffic appears in the endangered region and then drives to the open shelters. Shelters need to provide sufficient parking space and evacuee capacity.
-\item All buses start at rendezvous, and bring them to shelters.
- A bus might continue picking up people and bringing them to shelters until everybody is on safe ground.Once a bus reaches a shelter all evacuees will disembark the bus. In an emergency situation it would not be possible to persuade people to stay in the bus and go to another shelter once they have reached a shelter which can accommodate them. In a large-scale evacuation the number of buses will most likely be too small to get all evacuees out of the danger zone with a single trip of each bus.
-\item Evacuees start their evacuation at different times.
-Some people appear later during the evacuation because families or other groups might gather first in order to evacuate together, people do not immediately realize that they have to be evacuated, or people first have to reach places from which they can be evacuated further.
-\item The planner has full control over both the buses and the individual traffic.
-\item Planning aspects are the duration of the evacuation, the risk of the evacuees, and the number of shelters opened.
-Risk can be understood in two ways in case of an evacuation: The probability of the evacuation plan to fail or the amount of danger that evacuees are exposed to during the evacuation. We focus on the second type of risk associated to danger to people.
-
-\item Vehicles may cause congestion.
-The congestion depends on the size of the street and on the number of cars trying to use the street. Since we consider a system optimum approach, we model the congestion by capacitated roads.
+\item 
+\item 
 \end{itemize}
 
 \section{List of Notation}
