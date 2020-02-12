@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bretschneider2011A}
+S.~Bretschneider and A.~Kimms.
+\newblock A basic mathematical model for evacuation problems in urban areas.
+\newblock {\em Transportation Research Part A Policy $\&$ Practice},
+  45(6):523--539, 2011.
+
+\bibitem{Dikas2016Solving}
+G.~Dikas and I.~Minis.
+\newblock Solving the bus evacuation problem and its variants.
+\newblock {\em Computers $\&$ Operations Research}, 70:75--86, 2016.
+
+\bibitem{Goerigk2013Branch}
+Marc Goerigk.
+\newblock {\em Branch and bound algorithms for the bus evacuation problem}.
+\newblock Elsevier Science Ltd., 2013.
+
+\bibitem{Goerigk2014A}
+Marc Goerigk, Kaouthar Deghdak, and Philipp Hebler.
+\newblock A comprehensive evacuation planning model and genetic solution
+  algorithm.
+\newblock {\em Transportation Research Part E Logistics $\&$ Transportation
+  Review}, 71(71):82--97, 2014.
+
+\bibitem{He2015Model}
+Xiaozheng He, Hong Zheng, and Srinivas Peeta.
+\newblock Model and a solution algorithm for the dynamic resource allocation
+  problem for large-scale transportation network evacuation.
+\newblock {\em Transportation Research Part C}, 59:233--247, 2015.
+
+\bibitem{Murray2013Evacuation}
+Pamela Murray-Tuite and Brian Wolshon.
+\newblock Evacuation transportation modeling: An overview of research,
+  development, and practice.
+\newblock {\em Transportation Research Part C}, 27(2):25--45, 2013.
+
+\bibitem{Ng2015Sharp}
+Man~Wo Ng and Dung~Ying Lin.
+\newblock Sharp probability inequalities for reliable evacuation planning.
+\newblock {\em Transportation Research Part C Emerging Technologies},
+  60:161--168, 2015.
+
+\bibitem{Ng2010Reliable}
+Man~Wo Ng and S.~Travis Waller.
+\newblock Reliable evacuation planning via demand inflation and supply
+  deflation.
+\newblock {\em Transportation Research Part E}, 46(6):1086--1094, 2010.
+
+\bibitem{Sayyady2010Optimizing}
+Fatemeh Sayyady and Sandra~D. Eksioglu.
+\newblock {\em Optimizing the use of public transit system during no-notice
+  evacuation of urban areas}.
+\newblock Pergamon Press, Inc., 2010.
+
+\bibitem{So2010Managing}
+Stella~K. So and Carlos~F. Daganzo.
+\newblock Managing evacuation routes.
+\newblock {\em Transportation Research Part B Methodological}, 44(4):514--520,
+  2010.
+
+\end{thebibliography}
