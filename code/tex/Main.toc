@@ -3,18 +3,18 @@
 \contentsline {subsection}{\numberline {1.2}Problem Restatement}{1}{subsection.1.2}% 
 \contentsline {subsection}{\numberline {1.3}Our Work}{1}{subsection.1.3}% 
 \contentsline {section}{\numberline {2}Assumptions}{1}{section.2}% 
-\contentsline {section}{\numberline {3}List of Notation}{1}{section.3}% 
-\contentsline {section}{\numberline {4}The Sanctuary Selection Model}{2}{section.4}% 
+\contentsline {section}{\numberline {3}List of Notation}{2}{section.3}% 
+\contentsline {section}{\numberline {4}The Sanctuary Selection Model}{3}{section.4}% 
 \contentsline {section}{\numberline {5}The Demand Distribution Model}{4}{section.5}% 
 \contentsline {section}{\numberline {6}The Comprehensive Evacuation Planning Model}{6}{section.6}% 
 \contentsline {subsection}{\numberline {6.1}Model Preparation}{6}{subsection.6.1}% 
 \contentsline {subsection}{\numberline {6.2}Modeling}{7}{subsection.6.2}% 
-\contentsline {subsection}{\numberline {6.3}Model Solution}{9}{subsection.6.3}% 
-\contentsline {section}{\numberline {7}Strengths and Weaknesses}{10}{section.7}% 
-\contentsline {subsection}{\numberline {7.1}Strengths}{10}{subsection.7.1}% 
-\contentsline {subsection}{\numberline {7.2}Weaknesses and Extensions}{10}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {6.3}Model Solution}{10}{subsection.6.3}% 
+\contentsline {section}{\numberline {7}Strengths and Weaknesses}{11}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Strengths}{11}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Weaknesses and Extensions}{11}{subsection.7.2}% 
 \contentsline {section}{Reference}{11}{subsection.7.2}% 
 \contentsline {section}{Appendices}{12}{section*.2}% 
 \contentsline {section}{Appendix \numberline {A}First appendix}{12}{Appendix.a.A}% 
-\contentsline {section}{Appendix \numberline {B}Second appendix}{12}{Appendix.a.B}% 
+\contentsline {section}{Appendix \numberline {B}Second appendix}{13}{Appendix.a.B}% 
 \contentsfinish 
