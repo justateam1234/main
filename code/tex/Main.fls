@@ -318,6 +318,9 @@ INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT d:/model/code_co/main/code/tex/./picture/figure.jpeg
+INPUT ./picture/figure.jpeg
+INPUT ./picture/figure.jpeg
 INPUT d:/model/code_co/main/code/tex/Main.bbl
 INPUT d:/model/code_co/main/code/tex/Main.bbl
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
