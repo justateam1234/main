@@ -32,14 +32,12 @@ function month_correct()
     figure
     plot(t,T_d_ava,'-o');hold on;
     plot(t,T_d_fit);hold on;
-    grid on;xlabel('t/day');ylabel('T/degree');
-    title([num2str(pa(1)),'sin(',num2str(pa(2)),'t+',num2str(pa(3)),')+',num2str(pa(4)),'+year avarage temperature'])
-    
-%     set(gca,'YDir','normal')
-    set(gcf,'Units','Inches');
-    pos = get(gcf,'Position');
-    set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
-    saveas(gcf,'D:\model\code_co\main\code\tex\image\month_correct.eps','psc2')
+    grid on;
+    title([num2str(pa1),'sin(',num2str(pa(2)),'t+',num2str(pa(3)),')+',num2str(pa(4)),'year_avarage)
+    et(gca,'YDir','normal')
+         pos = get(gcf,'Position');
+         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+    saveas(gcf,'D:\model\code_co\main\code\tex\image\general_distribution.eps','psc2')
     
 end
 function ava()

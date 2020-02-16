@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  17 FEB 2020 00:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  17 FEB 2020 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -624,13 +624,45 @@ Package: xparse 2019-03-05 L3 Experimental document command parser
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  (d:/Applications/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) (d:/Applications/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+)) (d:/Applications/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen187
+\epsfysize=\dimen188
+) (d:/Applications/texlive/2019/texmf-dist/tex/latex/caption/caption2.sty
+Package: caption2 2015/09/15 v2.2-100 Customising captions (AR)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(d:/Applications/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen189
+\captionmargin@=\dimen190
+\captionwidth=\dimen191
+\caption@tempdima=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input line 218.
+\captionlinewidth=\dimen196
+\realcaptionwidth=\dimen197
+Package caption2 Info: longtable package v3.15 (or newer) detected on input line 349.
+) (d:/Applications/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip81
 \subfigcapskip=\skip82
-\subfigcaptopadj=\dimen187
+\subfigcaptopadj=\dimen198
 \subfigbottomskip=\skip83
-\subfigcapmargin=\dimen188
+\subfigcapmargin=\dimen199
 \subfiglabelskip=\skip84
 \c@subfigure=\count298
 \c@lofdepth=\count299
@@ -662,78 +694,36 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count305
 ) (d:/Applications/texlive/2019/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen189
-) (./Main.aux
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `5' multiply defined.
-
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `4' multiply defined.
-
-
-LaTeX Warning: Label `3' multiply defined.
-
-
-LaTeX Warning: Label `4' multiply defined.
-
-
-LaTeX Warning: Label `5' multiply defined.
-
-
-LaTeX Warning: Label `6' multiply defined.
-
-
-LaTeX Warning: Label `7' multiply defined.
-
-
-LaTeX Warning: Label `8' multiply defined.
-
-
-LaTeX Warning: Label `9' multiply defined.
-
-
-LaTeX Warning: Label `10' multiply defined.
-
+\ttl@leftsep=\dimen256
 )
+No file Main.aux.
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 50.
- (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 51.
+(d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 50.
+(lastpage)             ! on input line 51.
 \c@lstlisting=\count306
 
 *geometry* driver: auto-detecting
@@ -771,7 +761,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 51.
 (d:/Applications/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (d:/Applications/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -779,56 +769,64 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
- (./Main.out) (./Main.out)
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 \@outlinefile=\write4
 \openout4 = `Main.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
- (d:/Applications/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+(d:/Applications/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
  (d:/Applications/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 61.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 62.
  (d:/Applications/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 61.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 62.
  (d:/Applications/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 62.
  (d:/Applications/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1
 
 ]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 70.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 71.
  (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
- (./Main.toc
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-)
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
  [1]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
 File: ./picture/figure3.png Graphic file (type bmp)
 <./picture/figure3.png>
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 100.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 100.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -837,65 +835,185 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [1]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 119.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 120.
  (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
- [2]
-Overfull \hbox (1.1526pt too wide) in paragraph at lines 192--194
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 192.
+
+[2]
+
+Package natbib Warning: Citation `long2014fast' on page 3 undefined on input line 197.
+
+
+Overfull \hbox (1.1526pt too wide) in paragraph at lines 199--201
 []\T1/ppl/m/n/12 There are many fac-tors can af-fect the tem-per-a-ture of the os-can, and the chang-
  []
 
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 201.
+
 [3]
+File: image/general_distribution.eps Graphic file (type eps)
+<image/general_distribution.eps>
+
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 211--211
+ [][] 
+ []
+
+File: image/month_correct.eps Graphic file (type eps)
+<image/month_correct.eps>
+
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 218--218
+ [][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 211--219
+ [][][][] 
+ []
+
+
+Package natbib Warning: Citation `jansen2012migration' on page 4 undefined on input line 228.
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 229.
+
+[4]
 File: ./picture/./fish-temp.jpg Graphic file (type bmp)
 <./picture/./fish-temp.jpg>
- [4]
 File: ./picture/fish-temp_fitting.jpg Graphic file (type bmp)
 <./picture/fish-temp_fitting.jpg>
 File: ./picture/figure1.jpeg Graphic file (type bmp)
 <./picture/figure1.jpeg>
- [5] [6]
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 268.
+
+[5]
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 331.
+
+[6]
 File: ./picture/figure2.jpeg Graphic file (type bmp)
 <./picture/figure2.jpeg>
- [7]
-Underfull \hbox (badness 2828) in paragraph at lines 446--446
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 390.
+
+[7]
+
+Package natbib Warning: Citation `Sayyady2010Optimizing' on page 8 undefined on input line 397.
+
+
+Package natbib Warning: Citation `So2010Managing' on page 8 undefined on input line 397.
+
+
+LaTeX Warning: Reference `figure1' on page 8 undefined on input line 401.
+
+File: ./picture/figure4.jpeg Graphic file (type bmp)
+<./picture/figure4.jpeg>
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 424.
+
+[8]
+Underfull \hbox (badness 2828) in paragraph at lines 477--477
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 449--449
+Underfull \hbox (badness 2181) in paragraph at lines 480--480
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[8] [9] [10] [11] [12] (./Main.bbl [13])
-Underfull \hbox (badness 10000) in paragraph at lines 628--629
+
+Package natbib Warning: Citation `Dikas2016Solving' on page 9 undefined on input line 490.
+
+
+Package natbib Warning: Citation `He2015Model' on page 9 undefined on input line 490.
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 491.
+
+[9]
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 513.
+
+[10]
+
+Package natbib Warning: Citation `Murray2013Evacuation' on page 11 undefined on input line 520.
+
+
+Package natbib Warning: Citation `Ng2015Sharp' on page 11 undefined on input line 520.
+
+
+Package natbib Warning: Citation `Ng2010Reliable' on page 11 undefined on input line 520.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 537.
+
+[11]
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 586.
+
+[12]
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 628.
+
+[13]
+No file Main.bbl.
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 658.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 659--660
 
  []
 
-[14] 
+
+Package lastpage Warning: Rerun to get the references right on input line 670.
+
+
 AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 670.
+
 [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 639.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 639.
- (./Main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 639.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 639.
-Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: C105B032C7B8EBB7BB9FF2809B2E3431.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 670.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 670.
+(./Main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 670.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 670.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Main.out':
+(rerunfilecheck)             Before: 
+(rerunfilecheck)             After:  0CC665DF2F06ABF44006D75B84A179F1.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 23387 strings out of 492922
- 384461 string characters out of 6131317
- 813149 words of memory out of 5000000
- 27105 multiletter control sequences out of 15000+600000
- 564007 words of font info for 101 fonts, out of 8000000 for 9000
+ 24067 strings out of 492922
+ 397244 string characters out of 6131317
+ 822362 words of memory out of 5000000
+ 27787 multiletter control sequences out of 15000+600000
+ 558707 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 36i,12n,67p,882b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,13n,92p,882b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Main.pdf (17 pages).

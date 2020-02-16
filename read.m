@@ -44,16 +44,20 @@ function [x,y,time,tempe]=read();
 %         
 %         imagesc(transpose(winddata(:,:,1)));colorbar;
 
-     figure
-     for a=1:1
-%          imagesc(transpose(tempe(:,:,a)));colorbar;
-tempe(find(tempe<1))=1;
-         imagesc([x(1),x(end)],[y(1),y(end)],transpose(tempe(:,:,a)));colorbar;
-         pause(0.01)
-         title(num2str(a));
-         set(gca,'YDir','normal')
-         
-     end
+%      figure
+%      for a=1:1
+% %          imagesc(transpose(tempe(:,:,a)));colorbar;
+% tempe(find(tempe<1))=1;
+%          imagesc([x(1),x(end)],[y(1),y(end)],transpose(tempe(:,:,a)));colorbar;
+%         
+%         set(gca,'YDir','normal') 
+%         set(gcf,'Units','Inches');
+%         pos = get(gcf,'Position');
+%         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+%     
+% %     saveas(gcf,'D:\model\code_co\main\code\tex\image\general_distribution.eps','psc2')
+% %     
+%      end
      
      
 end
