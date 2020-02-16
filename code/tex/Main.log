@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  16 FEB 2020 18:04
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  16 FEB 2020 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -663,7 +663,8 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (d:/Applications/texlive/2019/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen189
-) (./Main.aux)
+)
+No file Main.aux.
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -685,7 +686,7 @@ LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 50.
- (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
+(d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
@@ -739,12 +740,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
- (./Main.out) (./Main.out)
 \@outlinefile=\write4
 \openout4 = `Main.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Try loading font information for U+msa on input line 61.
- (d:/Applications/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+(d:/Applications/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 61.
@@ -776,20 +780,50 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
- (./Main.toc
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-)
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
  [1]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 113.
- (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 81.
+
+
+LaTeX Warning: File `./picture/figure3.png' not found on input line 92.
+
+./Main.tex:92: Unable to load picture or PDF file './picture/figure3.png'.
+<to be read again> 
+                   }
+l.92 ...[width=1\textwidth]{./picture/figure3.png}
+                                                  }
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+./Main.tex:92: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...[width=1\textwidth]{./picture/figure3.png}
+                                                  }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: ./picture/figure3.png Graphic file (type bmp)
+<./picture/figure3.png>
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 119.
+(d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 120.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 120.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -797,16 +831,18 @@ Make it at least 13.59999pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[1] [2]
+[1]
 
-Package natbib Warning: Citation `long2014fast' on page 3 undefined on input line 214.
+Package natbib Warning: Citation `long2014fast' on page 2 undefined on input line 182.
 
 
-Overfull \hbox (1.1526pt too wide) in paragraph at lines 216--218
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 183.
+
+[2]
+Overfull \hbox (1.1526pt too wide) in paragraph at lines 184--186
 []\T1/ppl/m/n/12 There are many fac-tors can af-fect the tem-per-a-ture of the os-can, and the chang-
  []
 
-[3]
 Missing character: There is no 我 in font pplr8t!
 Missing character: There is no 们 in font pplr8t!
 Missing character: There is no 知 in font pplr8t!
@@ -932,22 +968,22 @@ Missing character: There is no 个 in font pplr8t!
 Missing character: There is no 对 in font pplr8t!
 Missing character: There is no 比 in font pplr8t!
 Missing character: There is no 。 in font pplr8t!
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
 File: fish-temp1.eps Graphic file (type eps)
 <fish-temp1.eps>
 Missing character: There is no 我 in font pplr8t!
@@ -1003,92 +1039,140 @@ Missing character: There is no 图 in font pplr8t!
 Missing character: There is no ） in font pplr8t!
 Missing character: There is no 。 in font pplr8t!
 
-Overfull \hbox (5.44838pt too wide) in paragraph at lines 231--232
-[]\T1/ppl/m/n/12 All hur-ri-canes are as-signed a cat-e-gory: from 1 (the weak-est) to 5 (the strongest,
- []
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 195.
+
+[3]
+File: ./picture/figure1.jpeg Graphic file (type bmp)
+<./picture/figure1.jpeg>
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 242--242
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 263.
+
+[4]
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 294.
+
+[5]
+File: ./picture/figure2.jpeg Graphic file (type bmp)
+<./picture/figure2.jpeg>
+
+
+Package natbib Warning: Citation `Bretschneider2011A' on page 6 undefined on input line 317.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 330.
+
+[6]
+
+Package natbib Warning: Citation `Goerigk2014A' on page 7 undefined on input line 331.
+
+
+Package natbib Warning: Citation `Goerigk2013Branch' on page 7 undefined on input line 331.
+
+
+Package natbib Warning: Citation `Sayyady2010Optimizing' on page 7 undefined on input line 352.
+
+
+Package natbib Warning: Citation `So2010Managing' on page 7 undefined on input line 352.
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 359.
+
+[7]
+
+LaTeX Warning: Reference `fig:2' on page 8 undefined on input line 362.
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 381--381
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 245--246
+Underfull \hbox (badness 1810) in paragraph at lines 384--385
 \T1/ppl/m/n/12 dam-age to un-fixed houses and cars,
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 247--248
+Underfull \hbox (badness 1237) in paragraph at lines 386--387
 \T1/ppl/m/n/12 and veg-e-ta-tion are dam-aged. Flood
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 253--253
+Underfull \hbox (badness 2181) in paragraph at lines 392--392
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[4] [5]
-File: ./picture/figure.jpeg Graphic file (type bmp)
-<./picture/figure.jpeg>
+
+Package natbib Warning: Citation `Dikas2016Solving' on page 8 undefined on input line 404.
 
 
-Package natbib Warning: Citation `Bretschneider2011A' on page 6 undefined on input line 302.
-
-[6]
-
-Package natbib Warning: Citation `Goerigk2014A' on page 7 undefined on input line 316.
+Package natbib Warning: Citation `He2015Model' on page 8 undefined on input line 404.
 
 
-Package natbib Warning: Citation `Goerigk2013Branch' on page 7 undefined on input line 316.
-
-[7]
-
-Package natbib Warning: Citation `Sayyady2010Optimizing' on page 8 undefined on input line 337.
-
-
-Package natbib Warning: Citation `So2010Managing' on page 8 undefined on input line 337.
-
-
-LaTeX Warning: Reference `fig:2' on page 8 undefined on input line 347.
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 407.
 
 [8]
 
-Package natbib Warning: Citation `Dikas2016Solving' on page 9 undefined on input line 364.
-
-
-Package natbib Warning: Citation `He2015Model' on page 9 undefined on input line 364.
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 413.
 
 [9]
 
-Package natbib Warning: Citation `Murray2013Evacuation' on page 10 undefined on input line 394.
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 434.
+
+[10]
+
+Package natbib Warning: Citation `Murray2013Evacuation' on page 11 undefined on input line 434.
 
 
-Package natbib Warning: Citation `Ng2015Sharp' on page 10 undefined on input line 394.
+Package natbib Warning: Citation `Ng2015Sharp' on page 11 undefined on input line 434.
 
 
-Package natbib Warning: Citation `Ng2010Reliable' on page 10 undefined on input line 394.
+Package natbib Warning: Citation `Ng2010Reliable' on page 11 undefined on input line 434.
 
-[10] [11] [12] [13]
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 474.
+
+[11]
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 528.
+
+[12]
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 553.
+
+[13]
 No file Main.bbl.
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 
  []
 
 
+Package lastpage Warning: Rerun to get the references right on input line 584.
+
+
 AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 584.
+
 [14]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 544.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 544.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
 (./Main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 544.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 544.
-Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: B94BBFF75C33350793BEC45D396AB52C.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 584.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
 
+
+Package rerunfilecheck Warning: File `Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Main.out':
+(rerunfilecheck)             Before: 
+(rerunfilecheck)             After:  01B63FECB3877A5111BDE922ED96B313.
 
 LaTeX Warning: There were undefined references.
 
@@ -1097,12 +1181,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 23324 strings out of 492922
- 383156 string characters out of 6131317
- 815139 words of memory out of 5000000
- 27067 multiletter control sequences out of 15000+600000
- 563110 words of font info for 100 fonts, out of 8000000 for 9000
+ 23291 strings out of 492922
+ 382849 string characters out of 6131317
+ 808929 words of memory out of 5000000
+ 27044 multiletter control sequences out of 15000+600000
+ 557776 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 36i,12n,67p,882b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,67p,882b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Main.pdf (16 pages).
