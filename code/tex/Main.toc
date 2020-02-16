@@ -6,21 +6,21 @@
 \contentsline {section}{\numberline {3}List of Notation}{2}{section.3}% 
 \contentsline {section}{\numberline {4}The fish accumutation model}{3}{section.4}% 
 \contentsline {subsection}{\numberline {4.1}The varying temperature model}{3}{subsection.4.1}% 
-\contentsline {subsubsection}{\numberline {4.1.1}basic idea}{3}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}basic idea}{4}{subsubsection.4.1.1}% 
 \contentsline {subsubsection}{\numberline {4.1.2}monthly changing}{4}{subsubsection.4.1.2}% 
 \contentsline {subsection}{\numberline {4.2}The fish-temperature model}{4}{subsection.4.2}% 
 \contentsline {subsection}{\numberline {4.3}The predicted fish accumutation distribution}{4}{subsection.4.3}% 
 \contentsline {section}{\numberline {5}The Sanctuary Selection Model}{4}{section.5}% 
-\contentsline {section}{\numberline {6}The Demand Distribution Model}{4}{section.6}% 
-\contentsline {section}{\numberline {7}The Comprehensive Evacuation Planning Model}{7}{section.7}% 
-\contentsline {subsection}{\numberline {7.1}Model Preparation}{7}{subsection.7.1}% 
-\contentsline {subsection}{\numberline {7.2}Modeling}{8}{subsection.7.2}% 
-\contentsline {subsection}{\numberline {7.3}Model Solution}{11}{subsection.7.3}% 
-\contentsline {section}{\numberline {8}Strengths and Weaknesses}{11}{section.8}% 
-\contentsline {subsection}{\numberline {8.1}Strengths}{11}{subsection.8.1}% 
-\contentsline {subsection}{\numberline {8.2}Weaknesses and Extensions}{12}{subsection.8.2}% 
-\contentsline {section}{Reference}{12}{subsection.8.2}% 
-\contentsline {section}{Appendices}{13}{section*.2}% 
-\contentsline {section}{Appendix \numberline {A}First appendix}{13}{Appendix.a.A}% 
-\contentsline {section}{Appendix \numberline {B}Second appendix}{14}{Appendix.a.B}% 
+\contentsline {section}{\numberline {6}The Demand Distribution Model}{5}{section.6}% 
+\contentsline {section}{\numberline {7}The Comprehensive Evacuation Planning Model}{8}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Model Preparation}{8}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Modeling}{9}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.3}Model Solution}{12}{subsection.7.3}% 
+\contentsline {section}{\numberline {8}Strengths and Weaknesses}{13}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}Strengths}{13}{subsection.8.1}% 
+\contentsline {subsection}{\numberline {8.2}Weaknesses and Extensions}{13}{subsection.8.2}% 
+\contentsline {section}{Reference}{13}{subsection.8.2}% 
+\contentsline {section}{Appendices}{14}{section*.2}% 
+\contentsline {section}{Appendix \numberline {A}First appendix}{14}{Appendix.a.A}% 
+\contentsline {section}{Appendix \numberline {B}Second appendix}{15}{Appendix.a.B}% 
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  16 FEB 2020 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  16 FEB 2020 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -796,12 +796,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 \openout5 = `Main.toc'.
 
  [1]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 112.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 113.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -812,59 +812,65 @@ This may cause the page layout to be inconsistent, however.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 \end{itemize}
+l.114 \end{itemize}
                     [1] [2]
-Overfull \hbox (1.1472pt too wide) in paragraph at lines 188--190
+Overfull \hbox (1.1472pt too wide) in paragraph at lines 216--218
 []\T1/ppl/m/n/12 There are many fac-tors can af-fect the tem-per-a-ture of the os-can, and the chang-
  []
 
 [3]
-Overfull \hbox (5.44298pt too wide) in paragraph at lines 199--200
+Overfull \hbox (5.44298pt too wide) in paragraph at lines 227--228
 []\T1/ppl/m/n/12 All hur-ri-canes are as-signed a cat-e-gory: from 1 (the weak-est) to 5 (the strongest,
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 210--210
+Underfull \hbox (badness 2828) in paragraph at lines 238--238
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 213--214
+Underfull \hbox (badness 1810) in paragraph at lines 241--242
 \T1/ppl/m/n/12 dam-age to un-fixed houses and cars,
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 215--216
+Underfull \hbox (badness 1237) in paragraph at lines 243--244
 \T1/ppl/m/n/12 and veg-e-ta-tion are dam-aged. Flood
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 221--221
+Underfull \hbox (badness 2181) in paragraph at lines 249--249
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
 [4]
-Overfull \hbox (14.7305pt too wide) in paragraph at lines 243--244
+<./picture/figure.jpeg, id=195, 803.0pt x 1054.94125pt>
+File: ./picture/figure.jpeg Graphic file (type jpg)
+<use ./picture/figure.jpeg>
+Package pdftex.def Info: ./picture/figure.jpeg  used on input line 265.
+(pdftex.def)             Requested size: 256.07741pt x 336.42911pt.
+ [5] [6 <./picture/figure.jpeg>]
+Overfull \hbox (14.7305pt too wide) in paragraph at lines 305--306
 []\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-ate, in-clud-ing tourists
  []
 
-[5] [6]
+[7]
 
-LaTeX Warning: Reference `fig:2' on page 7 undefined on input line 281.
+LaTeX Warning: Reference `fig:2' on page 8 undefined on input line 343.
 
-[7] [8] [9] [10] [11] (d:/model/code_co/main/code/tex/Main.bbl [12])
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+[8] [9] [10] [11] [12] (d:/model/code_co/main/code/tex/Main.bbl [13]) [14]
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
-[13] 
+
 AED: lastpage setting LastPage
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 478.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 478.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
  (d:/model/code_co/main/code/tex/Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 478.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 478.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 4FDA1166B8EA29347BDB9805FBA89907;1597.
 
@@ -873,18 +879,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20911 strings out of 492623
- 349053 string characters out of 6133290
- 799735 words of memory out of 5000000
- 24450 multiletter control sequences out of 15000+600000
+ 20922 strings out of 492623
+ 349213 string characters out of 6133290
+ 801115 words of memory out of 5000000
+ 24455 multiletter control sequences out of 15000+600000
  568097 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,12n,67p,917b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on d:/model/code_co/main/code/tex/Main.pdf (16 pages, 170411 bytes).
+Output written on d:/model/code_co/main/code/tex/Main.pdf (17 pages, 263523 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

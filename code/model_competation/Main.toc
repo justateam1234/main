@@ -13,8 +13,8 @@
 \contentsline {section}{\numberline {7}Strengths and Weaknesses}{15}{section.7}% 
 \contentsline {subsection}{\numberline {7.1}Strengths}{15}{subsection.7.1}% 
 \contentsline {subsection}{\numberline {7.2}Weaknesses and Extensions}{15}{subsection.7.2}% 
-\contentsline {section}{Reference}{16}{subsection.7.2}% 
-\contentsline {section}{Appendices}{17}{section*.2}% 
-\contentsline {section}{Appendix \numberline {A}First appendix}{17}{Appendix.a.A}% 
+\contentsline {section}{Reference}{15}{subsection.7.2}% 
+\contentsline {section}{Appendices}{16}{section*.2}% 
+\contentsline {section}{Appendix \numberline {A}First appendix}{16}{Appendix.a.A}% 
 \contentsline {section}{Appendix \numberline {B}Second appendix}{17}{Appendix.a.B}% 
 \contentsfinish 
