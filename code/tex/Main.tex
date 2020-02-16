@@ -87,6 +87,12 @@ It has been suggested that observed spatial variation in mackerel fisheries, ext
 
 In recent years, with the global ocean temperature rising,  the distribution of these populations has changed dramatically. However, the geographic population shift may seriously affect the disrupt the livelihood of the smaller Scottish Fisheries companies who depend on these ocean-dwelling species.
 
+\begin{figure}[tbp]
+  \centering{
+  \includegraphics[width=1\textwidth]{./picture/figure3.png}}
+  \caption{ Percentage change from 2015 to 2016 in the real term price per tonne obtained for key fish species}\label{figure3}
+\end{figure}
+
 \subsection{Problem Restatement}
 In order to develop the Scottish fishing industries steadily,   we need to analyze the characteristics, requirements, and interactions of herring and mackerel
 
@@ -249,9 +255,19 @@ This model give an optimal strategy on which counties should be ordered to evacu
 \section{The Demand Distribution Model}
 \begin{figure}[tbp]
   \centering{
-  \includegraphics[width=0.6\textwidth]{./picture/figure.jpeg}}
+  \includegraphics[width=0.6\textwidth]{./picture/figure1.jpeg}}
   \caption{English Harbor Division}\label{figure1}
 \end{figure}
+
+
+\begin{figure}[tbp]
+  \centering{
+  \includegraphics[width=1\textwidth]{./picture/figure2.jpeg}}
+  \caption{The model of a ship}\label{figure1}
+\end{figure}
+
+
+
 
 \begin{table}[!htb]
 \centering
@@ -280,6 +296,23 @@ Mackerel &1034&979&832&664&895&880.8\\
 \bottomrule[1.5pt]
 \end{tabular}
 \end{table}
+
+
+\begin{table}[!htb]
+\centering
+\setlength{\abovecaptionskip}{0pt}%    
+\setlength{\belowcaptionskip}{13pt}%
+\caption{The prices (pround  per tonne) of two species : 2012 to 2016}
+\begin{tabular}{ccccccc}
+\toprule[1.5pt]
+Year&2012&2013&2014&2015&2016&average\\
+\bottomrule[1.5pt]
+Herring &565&408&308&369&665&463\\
+Mackerel &1034&979&832&664&895&880.8\\
+\bottomrule[1.5pt]
+\end{tabular}
+\end{table}
+
 
 
 The demand distribution defines the number of people arriving at the station nodes during the evacuation process. The demand distribution depends on the potential population of the evacuation area depending on the transport system. This demand not only has spatial dependence, but also has time dependence. To determine how many evacuees will arrive at each station node, we need to define a service area to determine its appeal scope. One way to do this is to use the concept of the Thiessen Polygon \cite{Bretschneider2011A}. The Thiessen Polygon is centered around the station node and the nearest family is located in the same service area. By dividing the network into a number of adjacent polygons, families are assigned to the Thiessen Polygon where their nearest assembly point is located.
