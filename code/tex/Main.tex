@@ -260,9 +260,6 @@ Average engine power (kW)&57&127&190&325&641&4327\\
 v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
 \end{equation}
 
-
-
-
 \begin{equation}\label{2}
 P=4000
 \end{equation}
@@ -362,8 +359,52 @@ In the case of low loading rate, people gradually reach the station node within 
 
 
 In the case of a hurricane, the initial phase of withdrawal is usually slow, and the demand for station nodes is not greater than the capacity of the vehicle. But in the final phase of the evacuation, the demand may be concentrated, and the cumulative result is that the demand for a station node is greater than the capacity of the vehicle. At this moment, we need  to send vehicles from another station node to meet their needs, carrying away for the rest. With the demand of the other station node considering again, a reasonable, optimizing transportation route can be arranged.
+\section{The Comprehensive Evacuation Planning Model}
+
+\begin{equation}\label{1}
+v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
+\end{equation}
+
+\begin{equation}\label{2}
+P=4000
+\end{equation}
+
+\begin{equation}\label{3}
+V=L\times B\times\ d =\frac{1}{48\times L^3}
+\end{equation}
+
+\begin{equation}\label{4}
+l=L\approx 40
+\end{equation}
+
+\begin{equation}\label{4}
+T=\frac{S}{v}
+\end{equation}
+
+\begin{equation}\label{5}
+A_1=c_1 \times T_1
+\end{equation}
+
+\begin{equation}\label{6}
+A_2=c_2  \times T_1
+\end{equation}
+
+\begin{equation}\label{7}
+A_3=c_3  \times T_1
+\end{equation}
+
+\begin{equation}\label{8}
+A=A_1+A_2+A_3
+\end{equation}
+
+\begin{equation}\label{9}
+B=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
+\end{equation}
 
 
+\begin{equation}\label{10}
+\frac{T_1}{2}\leq T_2
+\end{equation}
 
 
 \section{The Comprehensive Evacuation Planning Model}
@@ -393,11 +434,9 @@ Category& Maximum sustained winds & Potential damage \\
  \end{table}
 \begin{itemize}
 
-\item Station nodes: In this problem, the locations of all station nodes are known and fixed, and the demand generation changes over time to meet the S type behavior curve. Requirements may exceed the load capacity of the vehicle during the process of time change. In this case, it may be necessary to mobilize the vehicle from other station nodes or carry out the second transport. Having no time limit on the vehicle service, evacuees can be carried out at any time in station nodes, and the transport vehicle is set at the set point;
-\item Transport vehicle: In this problem, all vehicles start from the shelter, via the station node, and then complete the transport mission, during which the overload operation is not allowed to exceed the maximum driving time of the vehicle;
-
-\item Shelter: In this problem, there are several shelters whose location and capacity have been determined.
-\end{itemize}
+\item 
+\item 
+\item \end{itemize}
 
 VRP \cite{Dikas2016Solving,He2015Model} generally defined as: on a range of clients point (location known or can be estimated) in satisfying certain constraints (such as the demand for goods, the delivery time of delivery, the vehicle capacity constraints, etc.), reasonably arrange the vehicle distribution route, making the vehicle through them in an orderly way to achieve a certain goal (such as the shortest mileage and least cost, least time, use as little as possible and so on). The representation of VPR can be seen in Figure 3.
 
