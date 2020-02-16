@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  16 FEB 2020 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 00:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -768,10 +768,10 @@ LaTeX Warning: Label `5' multiply defined.
 LaTeX Warning: Label `figure1' multiply defined.
 
 
-LaTeX Warning: Label `1' multiply defined.
-
-
 LaTeX Warning: Label `4' multiply defined.
+
+
+LaTeX Warning: Label `figure1' multiply defined.
 
 
 LaTeX Warning: Label `3' multiply defined.
@@ -790,9 +790,6 @@ LaTeX Warning: Label `7' multiply defined.
 
 
 LaTeX Warning: Label `8' multiply defined.
-
-
-LaTeX Warning: Label `9' multiply defined.
 
 
 LaTeX Warning: Label `10' multiply defined.
@@ -962,7 +959,7 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
  [2]
-Overfull \hbox (1.1472pt too wide) in paragraph at lines 192--194
+Overfull \hbox (1.1472pt too wide) in paragraph at lines 198--200
 []\T1/ppl/m/n/12 There are many fac-tors can af-fect the tem-per-a-ture of the 
 os-can, and the chang-
  []
@@ -971,43 +968,49 @@ os-can, and the chang-
 <./picture/figure1.jpeg, id=193, 803.0pt x 1054.94125pt>
 File: ./picture/figure1.jpeg Graphic file (type jpg)
 <use ./picture/figure1.jpeg>
-Package pdftex.def Info: ./picture/figure1.jpeg  used on input line 209.
+Package pdftex.def Info: ./picture/figure1.jpeg  used on input line 215.
 (pdftex.def)             Requested size: 256.07741pt x 336.42911pt.
  [4] [5 <./picture/figure1.jpeg>]
-<./picture/figure2.jpeg, id=216, 1531.6422pt x 615.7404pt>
+<./picture/figure2.jpeg, id=215, 1531.6422pt x 615.7404pt>
 File: ./picture/figure2.jpeg Graphic file (type jpg)
 <use ./picture/figure2.jpeg>
-Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 318.
+Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 334.
 (pdftex.def)             Requested size: 426.79135pt x 171.56993pt.
 
-Overfull \hbox (14.7305pt too wide) in paragraph at lines 326--327
+Overfull \hbox (14.7305pt too wide) in paragraph at lines 342--343
 []\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-at
 e, in-clud-ing tourists
  []
 
 [6 <./picture/figure2.jpeg>]
-Underfull \hbox (badness 2828) in paragraph at lines 418--418
+<./picture/figure4.jpeg, id=231, 866.5173pt x 318.4698pt>
+File: ./picture/figure4.jpeg Graphic file (type jpg)
+<use ./picture/figure4.jpeg>
+Package pdftex.def Info: ./picture/figure4.jpeg  used on input line 365.
+(pdftex.def)             Requested size: 426.79135pt x 156.85823pt.
+ [7 <./picture/figure4.jpeg>]
+Underfull \hbox (badness 2828) in paragraph at lines 429--429
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 421--421
+Underfull \hbox (badness 2181) in paragraph at lines 432--432
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[7] [8] [9] [10] [11] [12] (./Main.bbl) [13]
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
+[8] [9] [10] [11] [12] (./Main.bbl [13])
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
 
  []
 
 
 AED: lastpage setting LastPage
 [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 611.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 611.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 622.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 622.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 611.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 611.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 622.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 622.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 221E8B00459F475C22D8762439916B43;1611.
 
@@ -1016,10 +1019,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20991 strings out of 492616
- 351997 string characters out of 6129482
- 798751 words of memory out of 5000000
- 24511 multiletter control sequences out of 15000+600000
+ 20994 strings out of 492616
+ 352094 string characters out of 6129482
+ 796852 words of memory out of 5000000
+ 24514 multiletter control sequences out of 15000+600000
  568097 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,12n,67p,886b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1037,10 +1040,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on Main.pdf (16 pages, 1833299 bytes).
+Output written on Main.pdf (16 pages, 2285809 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
