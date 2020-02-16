@@ -10,9 +10,3 @@
 *.mat
 *.txt
 *.fig
-*.aux
-*.log
-*.synctex.gz
-*.toc
-*.fdb_latexmk
-*.fls

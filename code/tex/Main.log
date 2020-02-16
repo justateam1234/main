@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  16 FEB 2020 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  16 FEB 2020 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -785,7 +785,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
- (d:/model/code_co/main/code/tex/Main.out) (d:/model/code_co/main/code/tex/Main.out)
 \@outlinefile=\write4
 \openout4 = `Main.out'.
 
@@ -822,20 +821,43 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
- (d:/model/code_co/main/code/tex/Main.toc
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-)
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
  [1]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 114.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
+
+
+LaTeX Warning: File `./picture/figure3.png' not found on input line 93.
+
+
+d:/model/code_co/main/code/tex/Main.tex:93: Package pdftex.def Error: File `./picture/figure3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...[width=1\textwidth]{./picture/figure3.png}
+                                                  }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 93.
+(d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 120.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 121.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 121.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -846,11 +868,22 @@ This may cause the page layout to be inconsistent, however.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \end{itemize}
-                    [1] [2]
-Overfull \hbox (1.1472pt too wide) in paragraph at lines 217--219
+l.121 \end{itemize}
+                    [1]
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 121.
+
+[2]
+
+Package natbib Warning: Citation `long2014fast' on page 3 undefined on input line 183.
+
+
+Overfull \hbox (1.1472pt too wide) in paragraph at lines 185--187
 []\T1/ppl/m/n/12 There are many fac-tors can af-fect the tem-per-a-ture of the os-can, and the chang-
  []
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 187.
 
 [3]
 Package epstopdf Info: Source file: <image/general_distribution.eps>
@@ -860,15 +893,15 @@ Package epstopdf Info: Source file: <image/general_distribution.eps>
 (epstopdf)                    date: 2020-02-16 16:04:16
 (epstopdf)                    size: 10456 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/general_distribution-eps-converted-to.pdf image/general_distribution.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
-<image/general_distribution-eps-converted-to.pdf, id=190, 421.575pt x 316.18124pt>
+<image/general_distribution-eps-converted-to.pdf, id=43, 421.575pt x 316.18124pt>
 File: image/general_distribution-eps-converted-to.pdf Graphic file (type pdf)
 <use image/general_distribution-eps-converted-to.pdf>
-Package pdftex.def Info: image/general_distribution-eps-converted-to.pdf  used on input line 229.
+Package pdftex.def Info: image/general_distribution-eps-converted-to.pdf  used on input line 197.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 197--197
  [][] 
  []
 
@@ -879,96 +912,163 @@ Package epstopdf Info: Source file: <image/month_correct.eps>
 (epstopdf)                    date: 2020-02-16 16:06:37
 (epstopdf)                    size: 34297 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/month_correct-eps-converted-to.pdf image/month_correct.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 204.
 Package epstopdf Info: Output file is already uptodate.
-<image/month_correct-eps-converted-to.pdf, id=191, 421.575pt x 316.18124pt>
+<image/month_correct-eps-converted-to.pdf, id=44, 421.575pt x 316.18124pt>
 File: image/month_correct-eps-converted-to.pdf Graphic file (type pdf)
 <use image/month_correct-eps-converted-to.pdf>
-Package pdftex.def Info: image/month_correct-eps-converted-to.pdf  used on input line 236.
+Package pdftex.def Info: image/month_correct-eps-converted-to.pdf  used on input line 204.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 236--236
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 204--204
  [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 229--237
+Overfull \hbox (6.0pt too wide) in paragraph at lines 197--205
  [][][][] 
  []
 
+<./picture/figure1.jpeg, id=45, 803.0pt x 1054.94125pt>
+File: ./picture/figure1.jpeg Graphic file (type jpg)
+<use ./picture/figure1.jpeg>
+Package pdftex.def Info: ./picture/figure1.jpeg  used on input line 224.
+(pdftex.def)             Requested size: 256.07741pt x 336.42911pt.
 
-Overfull \hbox (5.44298pt too wide) in paragraph at lines 250--251
-[]\T1/ppl/m/n/12 All hur-ri-canes are as-signed a cat-e-gory: from 1 (the weak-est) to 5 (the strongest,
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 226.
+
+[4 <d:/model/code_co/main/code/tex/image/general_distribution-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/month_correct-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 293.
+
+[5 <./picture/figure1.jpeg>]
+<./picture/figure2.jpeg, id=82, 616.3025pt x 198.7425pt>
+File: ./picture/figure2.jpeg Graphic file (type jpg)
+<use ./picture/figure2.jpeg>
+Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 333.
+(pdftex.def)             Requested size: 426.79135pt x 137.63283pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 341.
+
+[6]
+Overfull \hbox (14.7305pt too wide) in paragraph at lines 341--342
+[]\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-ate, in-clud-ing tourists
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 261--261
+Package natbib Warning: Citation `Sayyady2010Optimizing' on page 7 undefined on input line 359.
+
+
+Package natbib Warning: Citation `So2010Managing' on page 7 undefined on input line 359.
+
+
+LaTeX Warning: Reference `figure1' on page 7 undefined on input line 363.
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 407.
+
+[7 <./picture/figure2.jpeg>]
+Underfull \hbox (badness 2828) in paragraph at lines 437--437
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 264--265
-\T1/ppl/m/n/12 dam-age to un-fixed houses and cars,
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 266--267
-\T1/ppl/m/n/12 and veg-e-ta-tion are dam-aged. Flood
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 272--272
+Underfull \hbox (badness 2181) in paragraph at lines 440--440
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[4 <d:/model/code_co/main/code/tex/image/general_distribution-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/month_correct-eps-converted-to.pdf>] [5]
-<./picture/figure.jpeg, id=219, 803.0pt x 1054.94125pt>
-File: ./picture/figure.jpeg Graphic file (type jpg)
-<use ./picture/figure.jpeg>
-Package pdftex.def Info: ./picture/figure.jpeg  used on input line 288.
-(pdftex.def)             Requested size: 256.07741pt x 336.42911pt.
- [6 <./picture/figure.jpeg>]
-Overfull \hbox (14.7305pt too wide) in paragraph at lines 328--329
-[]\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-ate, in-clud-ing tourists
+
+Package natbib Warning: Citation `Dikas2016Solving' on page 8 undefined on input line 450.
+
+
+Package natbib Warning: Citation `He2015Model' on page 8 undefined on input line 450.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 456.
+
+[8]
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 477.
+
+[9]
+
+Package natbib Warning: Citation `Murray2013Evacuation' on page 10 undefined on input line 480.
+
+
+Package natbib Warning: Citation `Ng2015Sharp' on page 10 undefined on input line 480.
+
+
+Package natbib Warning: Citation `Ng2010Reliable' on page 10 undefined on input line 480.
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 513.
+
+[10]
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 568.
+
+[11]
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 592.
+
+[12]
+No file Main.bbl.
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
  []
 
-[7]
 
-LaTeX Warning: Reference `fig:2' on page 8 undefined on input line 366.
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 624.
 
-[8] [9] [10] [11] [12] [13] (d:/model/code_co/main/code/tex/Main.bbl [14])
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
+[13]
 
- []
+Package lastpage Warning: Rerun to get the references right on input line 630.
 
 
 AED: lastpage setting LastPage
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 563.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 563.
- (d:/model/code_co/main/code/tex/Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 563.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 563.
-Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 4FDA1166B8EA29347BDB9805FBA89907;1597.
 
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 630.
+
+[14]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 630.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 630.
+(d:/model/code_co/main/code/tex/Main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 630.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 630.
+
+
+Package rerunfilecheck Warning: File `Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  AC7122ECA2050DD9E5920A0ED323E4F7;1611.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 21682 strings out of 492623
- 363336 string characters out of 6133290
- 809042 words of memory out of 5000000
- 25197 multiletter control sequences out of 15000+600000
- 569703 words of font info for 110 fonts, out of 8000000 for 9000
+ 21640 strings out of 492623
+ 362271 string characters out of 6133290
+ 802277 words of memory out of 5000000
+ 25144 multiletter control sequences out of 15000+600000
+ 564046 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,92p,917b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on d:/model/code_co/main/code/tex/Main.pdf (17 pages, 303694 bytes).
+ 53i,13n,92p,917b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on d:/model/code_co/main/code/tex/Main.pdf (16 pages, 329218 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
