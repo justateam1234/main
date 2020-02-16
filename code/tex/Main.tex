@@ -187,24 +187,39 @@ $p_2$      & The price  of mackerels  \\
     A long-term monthly avarage are made based on SST data from 1981 to 2010. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. 
 
  \subsection{The fish-temperature model}
-  \begin{figure}[tbp]
-    \centering{
-    \includegraphics[width = .6\textwidth]{./herring-temp1.jpg}}
-    \caption{English Harbor Division}\label{figure1}
-  \end{figure}
-  \begin{figure}[tbp]
-    \centering{
-    \includegraphics[width = .6\textwidth]{./mackerel-temp1.jpg}}
-    \caption{English Harbor Division}\label{figure1}
-  \end{figure}
   As we known, fish need the proper habitat to service, and temperature play an important role in multiply of fish, such as the mackerel population is found further upstream in warmer waters as the current cools through winter\cite{jansen2012migration}. In our previous predictions, the increase of  SST because global warming is obvious, so we take fisheries data  from The International Council for the Exploration of the Sea(ICES) and make a comparison. 
 
+  \begin{figure}[tbp]
+    \centering{
+    \includegraphics[width = .8\textwidth]{./fish-temp.jpg}}
+    \caption{Comparison graph}\label{figure1}
+  \end{figure}
 
- \subsection{The predicted fish accumutation distribution}
- 
+  According to the graph, we can tell that besides fisheries productivity growth and some statistical gaps, the density of fish is particularly relevant to SST. So we use Pearson correlation coefficient to correlation analysis. 
 
+  \begin{table}[!htb]
+    \centering
+    \setlength{\abovecaptionskip}{0pt}%
+    \setlength{\belowcaptionskip}{15pt}%
+    \caption{The result of correlation analysis}
+    \begin{tabular}{ccccccccc}
+    \toprule[1.5pt]
+    result &herring &mackerel\\
+    \toprule[1.5pt]
+    r&0.4637&0.5463\\
+    \bottomrule[1.5pt]
+    \end{tabular}
+  \end{table}
 
+  So it's highly correlative. Then we use them to fitting the Gaussian distribution, and get the desired relationship between temperature and fish density.
 
+  \begin{figure}[tbp]
+    \centering{
+    \includegraphics[width = .8\textwidth]{./fish-temp_fitting.jpg}}
+    \caption{Fitting result}\label{figure1}
+  \end{figure}
+
+  \subsection{The predicted fish accumutation distribution}
 
 
 \section{The Demand Distribution Model}
