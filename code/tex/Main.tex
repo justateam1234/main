@@ -136,13 +136,11 @@ $D$     & The height of the Scottish vessels
                                                         \\
 $W$     & The weight of the Scottish vessels 
                                                         \\
- $P$      & The   waterline length of the Scottish vessels
-                                                        \\
+$d$      & The   waterline length of the Scottish vessels \\
 $l$       & Length between perpendiculars                                                           \\
 $v$      & The average velocity  of the Scottish vessels                                            \\
-$P$      & The average power of the Scottish vessels
-                                                        \\
-                                                      
+$P$      & The average power of the Scottish vessels\\
+$P_0$      & The average power of small Scottish vessels\\                                                      
 $V$      & The displacement of the Scottish vessels 
                                                           \\
 $V_o$      & The volume of the fuel consumption
@@ -160,12 +158,13 @@ $c_3$      & The fuel cost of a Scottish vessel per hour                        
 $T_1$     & The time spent in fishing of a Scottish vessel   
                                                         \\
 $T_2$       & Fish preservation time at ambient temperature        \\
-$T_3$      & The time spent in sailing of a Scottish vessel     \\
+
 $S$      & The distance sailed of a Scottish vessel   \\
 $a$      & Fish density ratio \\
+$k$      & Unit fixed cost of the ship  \\
 $r_o$      & Fuel consumption ratio \\
-$B_1$      & The earnings  of herrings \\
-$B_2$      & The earnings  of mackerels  \\
+$E$      & The earnings  of herrings and mackerels \\
+$E_0$      & The small Scottish vessel's earnings  of herrings and mackerels \\
 $p_1$      & The price  of herrings \\
 $p_2$      & The price  of mackerels  \\
 
@@ -297,7 +296,7 @@ $t$=0 represents the time the evacuation order is released.
 
 
 \begin{equation}\label{9}
-B=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
+E=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
 \end{equation}
 
 
@@ -351,7 +350,7 @@ v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
 \left\{
 \begin{array}{lr}
 P_0=P \times (1-0.2) &\\
-P_0=(25.278\times L -169.31)
+P_0=25.278\times L -169.31
 \end{array}
 \right.
 \end{equation}
@@ -388,8 +387,8 @@ A=A_1+A_2+A_3 \\
 \begin{equation}
 \left\{
 \begin{array}{lr}
-B_0=B \times 10\% \times a \times \frac{p_1+p_2}{2} &\\
-B=(12.441\times L -130.82)
+E_0=B \times 10\% \times a \times \frac{p_1+p_2}{2} &\\
+E=12.441\times L -130.82
 \end{array}
 \right.
 \end{equation}
