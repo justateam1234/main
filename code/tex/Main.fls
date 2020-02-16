@@ -285,8 +285,6 @@ INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
-INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
-INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
@@ -298,6 +296,8 @@ INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
+INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 INPUT d:/model/code_co/main/code/tex/image/general_distribution.eps
 INPUT d:/model/code_co/main/code/tex/image/general_distribution.eps
 INPUT d:/model/code_co/main/code/tex/image/general_distribution.eps

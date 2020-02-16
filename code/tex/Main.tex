@@ -114,10 +114,20 @@ In order to develop the Scottish fishing industries steadily,   we need to analy
 
 
 \section{Assumptions}
-
+To simplify our problems, we make the following basic assumptions, each of which is properly justified.
 \begin{itemize}
 \item 
+Assumed that the fishing time of Scottish vessels negligible
 \item 
+Assumed that the ship travels in a straight line and its sailing route is from the port to the center of the position of fish.
+\item 
+Supposed that the salaries of crews in Scotland are equal to the average wage of the British people, at 7 pounds per hour.
+\item 
+Supposed that large size ferries in Scotland generally have 20 crew members and small ships generally have 8 crew members.
+\item 
+Assumed that the maximum catch per vessel of a small Scottish company is 10 percent of its own weight
+\item 
+
 \end{itemize}
 
 \section{List of Notation}
@@ -129,21 +139,18 @@ In order to develop the Scottish fishing industries steadily,   we need to analy
 Symbol& Meaning \\
 \hline
 
-$L$      & The length of the Scottish vessels
-                                                         \\
+$L$      & The length of the Scottish vessels \\
 $B$      & The width of the Scottish vessels 
                                                           \\
 $D$     & The height of the Scottish vessels 
                                                         \\
 $W$     & The weight of the Scottish vessels 
                                                         \\
- $P$      & The   waterline length of the Scottish vessels
-                                                        \\
+$d$      & The   waterline length of the Scottish vessels \\
 $l$       & Length between perpendiculars                                                           \\
 $v$      & The average velocity  of the Scottish vessels                                            \\
-$P$      & The average power of the Scottish vessels
-                                                        \\
-                                                      
+$P$      & The average power of the Scottish vessels\\
+$P_0$      & The average power of small Scottish vessels\\                                                      
 $V$      & The displacement of the Scottish vessels 
                                                           \\
 $V_o$      & The volume of the fuel consumption
@@ -161,12 +168,13 @@ $c_3$      & The fuel cost of a Scottish vessel per hour                        
 $T_1$     & The time spent in fishing of a Scottish vessel   
                                                         \\
 $T_2$       & Fish preservation time at ambient temperature        \\
-$T_3$      & The time spent in sailing of a Scottish vessel     \\
+
 $S$      & The distance sailed of a Scottish vessel   \\
 $a$      & Fish density ratio \\
+$k$      & Unit fixed cost of the ship  \\
 $r_o$      & Fuel consumption ratio \\
-$B_1$      & The earnings  of herrings \\
-$B_2$      & The earnings  of mackerels  \\
+$E$      & The earnings  of herrings and mackerels \\
+$E_0$      & The small Scottish vessel's earnings  of herrings and mackerels \\
 $p_1$      & The price  of herrings \\
 $p_2$      & The price  of mackerels  \\
 
@@ -211,11 +219,39 @@ $p_2$      & The price  of mackerels  \\
     A long-term monthly avarage are made based on SST data from 1981 to 2010. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. 
 
  \subsection{The fish-temperature model}
- \subsection{The predicted fish accumutation distribution}
- 
+  As we known, fish need the proper habitat to service, and temperature play an important role in multiply of fish, such as the mackerel population is found further upstream in warmer waters as the current cools through winter\cite{jansen2012migration}. In our previous predictions, the increase of  SST because global warming is obvious, so we take fisheries data  from The International Council for the Exploration of the Sea(ICES) and make a comparison. 
 
+  \begin{figure}[tbp]
+    \centering{
+    \includegraphics[width = .8\textwidth]{./fish-temp.jpg}}
+    \caption{Comparison graph}\label{figure1}
+  \end{figure}
 
+  According to the graph, we can tell that besides fisheries productivity growth and some statistical gaps, the density of fish is particularly relevant to SST. So we use Pearson correlation coefficient to correlation analysis. 
 
+  \begin{table}[!htb]
+    \centering
+    \setlength{\abovecaptionskip}{0pt}%
+    \setlength{\belowcaptionskip}{15pt}%
+    \caption{The result of correlation analysis}
+    \begin{tabular}{ccccccccc}
+    \toprule[1.5pt]
+    result &herring &mackerel\\
+    \toprule[1.5pt]
+    r&0.4637&0.5463\\
+    \bottomrule[1.5pt]
+    \end{tabular}
+  \end{table}
+
+  So it's highly correlative. Then we use them to fitting the Gaussian distribution, and get the desired relationship between temperature and fish density.
+
+  \begin{figure}[tbp]
+    \centering{
+    \includegraphics[width = .8\textwidth]{./fish-temp_fitting.jpg}}
+    \caption{Fitting result}\label{figure1}
+  \end{figure}
+
+  \subsection{The predicted fish accumutation distribution}
 
 
 \section{The Demand Distribution Model}
@@ -320,7 +356,7 @@ $t$=0 represents the time the evacuation order is released.
 
 
 \begin{equation}\label{9}
-B=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
+E=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
 \end{equation}
 
 
@@ -374,7 +410,7 @@ v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
 \left\{
 \begin{array}{lr}
 P_0=P \times (1-0.2) &\\
-P_0=(25.278\times L -169.31)
+P=25.278\times L -169.31
 \end{array}
 \right.
 \end{equation}
@@ -411,16 +447,12 @@ A=A_1+A_2+A_3 \\
 \begin{equation}
 \left\{
 \begin{array}{lr}
-B_0=B \times 10\% \times a \times \frac{p_1+p_2}{2} &\\
-B=(12.441\times L -130.82)
+E_0=E \times 10\% \times a \times \frac{p_1+p_2}{2} &\\
+E=12.441\times L -130.82
 \end{array}
 \right.
 \end{equation}
 
-
-\begin{equation}\label{10}
-\frac{T_1}{2}\leq T_2
-\end{equation}
 
 			
 
