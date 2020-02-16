@@ -136,18 +136,27 @@ $D$     & The height of the Scottish vessels
                                                         \\
 $W$     & The weight of the Scottish vessels 
                                                         \\
-$L_1$       & Length between perpendiculars                                                           \\
+ $P$      & The   waterline length of the Scottish vessels
+                                                        \\
+$l$       & Length between perpendiculars                                                           \\
 $v$      & The average velocity  of the Scottish vessels                                            \\
 $P$      & The average power of the Scottish vessels
                                                         \\
+                                                      
 $V$      & The displacement of the Scottish vessels 
                                                           \\
 $V_o$      & The volume of the fuel consumption
                                                           \\
-$A_1$     & The purchase cost of a Scottish vessel
+$A_1$     & Total purchase cost of a Scottish vessel
                                                         \\
-$A_2$       & Salary of a crew member                                                           \\
-$A_3$      & Fuel cost of a Scottish vessel                                        \\
+$A_2$       & Total salary of a crew member                                                           \\
+$A_3$      & Total fuel cost of a Scottish vessel                                        \\
+$A$      & total cost of a Scottish vessel                                        \\
+$c_1$     & The purchase cost of a Scottish vessel per hour
+                                                        \\
+$c_2$       & The salary of a crew member per hour                                                     \\
+$c_3$      & The fuel cost of a Scottish vessel per hour                                       \\
+
 $T_1$     & The time spent in fishing of a Scottish vessel   
                                                         \\
 $T_2$       & Fish preservation time at ambient temperature        \\
@@ -193,12 +202,6 @@ $p_2$      & The price  of mackerels  \\
   \caption{English Harbor Division}\label{figure1}
 \end{figure}
 
-
-\begin{figure}[tbp]
-  \centering{
-  \includegraphics[width=1\textwidth]{./picture/figure2.jpeg}}
-  \caption{The model of a ship}\label{figure1}
-\end{figure}
 
 
 \begin{table}[!htb]
@@ -270,22 +273,42 @@ V=L\times B\times\ d =\frac{1}{48\times L^3}
 l=L\approx 40
 \end{equation}
 
-
-\begin{equation}\label{5}
-A_1=180
+\begin{equation}\label{4}
+T=\frac{S}{v}
 \end{equation}
 
 \begin{equation}\label{5}
-A_2=140
+A_1=c_1 \times T_1
 \end{equation}
 
-\begin{equation}\label{5}
-A_3=140
+\begin{equation}\label{6}
+A_2=c_2  \times T_1
 \end{equation}
 
-\begin{equation}\label{5}
+\begin{equation}\label{7}
+A_3=c_3  \times T_1
+\end{equation}
+
+\begin{equation}\label{8}
+A=A_1+A_2+A_3
+\end{equation}
+
+\begin{equation}\label{9}
 B=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
 \end{equation}
+
+
+\begin{equation}\label{10}
+\frac{T_1}{2}\leq T_2
+\end{equation}
+
+\begin{figure}[tbp]
+  \centering{
+  \includegraphics[width=1\textwidth]{./picture/figure2.jpeg}}
+  \caption{The model of a ship}\label{figure1}
+\end{figure}
+
+
 
 The demand distribution defines the number of people arriving at the station nodes during the evacuation process. The demand distribution depends on the potential population of the evacuation area depending on the transport system. This demand not only has spatial dependence, but also has time dependence. To determine how many evacuees will arrive at each station node, we need to define a service area to determine its appeal scope. One way to do this is to use the concept of the Thiessen Polygon \cite{Bretschneider2011A}. The Thiessen Polygon is centered around the station node and the nearest family is located in the same service area. By dividing the network into a number of adjacent polygons, families are assigned to the Thiessen Polygon where their nearest assembly point is located.
 
