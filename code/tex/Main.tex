@@ -5,11 +5,12 @@
         titlepage = false, abstract = true}
 \usepackage{palatino}
 \usepackage{lipsum}
-
+\usepackage{epsfig} %eps文件
 \usepackage{geometry}
 %===============设置正文和数学字体=============================
 %有些字体需要安装一些字体文件，注意辨别。
 %我参照 MCM论文集的字体 使用如下宏包来定制字体。
+\usepackage{caption2}
 
 \usepackage{graphicx}
 \usepackage{subfigure}
@@ -194,19 +195,69 @@ $n_2$      & The number  of  crew in small size ferries  \\
  \section{The fish accumutation model}
  \subsection{The varying temperature model}
  \cite{long2014fast}
- \subsubsection{basic idea}
+  \subsubsection{basic idea}
     There are many factors can affect the temperature of the oscan, and the changing of the sea surface temperature(SST) can be 
     regarded as short monthly average temperature change and long-term yearly average temperature change from a time perspective, and spatial distribution from geographical perspective. We separate those changing trend by analyzing the data from project ERSST which contains 1$\deg$ resolution data from 1981 to 2010 and 2$\deg$ data from 1854 to 2020. Specificly, we use the long-term data to predicte the yearly change, and use high resolution data to be the begining of long-term prediction as well as to analyze the spatial distribution and the monthly change. The area we analyze lies in W15.5 to E13.5 and N46.5 to 65.5.
+    
+
+    \begin{figure}[htbp]
+      \centering
+      \subfigure[spatial temperature distribution]{
+      \begin{minipage}[t]{0.5\linewidth}
+      \centering
+      \includegraphics[width=3in]{image/general_distribution.eps}
+      %\caption{fig1}
+      \end{minipage}%
+      }%
+      \subfigure[monthly changing and fit]{
+      \begin{minipage}[t]{0.5\linewidth}
+      \centering
+      \includegraphics[width=3in]{image/month_correct.eps}
+      %\caption{fig2}
+      \end{minipage}%
+      }
+      
+      \centering
+      \caption{}
+    \end{figure}
   \subsubsection{monthly changing}
     In our model, we assume that the monthly change has a central value related to yearly avarage temperature. We also assume that the monthly change are determined by the seasonal change and not only independent of the factors affect the change of yrarly avachange temperature, but also much stronger than the change of yearly average temperature. 
     A long-term monthly avarage are made based on SST data from 1981 to 2010. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. 
 
  \subsection{The fish-temperature model}
- \subsection{The predicted fish accumutation distribution}
- 
+  As we known, fish need the proper habitat to service, and temperature play an important role in multiply of fish, such as the mackerel population is found further upstream in warmer waters as the current cools through winter\cite{jansen2012migration}. In our previous predictions, the increase of  SST because global warming is obvious, so we take fisheries data  from The International Council for the Exploration of the Sea(ICES) and make a comparison. 
 
+  \begin{figure}[tbp]
+    \centering{
+    \includegraphics[width = .8\textwidth]{./fish-temp.jpg}}
+    \caption{Comparison graph}\label{figure1}
+  \end{figure}
 
+  According to the graph, we can tell that besides fisheries productivity growth and some statistical gaps, the density of fish is particularly relevant to SST. So we use Pearson correlation coefficient to correlation analysis. 
 
+  \begin{table}[!htb]
+    \centering
+    \setlength{\abovecaptionskip}{0pt}%
+    \setlength{\belowcaptionskip}{15pt}%
+    \caption{The result of correlation analysis}
+    \begin{tabular}{ccccccccc}
+    \toprule[1.5pt]
+    result &herring &mackerel\\
+    \toprule[1.5pt]
+    r&0.4637&0.5463\\
+    \bottomrule[1.5pt]
+    \end{tabular}
+  \end{table}
+
+  So it's highly correlative. Then we use them to fitting the Gaussian distribution, and get the desired relationship between temperature and fish density.
+
+  \begin{figure}[tbp]
+    \centering{
+    \includegraphics[width = .8\textwidth]{./fish-temp_fitting.jpg}}
+    \caption{Fitting result}\label{figure1}
+  \end{figure}
+
+  \subsection{The predicted fish accumutation distribution}
 
 
 \section{The Demand Distribution Model}
@@ -320,9 +371,6 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 \end{array}
 \right.
 \end{equation}
-
-
-
 
 
 \begin{equation}\label{10}
