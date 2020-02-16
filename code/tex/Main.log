@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  15 FEB 2020 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  16 FEB 2020 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -962,54 +962,54 @@ been already used, duplicate ignored
                    \relax 
 l.113 \end{itemize}
                     [1] [2]
-Overfull \hbox (5.44298pt too wide) in paragraph at lines 186--187
+Overfull \hbox (5.44298pt too wide) in paragraph at lines 209--210
 []\T1/ppl/m/n/12 All hur-ri-canes are as-signed a cat-e-gory: from 1 (the weak-
 est) to 5 (the strongest,
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 197--197
+Underfull \hbox (badness 2828) in paragraph at lines 220--220
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 200--201
+Underfull \hbox (badness 1810) in paragraph at lines 223--224
 \T1/ppl/m/n/12 dam-age to un-fixed houses and cars,
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 202--203
+Underfull \hbox (badness 1237) in paragraph at lines 225--226
 \T1/ppl/m/n/12 and veg-e-ta-tion are dam-aged. Flood
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 208--208
+Underfull \hbox (badness 2181) in paragraph at lines 231--231
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
 [3] [4]
-Overfull \hbox (14.7305pt too wide) in paragraph at lines 230--231
+Overfull \hbox (14.7305pt too wide) in paragraph at lines 253--254
 []\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-at
 e, in-clud-ing tourists
  []
 
 [5]
 
-LaTeX Warning: Reference `fig:2' on page 6 undefined on input line 268.
+LaTeX Warning: Reference `fig:2' on page 6 undefined on input line 291.
 
-[6] [7] [8] [9] [10] (./Main.bbl [11]) [12]
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+[6] [7] [8] [9] [10] [11] (./Main.bbl) [12]
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
 
 AED: lastpage setting LastPage
 [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 465.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 465.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 488.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 488.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 465.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 465.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 488.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 488.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 891FA67D02057C200049B0968620ED0F;1139.
 
@@ -1020,7 +1020,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  20935 strings out of 492616
  351109 string characters out of 6129482
- 800650 words of memory out of 5000000
+ 802277 words of memory out of 5000000
  24490 multiletter control sequences out of 15000+600000
  568097 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1038,7 +1038,7 @@ ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on Main.pdf (15 pages, 166819 bytes).
+Output written on Main.pdf (15 pages, 168153 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  249 compressed objects within 3 object streams
