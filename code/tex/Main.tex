@@ -136,18 +136,27 @@ $D$     & The height of the Scottish vessels
                                                         \\
 $W$     & The weight of the Scottish vessels 
                                                         \\
-$L_1$       & Length between perpendiculars                                                           \\
+ $P$      & The   waterline length of the Scottish vessels
+                                                        \\
+$l$       & Length between perpendiculars                                                           \\
 $v$      & The average velocity  of the Scottish vessels                                            \\
 $P$      & The average power of the Scottish vessels
                                                         \\
+                                                      
 $V$      & The displacement of the Scottish vessels 
                                                           \\
 $V_o$      & The volume of the fuel consumption
                                                           \\
-$A_1$     & The purchase cost of a Scottish vessel
+$A_1$     & Total purchase cost of a Scottish vessel
                                                         \\
-$A_2$       & Salary of a crew member                                                           \\
-$A_3$      & Fuel cost of a Scottish vessel                                        \\
+$A_2$       & Total salary of a crew member                                                           \\
+$A_3$      & Total fuel cost of a Scottish vessel                                        \\
+$A$      & total cost of a Scottish vessel                                        \\
+$c_1$     & The purchase cost of a Scottish vessel per hour
+                                                        \\
+$c_2$       & The salary of a crew member per hour                                                     \\
+$c_3$      & The fuel cost of a Scottish vessel per hour                                       \\
+
 $T_1$     & The time spent in fishing of a Scottish vessel   
                                                         \\
 $T_2$       & Fish preservation time at ambient temperature        \\
@@ -179,10 +188,6 @@ $p_2$      & The price  of mackerels  \\
     A long-term monthly avarage are made based on SST data from 1981 to 2010. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. 
 
  \subsection{The fish-temperature model}
-    我们知道，鱼群的都需要适合的栖息环境以生存，若栖息环境改变，鱼群便会选择迁移。在我们之前的数据和预测中，我们可以看到全球变暖使得海面温度的变化十分可观，而温度又是在鱼群的繁衍、捕食环境有着关键影响的因素。因此我们将来自***的渔业数据和温度数据做了个对比。
-    \includegraphics[width = .6\textwidth]{fish-temp1.eps}
-    我们通过渔业数据中在某地点的捕捞量来代指此地点的鱼群密度，将抽样地点的温度和鱼群密度进行对比（如下图）。
-
  \subsection{The predicted fish accumutation distribution}
  
 
@@ -198,22 +203,18 @@ $p_2$      & The price  of mackerels  \\
 \end{figure}
 
 
-\begin{figure}[tbp]
-  \centering{
-  \includegraphics[width=1\textwidth]{./picture/figure2.jpeg}}
-  \caption{The model of a ship}\label{figure1}
-\end{figure}
-
 
 \begin{table}[!htb]
 \centering
 \setlength{\abovecaptionskip}{0pt}%    
-\setlength{\belowcaptionskip}{13pt}%
-\caption{The average dimension ratios of  trawlers}
-\begin{tabular}{ccccccc}
+\setlength{\belowcaptionskip}{15pt}%
+\caption{The range dimension ratios of  trawlers}
+\begin{tabular}{ccccccccc}
 \toprule[1.5pt]
 parameter &L/B&B/d&D/d\\
-average &4.133&3.09&1.28\\
+\toprule[1.5pt]
+Range of steel materials&3.93-5.00&2.38-3.65&1.19-1.38\\
+Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
 \bottomrule[1.5pt]
 \end{tabular}
 \end{table}
@@ -274,22 +275,42 @@ V=L\times B\times\ d =\frac{1}{48\times L^3}
 l=L\approx 40
 \end{equation}
 
-
-\begin{equation}\label{5}
-A_1=180
+\begin{equation}\label{4}
+T=\frac{S}{v}
 \end{equation}
 
 \begin{equation}\label{5}
-A_2=140
+A_1=c_1 \times T_1
 \end{equation}
 
-\begin{equation}\label{5}
-A_3=140
+\begin{equation}\label{6}
+A_2=c_2  \times T_1
 \end{equation}
 
-\begin{equation}\label{5}
+\begin{equation}\label{7}
+A_3=c_3  \times T_1
+\end{equation}
+
+\begin{equation}\label{8}
+A=A_1+A_2+A_3
+\end{equation}
+
+\begin{equation}\label{9}
 B=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
 \end{equation}
+
+
+\begin{equation}\label{10}
+\frac{T_1}{2}\leq T_2
+\end{equation}
+
+\begin{figure}[tbp]
+  \centering{
+  \includegraphics[width=1\textwidth]{./picture/figure2.jpeg}}
+  \caption{The model of a ship}\label{figure1}
+\end{figure}
+
+
 
 The demand distribution defines the number of people arriving at the station nodes during the evacuation process. The demand distribution depends on the potential population of the evacuation area depending on the transport system. This demand not only has spatial dependence, but also has time dependence. To determine how many evacuees will arrive at each station node, we need to define a service area to determine its appeal scope. One way to do this is to use the concept of the Thiessen Polygon \cite{Bretschneider2011A}. The Thiessen Polygon is centered around the station node and the nearest family is located in the same service area. By dividing the network into a number of adjacent polygons, families are assigned to the Thiessen Polygon where their nearest assembly point is located.
 
