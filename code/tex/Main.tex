@@ -247,6 +247,19 @@ This model give an optimal strategy on which counties should be ordered to evacu
 
 \section{The Demand Distribution Model}
 
+\begin{table}[!htb]
+\centering
+\setlength{\abovecaptionskip}{0pt}%    
+\setlength{\belowcaptionskip}{10pt}%
+\caption{The average dimension ratios of  trawlers}
+\begin{tabular}{ccccccc}
+\toprule[1.5pt]
+Hurricane level &1&2&3&4&5&6\\
+Evacuation time &11.4&18.2&24.28&33.6&47.8&49.6\\
+\bottomrule[1.5pt]
+\end{tabular}
+\end{table}
+
 The demand distribution defines the number of people arriving at the station nodes during the evacuation process. The demand distribution depends on the potential population of the evacuation area depending on the transport system. This demand not only has spatial dependence, but also has time dependence. To determine how many evacuees will arrive at each station node, we need to define a service area to determine its appeal scope. One way to do this is to use the concept of the Thiessen Polygon \cite{Bretschneider2011A}. The Thiessen Polygon is centered around the station node and the nearest family is located in the same service area. By dividing the network into a number of adjacent polygons, families are assigned to the Thiessen Polygon where their nearest assembly point is located.
 
 In the study, we determined the potential demand by using the Thiessen Polygon to determine the service area of the station node. Due to the evacuees in the evacuation process, the demand of the station nodes is uncertain, mainly manifested in the following two situations:
