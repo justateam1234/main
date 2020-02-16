@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  16 FEB 2020 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  16 FEB 2020 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,46 +762,16 @@ Package: titletoc 2011/12/15 v1.6 TOC entries
 )
 (./Main.aux
 
-LaTeX Warning: Label `4' multiply defined.
+LaTeX Warning: Label `5' multiply defined.
+
+
+LaTeX Warning: Label `1' multiply defined.
 
 
 LaTeX Warning: Label `figure1' multiply defined.
 
 
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `2' multiply defined.
-
-
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `2' multiply defined.
-
-
-LaTeX Warning: Label `3' multiply defined.
-
-
 LaTeX Warning: Label `4' multiply defined.
-
-
-LaTeX Warning: Label `4' multiply defined.
-
-
-LaTeX Warning: Label `5' multiply defined.
-
-
-LaTeX Warning: Label `6' multiply defined.
-
-
-LaTeX Warning: Label `7' multiply defined.
-
-
-LaTeX Warning: Label `8' multiply defined.
-
-
-LaTeX Warning: Label `9' multiply defined.
 
 
 LaTeX Warning: Label `10' multiply defined.
@@ -1010,66 +980,49 @@ Package pdftex.def Info: ./picture/figure1.jpeg  used on input line 201.
 <./picture/figure2.jpeg, id=220, 616.3025pt x 198.7425pt>
 File: ./picture/figure2.jpeg Graphic file (type jpg)
 <use ./picture/figure2.jpeg>
-Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 306.
+Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 310.
 (pdftex.def)             Requested size: 426.79135pt x 137.63283pt.
 
-Overfull \hbox (14.7305pt too wide) in paragraph at lines 319--320
+Overfull \hbox (14.7305pt too wide) in paragraph at lines 318--319
 []\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-at
 e, in-clud-ing tourists
  []
 
 [6 <./picture/figure2.jpeg>]
-
-LaTeX Warning: Reference `fig:2' on page 7 undefined on input line 357.
-
-[7]
-Underfull \hbox (badness 2828) in paragraph at lines 420--420
+Underfull \hbox (badness 2828) in paragraph at lines 414--414
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 423--424
-\T1/ppl/m/n/12 dam-age to un-fixed houses and cars,
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 425--426
-\T1/ppl/m/n/12 and veg-e-ta-tion are dam-aged. Flood
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 431--431
+Underfull \hbox (badness 2181) in paragraph at lines 417--417
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[8] [9] [10] [11] [12] [13] (./Main.bbl [14])
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+[7] [8] [9] [10] [11] (./Main.bbl [12])
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
 
  []
 
-[15] 
+
 AED: lastpage setting LastPage
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
+[13] [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 607.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 607.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 621.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 607.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 607.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 221E8B00459F475C22D8762439916B43;1611.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21001 strings out of 492616
- 352109 string characters out of 6129482
- 795932 words of memory out of 5000000
- 24512 multiletter control sequences out of 15000+600000
+ 20992 strings out of 492616
+ 352010 string characters out of 6129482
+ 795516 words of memory out of 5000000
+ 24511 multiletter control sequences out of 15000+600000
  568097 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,12n,67p,886b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1078,18 +1031,19 @@ exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/p
-alatino/uplri8a.pfb>
-Output written on Main.pdf (18 pages, 318293 bytes).
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
+rw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pala
+tino/uplri8a.pfb>
+Output written on Main.pdf (16 pages, 324465 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 379 PDF objects out of 1000 (max. 8388607)
+ 315 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
