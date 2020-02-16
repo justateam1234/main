@@ -39,11 +39,11 @@ function [dT,err]=year_ava(t,tempe_point,Y_after)
 %     fun=@(pa,t)pa(1)./(1+(pa(1)/pa(2)-1)*exp(-pa(3)*(t-pa(4))));pa0=[10,tempe_point(1),0.01,1840];
 %     pa=lsqcurvefit(fun,pa0,t,tempe_point,[],[15,15,1,2000])
 %%%%%%%%%%%%%%%%%%%%%%%quadratic model
-%     fun=@(pa,t)pa(1)*t.^2+pa(2)*t+pa(3);pa0=[0.0001,1,0.9];
-%     pa=lsqcurvefit(fun,pa0,t,tempe_point);
-%%%%%%%%%%%%%%%%%%%%%%%linear model
-    fun=@(pa,t)pa(2)*t+pa(3);pa0=[0,001,9];
+    fun=@(pa,t)pa(1)*t.^2+pa(2)*t+pa(3);pa0=[0.0001,1,0.9];
     pa=lsqcurvefit(fun,pa0,t,tempe_point);
+%%%%%%%%%%%%%%%%%%%%%%%linear model
+%     fun=@(pa,t)pa(2)*t+pa(3);pa0=[0,001,9];
+%     pa=lsqcurvefit(fun,pa0,t,tempe_point);
     
     tempe_fit=fun(pa,t);
     tempe_pre=fun(pa,t_pre);

@@ -5,11 +5,12 @@
         titlepage = false, abstract = true}
 \usepackage{palatino}
 \usepackage{lipsum}
-
+\usepackage{epsfig} %eps文件
 \usepackage{geometry}
 %===============设置正文和数学字体=============================
 %有些字体需要安装一些字体文件，注意辨别。
 %我参照 MCM论文集的字体 使用如下宏包来定制字体。
+\usepackage{caption2}
 
 \usepackage{graphicx}
 \usepackage{subfigure}
@@ -212,9 +213,31 @@ $r$       & Capacity factor                                                     
  \section{The fish accumutation model}
  \subsection{The varying temperature model}
  \cite{long2014fast}
- \subsubsection{basic idea}
+  \subsubsection{basic idea}
     There are many factors can affect the temperature of the oscan, and the changing of the sea surface temperature(SST) can be 
     regarded as short monthly average temperature change and long-term yearly average temperature change from a time perspective, and spatial distribution from geographical perspective. We separate those changing trend by analyzing the data from project ERSST which contains 1$\deg$ resolution data from 1981 to 2010 and 2$\deg$ data from 1854 to 2020. Specificly, we use the long-term data to predicte the yearly change, and use high resolution data to be the begining of long-term prediction as well as to analyze the spatial distribution and the monthly change. The area we analyze lies in W15.5 to E13.5 and N46.5 to 65.5.
+    
+
+    \begin{figure}[htbp]
+      \centering
+      \subfigure[spatial temperature distribution]{
+      \begin{minipage}[t]{0.5\linewidth}
+      \centering
+      \includegraphics[width=3in]{image/general_distribution.eps}
+      %\caption{fig1}
+      \end{minipage}%
+      }%
+      \subfigure[monthly changing and fit]{
+      \begin{minipage}[t]{0.5\linewidth}
+      \centering
+      \includegraphics[width=3in]{image/month_correct.eps}
+      %\caption{fig2}
+      \end{minipage}%
+      }
+      
+      \centering
+      \caption{}
+    \end{figure}
   \subsubsection{monthly changing}
     In our model, we assume that the monthly change has a central value related to yearly avarage temperature. We also assume that the monthly change are determined by the seasonal change and not only independent of the factors affect the change of yrarly avachange temperature, but also much stronger than the change of yearly average temperature. 
     A long-term monthly avarage are made based on SST data from 1981 to 2010. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. 

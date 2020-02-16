@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  16 FEB 2020 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  16 FEB 2020 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -629,13 +629,45 @@ Package: xparse 2019-03-05 L3 Experimental document command parser
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  (d:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) (d:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+)) (d:/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen187
+\epsfysize=\dimen188
+) (d:/texlive/2019/texmf-dist/tex/latex/caption/caption2.sty
+Package: caption2 2015/09/15 v2.2-100 Customising captions (AR)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(d:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen189
+\captionmargin@=\dimen190
+\captionwidth=\dimen191
+\caption@tempdima=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input line 218.
+\captionlinewidth=\dimen196
+\realcaptionwidth=\dimen197
+Package caption2 Info: longtable package v3.15 (or newer) detected on input line 349.
+) (d:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip81
 \subfigcapskip=\skip82
-\subfigcaptopadj=\dimen187
+\subfigcaptopadj=\dimen198
 \subfigbottomskip=\skip83
-\subfigcapmargin=\dimen188
+\subfigcapmargin=\dimen199
 \subfiglabelskip=\skip84
 \c@subfigure=\count298
 \c@lofdepth=\count299
@@ -667,42 +699,42 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count305
 ) (d:/texlive/2019/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen189
+\ttl@leftsep=\dimen256
 ) (d:/model/code_co/main/code/tex/Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 51.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 50.
+(lastpage)             ! on input line 51.
 \c@lstlisting=\count306
  (d:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count307
-\scratchdimen=\dimen190
+\scratchdimen=\dimen257
 \scratchbox=\box58
 \nofMPsegments=\count308
 \nofMParguments=\count309
 \everyMPshowfont=\toks39
 \MPscratchCnt=\count310
-\MPscratchDim=\dimen191
+\MPscratchDim=\dimen258
 \MPnumerator=\count311
 \makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks40
@@ -742,7 +774,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 51.
 (d:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (d:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -750,44 +782,46 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
  (d:/model/code_co/main/code/tex/Main.out) (d:/model/code_co/main/code/tex/Main.out)
 \@outlinefile=\write4
 \openout4 = `Main.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
  (d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
  (d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 61.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 62.
  (d:/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 61.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 62.
  (d:/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 62.
  [1
 
 {d:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 70.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 71.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
  (d:/model/code_co/main/code/tex/Main.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
@@ -796,12 +830,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 \openout5 = `Main.toc'.
 
  [1]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 113.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 114.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -812,65 +846,109 @@ This may cause the page layout to be inconsistent, however.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \end{itemize}
+l.115 \end{itemize}
                     [1] [2]
-Overfull \hbox (1.1472pt too wide) in paragraph at lines 216--218
+Overfull \hbox (1.1472pt too wide) in paragraph at lines 217--219
 []\T1/ppl/m/n/12 There are many fac-tors can af-fect the tem-per-a-ture of the os-can, and the chang-
  []
 
 [3]
-Overfull \hbox (5.44298pt too wide) in paragraph at lines 227--228
+Package epstopdf Info: Source file: <image/general_distribution.eps>
+(epstopdf)                    date: 2020-02-16 16:03:54
+(epstopdf)                    size: 841249 bytes
+(epstopdf)             Output file: <image/general_distribution-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-02-16 16:04:16
+(epstopdf)                    size: 10456 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/general_distribution-eps-converted-to.pdf image/general_distribution.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+<image/general_distribution-eps-converted-to.pdf, id=190, 421.575pt x 316.18124pt>
+File: image/general_distribution-eps-converted-to.pdf Graphic file (type pdf)
+<use image/general_distribution-eps-converted-to.pdf>
+Package pdftex.def Info: image/general_distribution-eps-converted-to.pdf  used on input line 229.
+(pdftex.def)             Requested size: 216.81pt x 162.61081pt.
+
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 229--229
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <image/month_correct.eps>
+(epstopdf)                    date: 2020-02-16 16:06:20
+(epstopdf)                    size: 98378 bytes
+(epstopdf)             Output file: <image/month_correct-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-02-16 16:06:37
+(epstopdf)                    size: 34297 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/month_correct-eps-converted-to.pdf image/month_correct.eps>
+(epstopdf)             \includegraphics on input line 236.
+Package epstopdf Info: Output file is already uptodate.
+<image/month_correct-eps-converted-to.pdf, id=191, 421.575pt x 316.18124pt>
+File: image/month_correct-eps-converted-to.pdf Graphic file (type pdf)
+<use image/month_correct-eps-converted-to.pdf>
+Package pdftex.def Info: image/month_correct-eps-converted-to.pdf  used on input line 236.
+(pdftex.def)             Requested size: 216.81pt x 162.61081pt.
+
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 236--236
+ [][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 229--237
+ [][][][] 
+ []
+
+
+Overfull \hbox (5.44298pt too wide) in paragraph at lines 250--251
 []\T1/ppl/m/n/12 All hur-ri-canes are as-signed a cat-e-gory: from 1 (the weak-est) to 5 (the strongest,
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 238--238
+Underfull \hbox (badness 2828) in paragraph at lines 261--261
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 241--242
+Underfull \hbox (badness 1810) in paragraph at lines 264--265
 \T1/ppl/m/n/12 dam-age to un-fixed houses and cars,
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 243--244
+Underfull \hbox (badness 1237) in paragraph at lines 266--267
 \T1/ppl/m/n/12 and veg-e-ta-tion are dam-aged. Flood
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 249--249
+Underfull \hbox (badness 2181) in paragraph at lines 272--272
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[4]
-<./picture/figure.jpeg, id=195, 803.0pt x 1054.94125pt>
+[4 <d:/model/code_co/main/code/tex/image/general_distribution-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/month_correct-eps-converted-to.pdf>] [5]
+<./picture/figure.jpeg, id=219, 803.0pt x 1054.94125pt>
 File: ./picture/figure.jpeg Graphic file (type jpg)
 <use ./picture/figure.jpeg>
-Package pdftex.def Info: ./picture/figure.jpeg  used on input line 265.
+Package pdftex.def Info: ./picture/figure.jpeg  used on input line 288.
 (pdftex.def)             Requested size: 256.07741pt x 336.42911pt.
- [5] [6 <./picture/figure.jpeg>]
-Overfull \hbox (14.7305pt too wide) in paragraph at lines 305--306
+ [6 <./picture/figure.jpeg>]
+Overfull \hbox (14.7305pt too wide) in paragraph at lines 328--329
 []\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-ate, in-clud-ing tourists
  []
 
 [7]
 
-LaTeX Warning: Reference `fig:2' on page 8 undefined on input line 343.
+LaTeX Warning: Reference `fig:2' on page 8 undefined on input line 366.
 
-[8] [9] [10] [11] [12] (d:/model/code_co/main/code/tex/Main.bbl [13]) [14]
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
+[8] [9] [10] [11] [12] [13] (d:/model/code_co/main/code/tex/Main.bbl [14])
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  []
 
 
 AED: lastpage setting LastPage
 [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 563.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 563.
  (d:/model/code_co/main/code/tex/Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 563.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 563.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 4FDA1166B8EA29347BDB9805FBA89907;1597.
 
@@ -879,18 +957,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20922 strings out of 492623
- 349213 string characters out of 6133290
- 801115 words of memory out of 5000000
- 24455 multiletter control sequences out of 15000+600000
- 568097 words of font info for 108 fonts, out of 8000000 for 9000
+ 21682 strings out of 492623
+ 363336 string characters out of 6133290
+ 809042 words of memory out of 5000000
+ 25197 multiletter control sequences out of 15000+600000
+ 569703 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,67p,917b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,917b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on d:/model/code_co/main/code/tex/Main.pdf (17 pages, 263523 bytes).
+Output written on d:/model/code_co/main/code/tex/Main.pdf (17 pages, 303694 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

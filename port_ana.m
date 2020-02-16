@@ -1,21 +1,59 @@
 clear
 %lat:1deg~=111km;lat:
 [Lon,Lat,time,T]=read();
-T=T(:,:,1);
-findfish(Lon,Lat,T,10,0.1);
-earn(Lon,Lat,T,0.5,57.5)
-function earn(Lon,Lat,T,Lonp,Latp)
+T=mean(T,3);
+% findfish(Lon,Lat,T,10,0.1);
+earn(Lon,Lat,T)
+function earn(Lon,Lat,T)
     x=linspace(0,dLon_to_km(Lon(1),Lon(end),mean(Lat)),length(Lon));
     y=linspace(0,(Lat(1)-Lat(end))*6371*pi/360,length(Lat));y=fliplr(y);
-    peterhead=[-1.785429,57.499584];%biggist
+    [xx,yy]=meshgrid(x,y)
+    xx=transpose(xx);
+    yy=transpose(yy);
+    peterhead=[-1.785429,57.499584];%biggist%%%%%%%%%%%%%%%%change port
+    scraber=[-3.544892;58.608053] ;peterhead=scraber;
     x_port=(peterhead(1)-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1))
     y_port=(peterhead(2)-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end))
-    xp=(Lonp-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1));
-    yp=(Latp-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end));
+%     xp=(Lonp-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1));
+%     yp=(Latp-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end));
+    
+    pa_herr=[3.734*1e4,9.853,1.511];%herringˆÓ”„
+    pa_hack=[3.766*1e4,10,1.64];%mackerelˆÎ”„
+    fishtype=1;%%%%%%%%%%%%%%%%%%%%%%%choose fish
+    distent_cost=640*2/54;
+    fish_prize=[463/2,880.8/2];
+    pa(1,:)=pa_herr;pa(2,:)=pa_hack;
+    
+    den=@(pa,T)pa(1)*exp(-  ((T-pa(2))/pa(3)).^2);
+    disten=@(X,Y)sqrt((X-x_port).^2+(Y-y_port).^2);
+    
+    land_in=find(T<1)%%%%%%%%%%%%%%%%the land's index
+    min(min(T))
+    
+    den_distribu=den(pa(fishtype,:),T);%the density function
+%     den_distribu(find(den_distribu<0))=0;
+%     den_distribu(land_in)=100;%set a value which can show the land in the data
+    
+    disten_distribu=disten(xx,yy);
+    disten_distribu(land_in)=0;
+    
+    
     figure
         imagesc([x(1),x(end)],[y(1),y(end)],transpose(T(:,:)));colorbar;hold on;
         scatter(x_port,y_port,100);hold on;
-        scatter(xp,yp,100);hold on;
+%         scatter(xp,yp,100);hold on;
+        set(gca,'YDir','normal')
+   figure
+        imagesc([x(1),x(end)],[y(1),y(end)],transpose(disten_distribu(:,:)));colorbar;hold on;
+        scatter(x_port,y_port,100);hold on;
+        title('dis')
+        set(gca,'YDir','normal')     
+   
+    
+    figure
+        imagesc([x(1),x(end)],[y(1),y(end)],transpose(den_distribu(:,:)));colorbar;hold on;
+        scatter(x_port,y_port,100);hold on;
+        title('den')
         set(gca,'YDir','normal')
     
 end

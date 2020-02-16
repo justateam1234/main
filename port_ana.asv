@@ -1,28 +1,64 @@
 clear
 %lat:1deg~=111km;lat:
 [Lon,Lat,time,T]=read();
-T=T(:,:,1);
-findfish(Lon,Lat,T,10,0.1);
+T=mean(T,3);
+% findfish(Lon,Lat,T,10,0.1);
 earn(Lon,Lat,T,0.5,57.5)
-function earn(Lon,Lat,T,Lonp,Latp)
+function earn(Lon,Lat,T)
     x=linspace(0,dLon_to_km(Lon(1),Lon(end),mean(Lat)),length(Lon));
     y=linspace(0,(Lat(1)-Lat(end))*6371*pi/360,length(Lat));y=fliplr(y);
-    peterhead=[-1.785429,57.499584];%biggist
+    [xx,yy]=meshgrid(x,y)
+    xx=transpose(xx);
+    yy=transpose(yy);
+    peterhead=[-1.785429,57.499584];%biggist%%%%%%%%%%%%%%%%change port
+    scraber=[-3.544892;58.608053] ;peterhead=scraber;
     x_port=(peterhead(1)-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1))
     y_port=(peterhead(2)-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end))
-    xp=(Lonp-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1));
-    yp=(Latp-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end));
+%     xp=(Lonp-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1));
+%     yp=(Latp-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end));
+    
+    pa_herr=[-1.169*1e4,2.331*1e5,-1.125*1e6];%herringˆÓ”„
+    pa_hack=[-1.457*1e4,2.868*1e5,-1.374*1e6];%mackerelˆÎ”„
+    fishtype=1;%%%%%%%%%%%%%%%%%%%%%%%choose fish
+    distent_cost=640*2/54;
+    fish_prize=[463/2,880.8/2];
+    pa(1,:)=pa_herr;pa(2,:)=pa_hack;
+    
+    den=@(pa,T)pa(1)*T.^2+pa(2)*T+pa(3);
+    disten=@(X,Y)sqrt((X-x_port).^2+(Y-y_port).^2);
+    
+    land_in=find(T<1)%%%%%%%%%%%%%%%%the land's index
+    min(min(T))
+    den_distribu=den(pa(fishtype,:),T);%the density function
+    den_distribu(find(den_distribu<0))=0;
+    den_distribu(land_in)=0;
+    disten_distribu=disten(xx,yy);
+    disten_distribu(land_in)=0;
+    
+    
     figure
         imagesc([x(1),x(end)],[y(1),y(end)],transpose(T(:,:)));colorbar;hold on;
         scatter(x_port,y_port,100);hold on;
-        scatter(xp,yp,100);hold on;
+%         scatter(xp,yp,100);hold on;
+        set(gca,'YDir','normal')
+   figure
+        imagesc([x(1),x(end)],[y(1),y(end)],transpose(disten_distribu(:,:)));colorbar;hold on;
+        scatter(x_port,y_port,100);hold on;
+        title('dis')
+        set(gca,'YDir','normal')     
+   
+    
+    figure
+        imagesc([x(1),x(end)],[y(1),y(end)],transpose(den_distribu(:,:)));colorbar;hold on;
+        scatter(x_port,y_port,100);hold on;
+        title('den')
         set(gca,'YDir','normal')
     
 end
 function fishhere=findfish(Lon,Lat,T,T_cen,T_dis)
     
     peterhead=[-1.785429,57.499584];%biggist
-    scraber=[-3.544892;58.608053] ;
+    scraber=[-3.544892;58.608053] ;peterhead=scraber;
 %     x_port=dLon_to_km(peterhead(1),-12.5,peterhead(2))
 %     y_port=abs(peterhead(2)-65.5)/180*pi*6371
 %     
