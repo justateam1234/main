@@ -192,7 +192,7 @@ $n$      & The number  of  crews in ferries \\
 \section{Analysis and Modeling}
  \section{The fish accumutation model}
  \subsection{basic idea}
-    Below, we are going to find the trend of the yearly change and demonstrate a monthly correct and a reference expression of the spatial distribution to reach the prediction of the temperature after years, then find the relationship between temperature and the density of fishes, and finally obtain the change of fish accumulation area over time. 
+    Below, we are going to find the trend of the yearly change and demonstrate a monthly correct and a reference expression of the spatial distribution to reach the prediction of the temperature after years, then find the relationship between temperature and the density of fishes, and finally obtain the change of fish gathering area over time. 
  \subsection{The varying temperature model}
  
   
@@ -281,7 +281,7 @@ $n$      & The number  of  crews in ferries \\
  \subsection{The fish-temperature model}
   As we known, fish need the proper habitat to service, and temperature play an important role in multiply of fish, such as the mackerel population is found further upstream in warmer waters as the current cools through winter\cite{jansen2012migration}. In our previous predictions, the increase of  SST because global warming is obvious, so we take fisheries data  from The International Council for the Exploration of the Sea(ICES) and make a comparison. 
 
- \begin{figure}[tbp]
+ \begin{figure}[htbp]
  \centering{
 \includegraphics[width = .8\textwidth]{picture/fish-temp.jpg}}
 \caption{Comparison graph}\label{figure1}
@@ -305,26 +305,26 @@ $n$      & The number  of  crews in ferries \\
 
   So it's highly correlative. Then we use them to fitting the Gaussian distribution, and get the desired relationship between temperature and fish density.
 
- \begin{figure}[h]
+ \begin{figure}[htbp]
    \centering{
    \includegraphics[width = .8\textwidth]{picture/fish-temp_fitting.jpg}}
    \caption{Fitting result}\label{figure1}
  \end{figure}
 
 \subsection{The prediction of fish accumutation distribution}
-  We have obtained the relationship between fish density and temperature as well as the basic model to caculate the temperature distribution in the future. The following figure are going to reveal the sea surface temperature distribution and fish accumulation area in the current and after 10,25,50 years. 
+  We have obtained the relationship between fish density and temperature as well as the basic model to caculate the temperature distribution in the future. The following figure are going to reveal the sea surface temperature distribution and gathering area in the current and after 10,25,50 years. In the accumutation model, the spatial density distribution has the same form as the temperature distribution which will be converte into profit distribution in next section. Here we are going to show the yearly change of the gathering area. Since the central value of the temperature-density's normal distribution are almost identical for both fish, we demonstrate the yearly change by marking the locations where the value of fish density is within the half-width of that normal distribution. To offer a prediction of the moving path, we find the locations where the density reaches the maximum in different years. 
 
   \begin{figure}[htbp]
     \centering
 
-    \subfigure[fish accumulation areas after 0 years]{
+    \subfigure[fish gathering area after 0 years]{
     \begin{minipage}[t]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after0years.eps}
     %\caption{fig1}
     \end{minipage}%
     }%
-    \subfigure[fish accumulation areas after 10 years]{
+    \subfigure[fish gathering areas after 10 years]{
     \begin{minipage}[t]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after10years.eps}
@@ -332,14 +332,14 @@ $n$      & The number  of  crews in ferries \\
     \end{minipage}%
     }%
     \quad
-    \subfigure[fish accumulation areas after 25 years]{
+    \subfigure[fish gathering areas after 25 years]{
     \begin{minipage}[t]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after25years.eps}
     %\caption{fig1}
     \end{minipage}%
     }%
-    \subfigure[fish accumulation areas after 50 years]{
+    \subfigure[fish gathering areas after 50 years]{
     \begin{minipage}[t]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after50years.eps}
@@ -347,6 +347,12 @@ $n$      & The number  of  crews in ferries \\
     \end{minipage}%
     }
     \centering
+  \end{figure}
+
+  \begin{figure}[htbp]
+    \centering{
+    \includegraphics[width=0.9\textwidth]{image/fishpath.eps}}
+    \caption{the moving path for the max density location}\label{figure1}
   \end{figure}
  
 \section{The Demand Distribution Model}

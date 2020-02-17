@@ -5,8 +5,8 @@ tempe=mean(tempe,3);
 x=Lon;y=Lat;
 T_cen=9.8;
 T_dis=0.3;
-predicfish_dis(Lon,Lat,time,tempe,T_cen,T_dis)
-% fish_move_path(Lon,Lat,time,tempe,T_cen,T_dis)
+% predicfish_dis(Lon,Lat,time,tempe,T_cen,T_dis)
+fish_move_path(Lon,Lat,time,tempe,T_cen,T_dis)
 function predicfish_dis(Lon,Lat,time,tempe_start,T_cen,T_dis)
 
     Y_after_list=[0,10,25,50];
