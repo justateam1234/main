@@ -5,8 +5,8 @@ T=mean(T,3);
 
 
 % findfish(Lon,Lat,T,10,0.1);
-over_time(Lon,Lat,T,'qua');
-% plot_profit_distri(Lon,Lat,T)
+% over_time(Lon,Lat,T,'qua');
+plot_profit_distri(Lon,Lat,T)
 
 
 % dTlist=[];
@@ -55,13 +55,13 @@ figure
     end
     xlabel('distance/km');ylabel('net profit/pound');
     LL=legend('after 0 years','after 10 years','after 25 years','after 50 years',...
-        'Location','southeast');
-    set(LL,'Fontsize',10);
+        'Location','southwest');set(LL,'Fontsize',15);
+    
     set(gcf,'Units','Inches');
         pos = get(gcf,'Position');
         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
-        saveas(gcf,['D:\model\code_co\main\code\tex\image\distance_pro_',...
-            modeltype,'.eps'],'psc2')
+%         saveas(gcf,['D:\model\code_co\main\code\tex\image\distance_pro_',...
+%             modeltype,'.eps'],'psc2')
 end
 function [distance_value,dis_max_netpro]=earn(Lon,Lat,T,Y_after,model_type)
     x=linspace(0,dLon_to_km(Lon(1),Lon(end),mean(Lat)),length(Lon));
@@ -154,7 +154,7 @@ function [distance_value,dis_max_netpro]=earn(Lon,Lat,T,Y_after,model_type)
 %         
 %         scatter(xx(land_in),yy(land_in),300,'s','MarkerEdgeColor',[.8 .8 .8],...
 %               'MarkerFaceColor',[.8 .8 .8]);hold on;
-%         LL=legend('port','land','Location','southeast');set(LL,'Fontsize',10);
+%         LL=legend('harbor','land','Location','southeast');set(LL,'Fontsize',20);
 % %         title(num2str(Y_after))
 %        
 %         xlabel('distance/km');ylabel('distance/km');

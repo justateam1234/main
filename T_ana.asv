@@ -95,8 +95,7 @@ function spatial_fit()
     r=double(r);
     class(tempe_ava)
 %     fun=@(pa,r)pa(1)*(r(:,1)-pa(2))+pa(3)*(r(:,2)-pa(4))+pa(5);
-    T_mean=mean(tempe_to_fit);
-    fun=@(pa,r)pa(1)*sqrt( (r(:,1)-pa(2)).^2+(r(:,2)-pa(3)).^2 ) +T_mean+pa(4);
+    fun=@(pa,r)pa(1)*sqrt( (r(:,1)-pa(2)).^2+(r(:,2)-pa(3)).^2 ) +pa(4);
     pa=lsqcurvefit(fun,pa0,r,tempe_to_fit)
    
     tempe_fit_1=fun(pa,r);
@@ -113,28 +112,29 @@ function spatial_fit()
     err(land_in)=0;
     
     
-%     figure
-%         imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(tempe_fit));colorbar;hold on;
-%         scatter(xx(land_in),yy(land_in),300,'s','MarkerEdgeColor',[.8 .8 .8],...
-%                   'MarkerFaceColor',[.8 .8 .8]);hold on;
-%         set(gca,'YDir','normal') 
-%         set(gcf,'Units','Inches');
-%         pos = get(gcf,'Position');
-%         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);  
-% %     saveas(gcf,'D:\model\code_co\main\code\tex\image\spatial_distribu_fit.eps','psc2')
-%     
-%     
-%     figure
-%         imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(err));colorbar;hold on;
-%         scatter(xx(land_in),yy(land_in),300,'s','MarkerEdgeColor',[.8 .8 .8],...
-%                   'MarkerFaceColor',[.8 .8 .8]);hold on;
-%      
-%         set(gca,'YDir','normal') 
-%         set(gcf,'Units','Inches');
-%         pos = get(gcf,'Position');
-%         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);  
-% %     saveas(gcf,'D:\model\code_co\main\code\tex\image\spatial_distribu_fit_err.eps','psc2')
-%     
+    figure
+        imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(tempe_fit));colorbar;hold on;
+        scatter(xx(land_in),yy(land_in),300,'s','MarkerEdgeColor',[.8 .8 .8],...
+                  'MarkerFaceColor',[.8 .8 .8]);hold on;
+        set(gca,'YDir','normal') 
+        set(gcf,'Units','Inches');
+        pos = get(gcf,'Position');
+        set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);  
+    saveas(gcf,['D:\model\code_co\main\code\tex\image\.eps'],'psc2')
+    
+    
+    figure
+        imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(err));colorbar;hold on;
+        scatter(xx(land_in),yy(land_in),300,'s','MarkerEdgeColor',[.8 .8 .8],...
+                  'MarkerFaceColor',[.8 .8 .8]);hold on;
+     
+        set(gca,'YDir','normal') 
+        set(gcf,'Units','Inches');
+        pos = get(gcf,'Position');
+        set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);  
+    saveas(gcf,['D:\model\code_co\main\code\tex\image\fish_max_point_after'...
+        num2str(Y_after),'years.eps'],'psc2')
+    
 end
 
 
