@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 10:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -821,21 +821,6 @@ LaTeX Warning: Label `3' multiply defined.
 
 LaTeX Warning: Label `4' multiply defined.
 
-
-LaTeX Warning: Label `5' multiply defined.
-
-
-LaTeX Warning: Label `6' multiply defined.
-
-
-LaTeX Warning: Label `7' multiply defined.
-
-
-LaTeX Warning: Label `8' multiply defined.
-
-
-LaTeX Warning: Label `10' multiply defined.
-
 )
 \openout1 = `Main.aux'.
 
@@ -1099,19 +1084,19 @@ Underfull \hbox (badness 2181) in paragraph at lines 493--493
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[9 <./picture/figure4.jpeg>] [10] [11] [12] [13] [14] (./Main.bbl) [15]
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+[9 <./picture/figure4.jpeg>] [10] [11] [12] [13] (./Main.bbl [14])
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
 
  []
 
 
 AED: lastpage setting LastPage
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 683.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 683.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 639.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 639.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 683.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 683.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 639.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 639.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 221E8B00459F475C22D8762439916B43;1611.
 
@@ -1120,10 +1105,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21768 strings out of 492616
- 366501 string characters out of 6129482
- 808335 words of memory out of 5000000
- 25258 multiletter control sequences out of 15000+600000
+ 21750 strings out of 492616
+ 366328 string characters out of 6129482
+ 806403 words of memory out of 5000000
+ 25252 multiletter control sequences out of 15000+600000
  569703 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,12n,92p,886b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1141,10 +1126,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on Main.pdf (18 pages, 3629925 bytes).
+Output written on Main.pdf (17 pages, 3627031 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
