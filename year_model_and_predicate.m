@@ -50,19 +50,19 @@ function [dT,err]=year_ava(t,tempe_point,Y_after)
     
     err=sqrt(mean((tempe_fit-tempe_point).^2));
      
-    figure
-        plot(t,tempe_point,'-o');hold on;
-        plot(t_pre,tempe_pre);hold on;
-        grid on;
-        xlabel('time/year');ylabel('temperature/degree');        
-        LL=legend('original data','fitdata','Location','southeast');set(LL,'Fontsize',15);    
-        set(gcf,'Units','Inches');
-        
-        set(gcf,'position',[0,0,10,5]);
-        
-        pos = get(gcf,'Position');        
-        set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
-%         saveas(gcf,['D:\model\code_co\main\code\tex\image\predic_qua.eps'],'psc2')
+%     figure
+%         plot(t,tempe_point,'-o');hold on;
+%         plot(t_pre,tempe_pre);hold on;
+%         grid on;
+%         xlabel('time/year');ylabel('temperature/degree');        
+%         LL=legend('original data','fitdata','Location','southeast');set(LL,'Fontsize',15);    
+%         set(gcf,'Units','Inches');
+%         
+%         set(gcf,'position',[0,0,10,5]);
+%         
+%         pos = get(gcf,'Position');        
+%         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+% %         saveas(gcf,['D:\model\code_co\main\code\tex\image\predic_qua.eps'],'psc2')
 
     T_after=tempe_pre(end);
     [~,start_in]=min(abs(t-1995));%data from 1995 

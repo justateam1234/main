@@ -1,12 +1,12 @@
-clear
+% clear
 %lat:1deg~=111km;lat:
 [Lon,Lat,time,T]=read();
 T=mean(T,3);
 
 
 % findfish(Lon,Lat,T,10,0.1);
-% over_time(Lon,Lat,T,'qua');
-plot_profit_distri(Lon,Lat,T)
+[t1,p1]=over_time(Lon,Lat,T,'');
+% plot_profit_distri(Lon,Lat,T)
 
 
 % dTlist=[];
@@ -15,7 +15,7 @@ plot_profit_distri(Lon,Lat,T)
 %     dTlist=[dTlist,dT];
 % end
 % dTlist
-function plot_profit_distri(Lon,Lat,T)
+function plot_profit_distri(Lon,Lat,T)%plot the distribution of net profit
     Y_after_list=[0,10,25,50];
     for a=1:length(Y_after_list)
         Y_after=Y_after_list(a);
@@ -23,28 +23,39 @@ function plot_profit_distri(Lon,Lat,T)
         [dis,pro]=earn(Lon,Lat,T+dT,Y_after,'qua');
     end
 end
-function over_time(Lon,Lat,T,modeltype)
+function [time,pro]=over_time(Lon,Lat,T,modeltype)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 a=load('D:\model\A_data\dTlist_quadratic_model.mat');
 dTlist=a.dTlist;dTlist(1)=[];
-thr=100;
+thr=100;%%%%%%%%%%%%%%%%%%%%%%%%%%%%ship range
+
+
 pro=zeros(size(dTlist));
 time=1:50;
-for in=1:length(dTlist)
+for in=1:length(dTlist)    
+    [dis,pro_now]=earn(Lon,Lat,T+dTlist(in),time(in),'with_ice');
+    [~,dis_in]=(min(abs(dis-thr)))
     
-    [dis,pro_now]=earn(Lon,Lat,T+dTlist(in),time(in),'qua');
-    dis_in=find(min(abs(dis-thr)));
-    pro(in)=pro_now(dis_in);
+    dis(dis_in)
+    pro(in)=max(pro_now(1:dis_in)); 
+
 end
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%eleps time
 pro_in=find(pro<=0);
+Y_after_list=[0,10,25,50];
+
 figure
-    plot(time,pro);hold on;
-    scatter(time(pro_in(1)),pro(pro_in(1)),100,'filled');
+    plot(time,pro);hold on;   
+    scatter(time(pro_in(1)),pro(pro_in(1)),100,'filled');    
     xlabel('time/year');ylabel('net profit/pound');
     grid on;
-
-Y_after_list=[0,10,25,50];
+    set(gcf,'Units','Inches');
+    pos = get(gcf,'Position');
+    set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+%         saveas(gcf,['D:\model\code_co\main\code\tex\picture\maxprofit_year_relation_',...
+%             modeltype,'.eps'],'psc2')
+return
 figure
     for a=1:length(Y_after_list)
         Y_after=Y_after_list(a);
@@ -60,7 +71,7 @@ figure
     set(gcf,'Units','Inches');
         pos = get(gcf,'Position');
         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
-%         saveas(gcf,['D:\model\code_co\main\code\tex\image\distance_pro_',...
+%         saveas(gcf,['D:\model\code_co\main\code\tex\picture\distance_pro__relation_',...
 %             modeltype,'.eps'],'psc2')
 end
 function [distance_value,dis_max_netpro]=earn(Lon,Lat,T,Y_after,model_type)
@@ -69,20 +80,26 @@ function [distance_value,dis_max_netpro]=earn(Lon,Lat,T,Y_after,model_type)
     [xx,yy]=meshgrid(x,y);
     xx=transpose(xx);
     yy=transpose(yy);
-    peterhead=[-1.785429,57.499584];%biggist%%%%%%%%%%%%%%%%change port
+    %biggist%%%%%%%%%%%%%%%%change port
    
-    scraber=[-3.544892;58.608053] ;peterhead=scraber;
+    scraber=[-3.544892;58.608053] ;
+    changeport=[10.6,59.9];
+    peterhead=scraber;
     x_port=(peterhead(1)-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1));
     y_port=(peterhead(2)-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end));
 %     xp=(Lonp-Lon(1))./(Lon(end)-Lon(1))*(x(end)-x(1));
 %     yp=(Latp-Lat(end))./(Lat(1)-Lat(end))*(y(1)-y(end));
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%constant set
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     pa_herr=[3.734*1e4,9.853,1.511];%herringöîÓã
     pa_hack=[3.766*1e4,10,1.64];%mackerelöëÓã
+    
+    distent_cost=392.1  *2/54;
+    pa_profit=846;
     stable_cost=35000;
-    distent_cost=1000*2/54;
     fish_prize=[463,880.8,(463+880.8)/2];
     pa(1,:)=pa_herr;pa(2,:)=pa_hack;
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%constant set
     den=@(pa,T)pa(1)*exp(-  ((T-pa(2))/pa(3)).^2);
     disten=@(X,Y)sqrt((X-x_port).^2+(Y-y_port).^2);
@@ -107,8 +124,8 @@ function [distance_value,dis_max_netpro]=earn(Lon,Lat,T,Y_after,model_type)
     
     c1=density_distribu1./(density_distribu1+density_distribu2);
     c2=density_distribu2./(density_distribu1+density_distribu2);%note that c is matrix!!!
-    profit_distribu=c1.*(fish_prize(1)).*density_distribu1/density_max1*130+...
-    c2.*(fish_prize(2)).*density_distribu2/density_max2*130;
+    profit_distribu=c1.*(fish_prize(1)).*density_distribu1/density_max1*pa_profit*0.1+...
+    c2.*(fish_prize(2)).*density_distribu2/density_max2*pa_profit*0.1;
 %     profit_distribu=(fish_prize(fishtype))*density_distribu/density_max*180;
     net_profit_distribu=profit_distribu-cost_distribu-stable_cost;
 %     net_profit_distribu(land_in)=-1*min(min(net_profit_distribu))...
