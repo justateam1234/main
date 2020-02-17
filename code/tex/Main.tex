@@ -1,6 +1,6 @@
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = FALSE,   % 使用 CTeX 套装时，设置为 true
-        tcn = 1900000, problem = A,
+        tcn = {\color{red}2017334}, problem = A,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = false, abstract = true}
 \usepackage{palatino}
@@ -162,6 +162,7 @@ $c_o$      &access fishing fee\\
 $T_1$     & The time spent in fishing of a Scottish vessel      \\
 $T_2$       & Fish preservation time at ambient temperature        \\
 $T_3$     & The time spent in fishing of a Scottish vessel      \\
+$T_{annual}$     & The annual avarage temperature      \\
 $S$      & The distance sailed of a Scottish vessel  in the waters of another country  \\
 $S_m$      & The maximum distance sailed of a large Scottish vessel that small fishing companies continue to operate out of their current  location \\
 $S_o$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country \\
@@ -185,7 +186,7 @@ $n$      & The number  of  crews in ferries \\
 
  \section{The fish accumutation model}
  \subsection{basic idea}
-    Below, we are going to find the trend of the yearly change and demonstrate a monthly correct and a reference expression of the spatial distribution to reach the prediction of the temperature after years, then find the relationship between temperature and the density of fishes, and finally obtain the change of fish accumulation area over time. 
+   Below, we are going to find the trend of the yearly change and demonstrate a monthly correct and a reference expression of the spatial distribution to reach the prediction of the temperature after years, then find the relationship between temperature and the density of fishes, and finally obtain the change of fish gathering area over time. 
  \subsection{The varying temperature model}
  
   
@@ -196,6 +197,16 @@ $n$      & The number  of  crews in ferries \\
 
   \subsubsection{The yearly change prediction model}
     From the Long's previous work\cite{long2014fast},we know that the major factor of the yearly SST change is related to the concentration of carbon dioxide, which affact SST's retard growth model. By analyzing the yearly avarage SST of the entired area, we found an obviously increasing trend especially after 1980s. However, that model is more precise on a time scale of hundreds of years, and we found a quadratic model is more accurate to predicte the temperature on a time scale over years, fitting the rising segment of the logistic curve, especially with the concider that the concentration of carbon dioxide are only dramatic growth in recent decades and affect the retard growth model. 
+   
+    The quadratic predicted function is:
+    \begin{equation}
+        8.526*10^{-5}*(t-1840)^2-1.327*10^{-2}*(t-1840)+1.017*10^1
+    \end{equation}
+    
+    The logistic predicted function is:
+    \begin{equation}
+      \frac{15.00}{1+(\frac{15.00}{8.615}-1)e^{-0.0026*(t-1822)}}
+    \end{equation}
 
     \begin{figure}[htbp]
       \centering{
@@ -750,21 +761,34 @@ For example, we use the vessels with freezers model and change the distance limi
   \subfigure[can't go into other territorial sea]{
   \begin{minipage}[t]{0.48\linewidth}
   \centering
-  \includegraphics[width=3in]{image/distance_pro_qua.eps}
+  \includegraphics[width=3in]{picture/maxprofit_year_relation_ice_372.eps}
   %\caption{fig1}
   \end{minipage}%
   }%
   \subfigure[pay fee]{
   \begin{minipage}[t]{0.48\linewidth}
   \centering
-  \includegraphics[width=3in]{image/ele_time_qua.eps}
+  \includegraphics[width=3in]{picture/maxprofit_year_relation_change_port_2.eps}
   %\caption{fig2}
   \end{minipage}%
-  }
+  }%
   \centering
   \caption{profit graph}
 \end{figure}
 
+\section{Sensitivity Analysis}
+\subsection{}
+
+
+VRP \cite{Dikas2016Solving,He2015Model} generally 
+
+time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
+
+
+
+as is shown in Figure ~\ref{figure1}.
+
+ (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
 
 \section{Weaknesses and future improvements}
 
