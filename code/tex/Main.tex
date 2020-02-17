@@ -162,15 +162,21 @@ $A_2$       & Total salary of a crew member                                     
 $A_3$      & Total fuel cost of a Scottish vessel                                        \\
 $A$      & total cost of a Scottish vessel                                        \\
 $A_e$      &Extra cost for one voyage.  \\
+$A_o$      &The total cost of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country\\
+$A_i$      &The total cost of a Scottish vessel   if  some proportion of fishery does not move into the territorial waters of another country \\
 $c_1$     & The purchase cost of a Scottish vessel per hour
                                                         \\
 $c_2$       & The salary of a crew member per hour                                                     \\
 $c_3$      & Unit fixed cost of the ship  \\
+$c_o$      &access fishing fee\\
 $T_1$     & The time spent in fishing of a Scottish vessel   
                                                         \\
 $T_2$       & Fish preservation time at ambient temperature        \\
 
 $S$      & The distance sailed of a Scottish vessel   \\
+$S_m$      & The maximum distance sailed of a large Scottish vessel that small fishing companies continue to operate out of their current  location \\
+$S_o$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country \\
+$S_i$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery does not move  into the territorial waters of another country \\
 $a$      & Fish density ratio \\
 $a_o$      & Oil density \\
 $r_o$      & Fuel consumption ratio \\
@@ -415,7 +421,7 @@ Since no refrigerant fishing, in order to ensure fresh fish, the return time of 
 \subsection{the spatial profit distribution model}
   We have obtained the predicted fish density distribution in last section, and after the work above we can calculate the net profit by the sailing cost, the gross profit from fishing, and a constant cost appears on every voyage.
   
-It can be seen from the figure(a) and (b) that there is no obvious change in the income of fishing in 10 years, which is because the slow increase of sea temperature has a time lag to the migration of fish. After 25 years (c), the largest income gradually migrates northward. Fifty years later, the school of fish is obviously moving north. At this time, the port is far from the school of fish, and the fishing cost will increase significantly (d)
+Ignoring national territorial limits, it can be seen from the figure(a) and (b) that there is no obvious change in the income of fishing in 10 years, which is because the slow increase of sea temperature has a time lag to the migration of fish. After 25 years (c), the largest income gradually migrates northward. Fifty years later, the school of fish is obviously moving north. At this time, the port is far from the school of fish, and the fishing cost will increase significantly (d)
 
 Due to the limitation of fish preservation time,  Scotland small company can make a large profit offshore. From the comparison about the offshore distance and income (e), it can be concluded that when the distance is less than 200 kilometers, the company's profit is positively related to the density of the local fish school. There are obvious differences in various years, because the fish school moves northward with the change in temperature. As can be seen from the figure (f) that after about 40 years, the net profit will drop to 0. Therefore, these small companies should take measures in advance to deal with changes in fish stocks.
 
@@ -493,7 +499,7 @@ v=1.84\times \ (\frac{P_0}{V}) ^{0.237} \times \sqrt{l}
 \begin{figure}[tbp]
   \centering{
   \includegraphics[width=1\textwidth]{./picture/figure4.jpeg}}
-  \caption{The model of a ship}\label{figure1}
+  \caption{The relationship between length and power and the relationship between length and quality }\label{figure1}
 \end{figure}
 
 \begin{equation}
@@ -564,6 +570,31 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 \end{equation}
 
 
+
+\section{The forth question}
+It is assumed that the maritime division of the British Overseas Territories uses an equal distance method. As the waters of Scotland and Norway meet for 700 kilometers, it can be estimated that the range of Scottish fishing boats is within 350 kilometers.
+
+\begin{equation}
+\left\{
+\begin{array}{lr}
+A_i=A \times T_1 &\\
+S_i<= 350 \\
+\end{array}
+\right.
+\end{equation}
+
+
+
+Assume that Norway ’s entry fee for foreign fishing vessels is the same as that of the member states of the Nauru agreement, which is about 10,000 US dollars per day, which is 320 pounds per hour per boat. At the same time, due to Norwegian fishery restrictions, foreign fishing vessels can only work in 12-200 nautical miles. Scottish fishing boats have a range of 720 kilometers.
+
+\begin{equation}
+\left\{
+\begin{array}{lr}
+A_o=A+c_o \times T_1 &\\
+S_o<= 720 \\
+\end{array}
+\right.
+\end{equation}
 
 \section{The Comprehensive Evacuation Planning Model}
 \subsection{Model Preparation}
