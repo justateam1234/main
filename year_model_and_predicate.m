@@ -36,8 +36,8 @@ function [dT,err]=year_ava(t,tempe_point,Y_after)
 %     fun=@(pa,t)pa(1)*sin( pa(2)*(t-pa(3)) +pa(4) )+pa(5)*(t-pa(3))+pa(6);pa0=[1,5e-1,1840,1,0.01,10];
 %     pa=lsqcurvefit(fun,pa0,t,tempe_point)
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%logis model   
-%     fun=@(pa,t)pa(1)./(1+(pa(1)/pa(2)-1)*exp(-pa(3)*(t-pa(4))));pa0=[10,tempe_point(1),0.01,1840];
-%     pa=lsqcurvefit(fun,pa0,t,tempe_point,[],[15,15,1,2000])
+%     fun=@(pa,t)pa(1)./(1+(pa(1)/pa(2)-1)*exp(-pa(3)*(t-pa(4))));pa0=[10,min(tempe_point),0.01,1840];
+%     pa=lsqcurvefit(fun,pa0,t(75:end),tempe_point(75:end),[],[15,15,1,2000])
 %%%%%%%%%%%%%%%%%%%%%%%quadratic model
     fun=@(pa,t)pa(1)*t.^2+pa(2)*t+pa(3);pa0=[0.0001,1,0.9];
     pa=lsqcurvefit(fun,pa0,t,tempe_point);
@@ -50,14 +50,20 @@ function [dT,err]=year_ava(t,tempe_point,Y_after)
     
     err=sqrt(mean((tempe_fit-tempe_point).^2));
      
-%     figure
-%         plot(t,tempe_point,'-o');hold on;
-%         plot(t,tempe_fit);hold on;
-%         plot(t_pre,tempe_pre);hold on;
+    figure
+        plot(t,tempe_point,'-o');hold on;
+        plot(t_pre,tempe_pre);hold on;
+        grid on;
+        xlabel('time/year');ylabel('temperature/degree');        
+        LL=legend('original data','fitdata','Location','southeast');set(LL,'Fontsize',15);    
+        set(gcf,'Units','Inches');
+        
+        set(gcf,'position',[0,0,10,5]);
+        
+        pos = get(gcf,'Position');        
+        set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+%         saveas(gcf,['D:\model\code_co\main\code\tex\image\predic_qua.eps'],'psc2')
 
-%         plot(t_pre,tempe_pre+err);hold on;
-%         plot(t_pre,tempe_pre-err);hold on;
-%         title('year_ava')
     T_after=tempe_pre(end);
     [~,start_in]=min(abs(t-1995));%data from 1995 
     T_now=tempe_point(start_in);

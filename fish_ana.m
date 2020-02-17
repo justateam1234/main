@@ -5,16 +5,16 @@ tempe=mean(tempe,3);
 x=Lon;y=Lat;
 T_cen=9.8;
 T_dis=0.3;
-% predicfish_dis(Lon,Lat,time,tempe,T_cen,T_dis)
-fish_move_path(Lon,Lat,time,tempe,T_cen,T_dis)
+predicfish_dis(Lon,Lat,time,tempe,T_cen,T_dis)
+% fish_move_path(Lon,Lat,time,tempe,T_cen,T_dis)
 function predicfish_dis(Lon,Lat,time,tempe_start,T_cen,T_dis)
 
     Y_after_list=[0,10,25,50];
     for a=1:length(Y_after_list)
         Y_after=Y_after_list(a);
         [dT,err]=year_model_and_predicate(Y_after);
-        findfish_max(Lon,Lat,tempe_start+dT,T_cen,T_dis,Y_after);
-%         findfish_area(Lon,Lat,tempe+dT,T_cen,T_dis,Y_after);
+%         findfish_max(Lon,Lat,tempe_start+dT,T_cen,T_dis,Y_after);
+        findfish_area(Lon,Lat,tempe_start+dT,T_cen,T_dis,Y_after);
     end
 end
 
@@ -72,26 +72,28 @@ function fishhere=findfish_area(Lon,Lat,T,T_cen,T_dis,Y_after)
     yy=transpose(yy);
     size(xx);
     size(T);
-   
+    land_in=find(T<2.5);
     fish_in=find(abs(T-T_cen)<=T_dis);
- figure
-%     imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(T(:,:)));colorbar;hold on;
-    imagesc([x(1),x(end)],[y(1),y(end)],transpose(T(:,:)));colorbar;hold on;
-    scatter(x_port,y_port,100,'b','filled');hold on;
-%     scatter(500,400,100);hold on;
-    scatter(xx(fish_in),yy(fish_in),'r','filled');
-    set(gca,'YDir','normal')
-    xlabel('Lon/бу');ylabel('Lat/бу')
-%     title('fish')
-    
-    LL=legend('harber','fish accumulation area','Location','southeast')
-    set(LL,'Fontsize',15);
-    
-    set(gcf,'Units','Inches');
-    pos = get(gcf,'Position');
-    set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
-%     saveas(gcf,['D:\model\code_co\main\code\tex\image\fish_area_after'...
-%         num2str(Y_after),'years.eps'],'psc2')
+%  figure
+% %     imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(T(:,:)));colorbar;hold on;
+%     imagesc([x(1),x(end)],[y(1),y(end)],transpose(T(:,:)));colorbar;hold on;
+%     scatter(x_port,y_port,100,'b','filled');hold on;
+%     scatter(xx(land_in),yy(land_in),300,'s','MarkerEdgeColor',[.8 .8 .8],...
+%               'MarkerFaceColor',[.8 .8 .8]);hold on;
+%     scatter(xx(fish_in),yy(fish_in),'r','filled');
+%     
+%     xlabel('Lon/бу');ylabel('Lat/бу')
+% 
+%     
+%     LL=legend('harber','land','fish accumulation area','Location','southeast')
+%     set(LL,'Fontsize',15);
+%     
+%     set(gca,'YDir','normal')
+%     set(gcf,'Units','Inches');
+%     pos = get(gcf,'Position');
+%     set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+% %     saveas(gcf,['D:\model\code_co\main\code\tex\image\fish_area_after'...
+% %         num2str(Y_after),'years.eps'],'psc2') 
     
     fishhere=zeros(size(T));
     fishhere(fish_in)=1;
