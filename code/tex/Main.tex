@@ -319,55 +319,41 @@ $n$      & The number  of  crews in ferries \\
 \subsection{The prediction of fish accumutation distribution}
   We have obtained the relationship between fish density and temperature as well as the basic model to caculate the temperature distribution in the future. The following figure are going to reveal the sea surface temperature distribution and fish accumulation area in the current and after 10,25,50 years. 
 
-\begin{figure}[htbp]
-  \centering
+  \begin{figure}[htbp]
+    \centering
 
-  \subfigure[fish accumulation areas after 0 years]{
-  \begin{minipage}[t]{0.5\linewidth}
-  \centering
-  \includegraphics[width=3in]{image/fish_area_after0years.eps}
-  %\caption{fig1}
-  \end{minipage}%
-  }%
-  \subfigure[fish accumulation areas after 10 years]{
-  \begin{minipage}[t]{0.5\linewidth}
-  \centering
-  \includegraphics[width=3in]{image/fish_area_after10years.eps}
-  %\caption{fig2}
-  \end{minipage}%
-  }%
-  \quad
-  \subfigure[fish accumulation areas after 25 years]{
-  \begin{minipage}[t]{0.5\linewidth}
-  \centering
-  \includegraphics[width=3in]{image/fish_area_after25years.eps}
-  %\caption{fig1}
-  \end{minipage}%
-  }%
-  \subfigure[fish accumulation areas after 50 years]{
-  \begin{minipage}[t]{0.5\linewidth}
-  \centering
-  \includegraphics[width=3in]{image/fish_area_after50years.eps}
-  %\caption{fig2}
-  \end{minipage}%
-  }
-  \centering
-\end{figure}
-
-
-
-\section{The Demand Distribution Model}
-
-\begin{figure}[tbp]
- \centering{
- \includegraphics[width = .8\textwidth]{picture/fish-temp_fitting.jpg}}
-\caption{Fitting result}\label{figure1}
-\end{figure}
-
-
- \subsection{The predicted fish accumutation distribution}
-
-
+    \subfigure[fish accumulation areas after 0 years]{
+    \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=3in]{image/fish_area_after0years.eps}
+    %\caption{fig1}
+    \end{minipage}%
+    }%
+    \subfigure[fish accumulation areas after 10 years]{
+    \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=3in]{image/fish_area_after10years.eps}
+    %\caption{fig2}
+    \end{minipage}%
+    }%
+    \quad
+    \subfigure[fish accumulation areas after 25 years]{
+    \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=3in]{image/fish_area_after25years.eps}
+    %\caption{fig1}
+    \end{minipage}%
+    }%
+    \subfigure[fish accumulation areas after 50 years]{
+    \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=3in]{image/fish_area_after50years.eps}
+    %\caption{fig2}
+    \end{minipage}%
+    }
+    \centering
+  \end{figure}
+ 
 \section{The Demand Distribution Model}
 \subsection{Initial costs and profits}
 \begin{figure}[h]
@@ -527,7 +513,7 @@ Ignoring national territorial limits, it can be seen from the figure(a) and (b) 
 
 Due to the limitation of fish preservation time,  Scotland small company can make a large profit offshore. From the comparison about the offshore distance and income (e), it can be concluded that when the distance is less than 200 kilometers, the company's profit is positively related to the density of the local fish school. There are obvious differences in various years, because the fish school moves northward with the change in temperature. As can be seen from the figure (f) that after about 40 years, the net profit will drop to 0. Therefore, these small companies should take measures in advance to deal with changes in fish stocks.
 
-However, when the distance is more than 200 kilometers, due to the higher inherent cost of navigation, the fishing income will decline rapidly, showing a consistent downward trend among different years. At the same time, the 50-year net profit  curve fluctuated slightly compared to others due to the change in the position of fish density.
+
 
   \begin{figure}[htbp]
     \centering
@@ -564,6 +550,8 @@ However, when the distance is more than 200 kilometers, due to the higher inhere
     }
     \centering
   \end{figure}
+  However, when the distance is more than 200 kilometers, due to the higher inherent cost of navigation, the fishing income will decline rapidly, showing a consistent downward trend among different years. At the same time, the 50-year net profit  curve fluctuated slightly compared to others due to the change in the position of fish density.
+  From section 4 we can find that actually the change of temperature is damping over years, and the standard deviation represent the reasonable correction of our prediction. That is why we use the temperature fluctuates above and below the standerd deviation range to predict the best and the worst cases. In the best cast, the fish company can still profit from fishing after 50years, however, in the worst case, the fishing company can no longer keep profit after 25 years. We should also notice that based on temperature's damping model, the profit-time model is also damping, and if the company has make some preparation for a temporary loss, 45 years is the most valuable predictions.
 
   \begin{figure}[htbp]
     \centering
@@ -580,12 +568,32 @@ However, when the distance is more than 200 kilometers, due to the higher inhere
     \includegraphics[width=3in]{image/ele_time_qua.eps}
     %\caption{fig2}
     \end{minipage}%
-    }
-    
+    } 
+  %   \centering
+  %   \caption{}
+  % \end{figure}
+ 
+  
+  % \begin{figure}[htbp]
+  %   \centering
+    \subfigure[the elapsed time for the best case]{
+    \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=3in]{image/eleptime_bestcase.eps}
+    %\caption{fig1}
+    \end{minipage}%
+    }%
+    \subfigure[the elapsed time for the worst case]{
+    \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=3in]{image/eleptime_worstcase.eps}
+    %\caption{fig2}
+    \end{minipage}%
+    } 
     \centering
     \caption{}
   \end{figure}
-  
+ 
 \section{The third question}
 \subsection{Costs and profits after port relocation}
 
