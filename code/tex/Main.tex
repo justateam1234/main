@@ -89,9 +89,9 @@ It has been suggested that observed spatial variation in mackerel fisheries, ext
 In recent years, with the global ocean temperature rising,  the distribution of these populations has changed dramatically. However, the geographic population shift may seriously affect the disrupt the livelihood of the smaller Scottish Fisheries companies who depend on these ocean-dwelling species.
 
 %\begin{figure}[tbp]
-%  \centering{
-%  \includegraphics[width=1\textwidth]{picture/picture/figure3.png}}
-%  \caption{ Percentage change from 2015 to 2016 in the real term price per tonne obtained for key fish species}\label{figure3}
+ %\centering{ 
+ %\includegraphics[width=1\textwidth]{picture/picture/figure3.png}}
+ %\caption{ Percentage change from 2015 to 2016 in the real term price per tonne obtained for key fish species}\label{figure3}
 %\end{figure}
 
 \subsection{Problem Restatement}
@@ -123,7 +123,7 @@ Assumed that the ship travels in a straight line and its sailing route is from t
 \item 
 Supposed that the salaries of crews in Scotland are equal to the average wage of the British people, at 7 pounds per hour.
 \item 
-Supposed that large size ferries in Scotland generally have 20 crew members and small Scottish ships generally have 8 crew members.
+Supposed the number of crew members is related to the length of the Scottish boats, about one person every two meters
 \item 
 Assumed that the maximum catch per vessel of a small Scottish company is 10 percent of its own weight
 \item 
@@ -150,7 +150,8 @@ $d$      & The   waterline length of the Scottish vessels \\
 $l$       & Length between perpendiculars                                                           \\
 $v$      & The average velocity  of the Scottish vessels                                            \\
 $P$      & The average power of the Scottish vessels\\
-$P_0$      & The average power of small Scottish vessels\\                                                      
+$P_0$      & The average power of small Scottish vessels\\    
+                                     
 $V$      & The displacement of the Scottish vessels 
                                                           \\
 $V_o$      & The volume of the fuel consumption
@@ -160,20 +161,24 @@ $A_1$     & Total purchase cost of a Scottish vessel
 $A_2$       & Total salary of a crew member                                                           \\
 $A_3$      & Total fuel cost of a Scottish vessel                                        \\
 $A$      & total cost of a Scottish vessel                                        \\
-$A$      & total cost of a Scottish vessel                                        \\
 $A_e$      &Extra cost for one voyage.  \\
+$A_o$      &The total cost of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country\\
+$A_i$      &The total cost of a Scottish vessel   if  some proportion of fishery does not move into the territorial waters of another country \\
 $c_1$     & The purchase cost of a Scottish vessel per hour
                                                         \\
 $c_2$       & The salary of a crew member per hour                                                     \\
-$c_3$      & The fuel cost of a Scottish vessel per hour                                       \\
-
+$c_3$      & Unit fixed cost of the ship  \\
+$c_o$      &access fishing fee\\
 $T_1$     & The time spent in fishing of a Scottish vessel   
                                                         \\
 $T_2$       & Fish preservation time at ambient temperature        \\
 
 $S$      & The distance sailed of a Scottish vessel   \\
+$S_m$      & The maximum distance sailed of a large Scottish vessel that small fishing companies continue to operate out of their current  location \\
+$S_o$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country \\
+$S_i$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery does not move  into the territorial waters of another country \\
 $a$      & Fish density ratio \\
-$k$      & Unit fixed cost of the ship  \\
+$a_o$      & Oil density \\
 $r_o$      & Fuel consumption ratio \\
 $E$      & The earnings  of herrings and mackerels \\
 $E_0$      & The small Scottish vessel's earnings  of herrings and mackerels \\
@@ -181,17 +186,15 @@ $E_1$      & The earnings  of herrings\\
 $E_2$      & The earnings  of mackerels\\
 $p_1$      & The price  of herrings \\
 $p_2$      & The price  of mackerels  \\
-$n_1$      & The number  of  crew in large size ferries \\
-$n_2$      & The number  of  crew in small size ferries  \\
-
-
-
+$p_o$      & The price  of oil  \\
+$n$      & The number  of  crews in ferries \\
 
 
 
  \end{longtable}
  \end{center}
-
+ 
+\section{Analysis and Modeling}
  \section{The fish accumutation model}
  \subsection{basic idea}
     Below, we are going to find the trend of the yearly change and demonstrate a monthly correct and a reference expression of the spatial distribution to reach the prediction of the temperature after years, then find the relationship between temperature and the density of fishes, and finally obtain the change of fish accumulation area over time. 
@@ -284,9 +287,9 @@ $n_2$      & The number  of  crew in small size ferries  \\
   As we known, fish need the proper habitat to service, and temperature play an important role in multiply of fish, such as the mackerel population is found further upstream in warmer waters as the current cools through winter\cite{jansen2012migration}. In our previous predictions, the increase of  SST because global warming is obvious, so we take fisheries data  from The International Council for the Exploration of the Sea(ICES) and make a comparison. 
 
  \begin{figure}[tbp]
-   \centering{
-   \includegraphics[width = .8\textwidth]{picture/fish-temp.jpg}}
-   \caption{Comparison graph}\label{figure1}
+ \centering{
+\includegraphics[width = .8\textwidth]{picture/fish-temp.jpg}}
+\caption{Comparison graph}\label{figure1}
  \end{figure}
 
   According to the graph, we can tell that besides fisheries productivity growth and some statistical gaps, the density of fish is particularly relevant to SST. So we use Pearson correlation coefficient to correlation analysis. 
@@ -355,6 +358,19 @@ $n_2$      & The number  of  crew in small size ferries  \\
 
 \section{The Demand Distribution Model}
 \begin{figure}[htbp]
+\begin{figure}[tbp]
+ \centering{
+ \includegraphics[width = .8\textwidth]{picture/fish-temp_fitting.jpg}}
+\caption{Fitting result}\label{figure1}
+\end{figure}
+
+
+ \subsection{The predicted fish accumutation distribution}
+
+
+\section{The Demand Distribution Model}
+\subsection{Initial costs and profits}
+\begin{figure}[h]
   \centering{
   \includegraphics[width=0.6\textwidth]{./picture/figure1.jpeg}}
   \caption{English Harbor Division}\label{figure1}
@@ -375,7 +391,7 @@ Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
 \end{tabular}
 \end{table}
 
-As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a rectangular parallelepiped, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
+As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a cuboid, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
 
 
 From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt and. the average tonnage is about 1300 tonnes. The speed and flight time are calculated from the speed-related formula.
@@ -417,7 +433,11 @@ Average engine power (kW)&57&127&190&325&641&4327\\
 \end{tabular}
 \end{table}
 
-
+\begin{figure}[tbp]
+  \centering{
+  \includegraphics[width=1\textwidth]{./picture/figure2.jpeg}}
+  \caption{The model of a ship}\label{figure1}
+\end{figure}
 
 \begin{equation}
 \left\{
@@ -440,12 +460,27 @@ A_1=c_1 \times T_1
 \end{equation}
 
 \begin{equation}\label{6}
-A_2=c_2  \times T_1 \times n_1
+A_2=c_2  \times T_1 \times L \times  \frac{1}{2}
 \end{equation}
 
 \begin{equation}\label{7}
-A_3=c_3  \times T_1
+A_3=V_o  \times p_o
 \end{equation}
+
+\begin{equation}
+\left\{
+\begin{array}{lr}
+V_o=r_o \times P \times T_1 \times a_o &\\
+a_o=0.8&\\
+p_o=0.5&\\
+A_3=V_o  \times p_o\\
+\end{array}
+\right.
+\end{equation}
+
+
+
+
 
 \begin{equation}\label{8}
 A=A_1+A_2+A_3+A_e
@@ -456,6 +491,8 @@ Where:
 $A_1$ represents the average working cost per hour of the large Scottish vessel.As a Scottish vessel with a length of 40 meters, the purchase price is approximately 44,000 pounds, the number of days of operation is 180 days per year, and the daily working time is 13 hours.
 
 $A_2$ is the cost that the small company need to pay about 20 crew members during a voyage
+
+$A_3$ is the cost about fuel for one voyage
 
 $A_e$ is a fixed cost of about 20,000 pounds for a small sailing company in Scotland, including depreciation fees for fishing boats, fishing nets, hook fees, port fees, and loss costs during the off-season.
  
@@ -481,33 +518,17 @@ Since no refrigerant fishing, in order to ensure fresh fish, the return time of 
 \frac{T_1}{2}\leq T_2
 \end{equation}
 
-\begin{figure}[tbp]
-  \centering{
-  \includegraphics[width=1\textwidth]{./picture/figure2.jpeg}}
-  \caption{The model of a ship}\label{figure1}
-\end{figure}
- 
-
-\begin{itemize}
-
-\item 
-\item 
-\end{itemize}
 
 
-
-
-time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
-
-
-
-as is shown in Figure ~\ref{figure1}.
-
-
-
-\section{the spatial profit distribution model}
-  We have obtained the predicted fish density distribution in last section, and after the work above we can caculate the net profit by the sailing cost, the gross profit from fishing, and a constant cost appears on every yoyage.
+\subsection{the spatial profit distribution model}
+  We have obtained the predicted fish density distribution in last section, and after the work above we can calculate the net profit by the sailing cost, the gross profit from fishing, and a constant cost appears on every voyage.
   
+Ignoring national territorial limits, it can be seen from the figure(a) and (b) that there is no obvious change in the income of fishing in 10 years, which is because the slow increase of sea temperature has a time lag to the migration of fish. After 25 years (c), the largest income gradually migrates northward. Fifty years later, the school of fish is obviously moving north. At this time, the port is far from the school of fish, and the fishing cost will increase significantly (d)
+
+Due to the limitation of fish preservation time,  Scotland small company can make a large profit offshore. From the comparison about the offshore distance and income (e), it can be concluded that when the distance is less than 200 kilometers, the company's profit is positively related to the density of the local fish school. There are obvious differences in various years, because the fish school moves northward with the change in temperature. As can be seen from the figure (f) that after about 40 years, the net profit will drop to 0. Therefore, these small companies should take measures in advance to deal with changes in fish stocks.
+
+However, when the distance is more than 200 kilometers, due to the higher inherent cost of navigation, the fishing income will decline rapidly, showing a consistent downward trend among different years. At the same time, the 50-year net profit  curve fluctuated slightly compared to others due to the change in the position of fish density.
+
   \begin{figure}[h]
     \centering
 
@@ -565,23 +586,30 @@ as is shown in Figure ~\ref{figure1}.
     \caption{}
   \end{figure}
   
-\section{The Comprehensive Evacuation Planning Model}
+\section{The third question}
+\subsection{Costs and profits after port relocation}
+
+Assume that the fishing boat is a cuboid with a length of L, and its width and height are consistent with the previous assumptions.
+
+Based on the data in Table 5, the power and mass corresponding to the different lengths of small fishing boats in Scotland are fitted to the relevant functional relations.The speed and flight time are calculated from the speed-related formula.
+It is assumed that the operation of the refrigerant on the small fishing boat is supplied by the Scotland vessel, and that the refrigerator and engine at the same rated power consume the same amount of oil. Based on the density of the refrigerator, the price of diesel, and its comparison with the capacity of the vessel and its rated power, considering natural losses and energy conversion rates, it can be calculated that the operation of the refrigerant requires about 20\%  from the Scotland vessel the rated power
 
 \begin{equation}\label{1}
-v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
+v=1.84\times \ (\frac{P_0}{V}) ^{0.237} \times \sqrt{l}
 \end{equation}
 
 \begin{figure}[tbp]
   \centering{
   \includegraphics[width=1\textwidth]{./picture/figure4.jpeg}}
-  \caption{The model of a ship}\label{figure1}
+  \caption{The relationship between length and power and the relationship between length and quality }\label{figure1}
 \end{figure}
 
 \begin{equation}
 \left\{
 \begin{array}{lr}
-P_0=P \times (1-0.2) &\\
-P=25.278\times L -169.31
+P_0=P \times (1-20\%) &\\
+P= 0.3358\times L^2 -9.4446\times L - 3.6361
+
 \end{array}
 \right.
 \end{equation}
@@ -596,18 +624,34 @@ V=L\times B\times\ d =\frac{1}{48\times L^3}
 l=L\approx 40
 \end{equation}
 
+Due to the limitation of fuel storage space, fresh water, food and fishing supplies, it is assumed that the ship's navigation distance does not exceed twice the original maximum navigation distance.
+
 \begin{equation}\label{4}
 T_1=\frac{S}{v}
 \end{equation}
 
+\begin{equation}\label{4}
+S<=2\times S_m
+\end{equation}
+
+\begin{equation}
+\left\{
+\begin{array}{lr}
+V_o=r_o \times P \times T_1 \times a_o &\\
+a_o=0.8  & \\    p_o=0.5 \\
+\end{array}
+\right.
+\end{equation}
+
+By comparing the price of different sizes of refrigerants, it can be inferred that the cost of the refrigerant is about 10\% of the inherent cost of the ship. And both the labor cost and the inherent cost of the ship are positively related to the length of the vessel. Besides, due to the relocation of the port, $A_e$ in a single operation will increase appropriately from 20,000 to 25,000 pounds.
 
 			\begin{equation}
 			\left\{
 			\begin{array}{lr}
 
-A_1=k_1 \times T_1\times L  &\\
-A_2=c_4  \times T_1 \times n_1 &\\
-A_3=c_3  \times T_1 &\\
+A_1=c_3 \times T_1\times L \times (1+10\%) &\\
+A_2=c_2  \times T_1 \times L \times  \frac{1}{2} &\\
+A_3=V_o  \times P_o &\\
 A=A_1+A_2+A_3+A_e \\		
 			\end{array}
 			\right.
@@ -618,7 +662,7 @@ A=A_1+A_2+A_3+A_e \\
 \begin{equation}
 \left\{
 \begin{array}{lr}
-E=12.441\times L -130.82&\\
+E= 0.3203\times L^2 -1.5264\times L -  2.973&\\
 E_1=E \times 10\% \times a_1 \times p_1 &\\
 E_2=E\times 10\% \times a_2 \times p_2 &\\
 E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 \times p_2}{a_1 \times p_1+ a_2 \times p_2} \times E_2\\
@@ -629,116 +673,67 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 
 
 
+\section{The forth question}
+As can be known that territorial Waters is a belt of coastal waters extending at most 12 nautical miles (22.2 km) from the baseline (usually the mean low-water mark) of a coastal state, which are allowed innocent passage through it, or transit passage for straits.
+It is assumed that the maritime division of the British Overseas Territories uses an equal distance method. As the waters of Scotland and Norway meet for 700 kilometers, it can be estimated that the range of Scottish fishing boats is within 350 kilometers.
+
+\begin{equation}
+\left\{
+\begin{array}{lr}
+A_i=A &\\
+S_i<= 350+22 =372 \\
+\end{array}
+\right.
+\end{equation}
+
+
+
+Assume that Norway ’s entry fee for foreign fishing vessels is the same as that of the member states of the Nauru agreement, which is about 10,000 US dollars per day, which is 320 pounds per hour per boat. At the same time, due to Norwegian fishery restrictions, foreign fishing vessels can only work in 12-200 nautical miles. Scottish fishing boats have a range of 720 kilometers.
+
+\begin{equation}
+\left\{
+\begin{array}{lr}
+A_o=A+c_o \times T_1 &\\
+S_o<= 350+370=720 \\
+\end{array}
+\right.
+\end{equation}
+
 \section{The Comprehensive Evacuation Planning Model}
 \subsection{Model Preparation}
-\begin{table}[!ht]
-\caption{The categories of hurricanes}
- \renewcommand\arraystretch{1.5}
- \setlength{\abovecaptionskip}{0pt}%    
-\setlength{\belowcaptionskip}{10pt}%
-\begin{center}
-\begin{tabular}{p{.2\textwidth}p{.2\textwidth}m{.5\textwidth}}
-\toprule[1.5pt]
-Category& Maximum sustained winds & Potential damage \\
- \midrule
 
-  Category 5 & $ \geq $ 250 km/h &   Most of the buildings and detached houses were completely destroyed, and some houses were blown away completely. \\  \bottomrule[1.5pt]
- \end{tabular}
- \end{center} 
- \end{table}
-\begin{itemize}
 
-\item 
-\item 
-\item \end{itemize}
-
-VRP \cite{Dikas2016Solving,He2015Model} generally defined as: on a range of clients point (location known or can be estimated) in satisfying certain constraints (such as the demand for goods, the delivery time of delivery, the vehicle capacity constraints, etc.), reasonably arrange the vehicle distribution route, making the vehicle through them in an orderly way to achieve a certain goal (such as the shortest mileage and least cost, least time, use as little as possible and so on). The representation of VPR can be seen in Figure 3.
+VRP \cite{Dikas2016Solving,He2015Model} generally 
 
 
 Based on the traditional VRP, a comprehensive evacuation planning model is established to satisfy the constraint conditions:
+
 \begin{itemize}
   \item Time constraint: the total withdrawal time is the shortest in the case of meeting all the evacuees' needs and not violating the constraints;
-  \item Risk constraint: minimum risk of meeting the minimum evacuation time;
-  \item Carrying capacity constraint: the number of customers on each vehicle path is limited no more than a constant;
-  \item Road afford ability constraint: the total carrying capacity on the road is not allowed to exceed the road capacity;
-  \item Shelter capacity constraint: the total population in the shelter shall is not allowed to exceed the capacity limit;
-  \item Priority relationship constraints: the more endangered areas have priority access;
-  \item Path first constraint: after every vehicle completes its mission, records its shelter and the time to reach the sanctuary, preparing for the assignment of the next mission.
 \end{itemize}
-
-Before each task, we need to update the network node demand, shelter of residual capacity and the starting position of the vehicles, where each task should be according to the last mission at the end of the vehicle at the beginning of status to the caller, get the transport vehicles in the task.
 
 \subsection{Modeling}
 
-We now describe an optimization model that includes the assumptions of the previous section %%\cite{Goerigk2014Combining}.
+\begin{itemize}
 
-The considered time horizon is denoted by $T$. This is not the evacuation time we are aiming for, but an upper bound on the evacuation time that is needed by our model. This quantity is used to build the time expanded network.
+\item 
+\item 
+\end{itemize}
 
-For public transportation we assume that there is already an established set of collection points, where evacuees gather for further transportation to shelters. For each collection point it is known how many people will appear at this point in each time step. We also given a set of possible shelter location. For each such location we are given the number of people ${W_j}$ that this shelter can hold and additionally the parking space ${C_j}$ available near this shelter.
+time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
 
-The set of buses available for the public evacuation transit is denoted by B. For simplicity, we assume that all buses have the same capacity ${N_0}$ (however, different capacities can easily be included in our model). Besides all cars carry the same number of people.
 
-Once the used shelter locations have been chosen, the public and private traffic will pour into the shelter. The private traffic is modeled as a dynamic network flow, the public traffic (the buses) as a dynamic multi commodity network flow. The private traffic is a single commodity whereas each bus is a commodity of its own. The flow of the buses has to be chosen such that all people that need public transportation can be brought to shelter locations while respecting the bus capacity. Both flows are chosen simultaneously in a system optimal way.
 
-The total risk exposure is given by the sum of the risks of the individual arcs over all time steps. The risk of a single arc at a time step is given by the risk value of the arc multiplied with the number of people on this arc at this time step.
+as is shown in Figure ~\ref{figure1}.
 
-Formulating these aspects mathematically, we propose the following multi-criteria mixed-integer programming model, which we call the Comprehensive Evacuation Problem (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
+ve Evacuation Problem (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
 
 In this mixed integer program we use the following variables: $\delta _{ij}$ denotes traversal of arc (i,j) $ \in $ A. $x_{ij}^t$ denotes the spend time passing arc (i,j). $r_{ij}^t$ denotes the risk factor passing arc (i,j) at time $t$. $f_{ij}^t$ denotes the number of evacuees using cars passing arc (i,j) at time $t$. In contrast, $g_{ij}^t$ denotes the number of evacuees using bus $b$ to go from node $i$ to node $j$ at time $t$. $\eta $ represents the jam factor, which depends on the magnitude of the hurricane, the location of the landing, and the average number of evacuees passing arc (i,j) at time $t$. $B_{ij}^t$ denotes the number of bus driving on arc (i,j) at time $t$.In the same way, $C_{ij}^t$ denotes the number of car driving on arc (i,j) at time $t$. $P_j^t$  denotes the number of people in the $j$ shelter at time $t$. $r$ denotes the capacity factor.
 
 
-\begin{equation}\label{3}
-\Delta \min (\Delta ,R)
-\end{equation}
-
-\begin{equation}\label{4}
-\Delta  \ge (2n - 1) \times \max (\sum\limits_{(i,j) \in A} {\sum\limits_{t \in T} {\delta _{ij}^tx_{ij}^t} } ) + \Delta t
-\end{equation}
-
-The objective (1) is to minimize the evacuation time $\Delta $ and the risk $R$ ,These objectives are computed using constraints (2)-(4). Constraints (2) ensure that $\Delta $ is the maximal evacuation time. The risk $R$ depends on the number of people passing a link. This relation is expressed in constraint (3)and(4).
-
-
-
-In the equation (5), $n$ means the number of journeys that the bus needs to transport, and the calculation should Integer plus one. Equation (8) - (10) is the road traffic that is used to constrain not to exceed its maximum capacity at time $t$.
-
-When a hurricane is stronger, it may require a massive evacuation, that is, to consider the interaction of the three states. The site selection, risk coefficient, road congestion, and site accommodation will be affected, we need to reset the influence parameters to get the minimum required time and the site situation again.
-
-Optimization method: When the forecast hat hurricane level is high, we can arrange inland evacuation ahead, in the case of ensure the overall time is enough for the coastal areas to evacuate to the site of the corresponding time calculation.
-
-Advantage: Inland remove first can reduce the road pressure; Coastal remove later can increase the economic benefit.Compare the results again and get the final optimization plan.
-
 \subsection{Model Solution}
 Based on the above model and the parameters involved in the model, the final evacuation time is obtained by programming, and the result is shown in the table below:
-\begin{table}[!htb]
-\centering
-\setlength{\abovecaptionskip}{0pt}%    
-\setlength{\belowcaptionskip}{10pt}%
-\caption{The Evacuation time}
-\begin{tabular}{ccccccc}
-\toprule[1.5pt]
-Hurricane level &1&2&3&4&5&6\\
-Evacuation time &11.4&18.2&24.28&33.6&47.8&49.6\\
-\bottomrule[1.5pt]
-\end{tabular}
-\end{table}
-%\begin{figure}[h]
-%  \centering{
-%  \includegraphics[width=0.7\textwidth]{./picture/figure4.png}}
-%  \caption{The Evacuation Time}\label{Table1}
-%\end{figure}
 
-
-
-As shown in the figure above, it is necessary to calculate the time required for a category 1- 5 hurricane, including the withdrawal time required for the optimization programme.
-
-Because the evacuation and time of personnel also satisfied the curve of $S$ type curve, it can be used to draw the time-varying personnel evacuation curve of hurricane from category 1 - 5, which can be seen in figure4.
-
-
-
-On the basis of guarantee the safety of life, we put forward the optimization scheme, when hurricane prediction level too high, let let evacuated inland areas, in order to improve the economic benefit of coastal, and reduce economic loss. The maximum population density due to coastal areas, and abide by the $S$ type curve evacuation rules.
-
-
-Under the same Five - level hurricane conditions, the optimization scheme minimizes the economic loss under the conditions of increasing the cost of the smaller time. It has been proved that evacuating in the right time can get better effect, which has a positive effect on the subsequent development of evacuation plan.
 
 \section{Strengths and Weaknesses}
 
@@ -746,12 +741,6 @@ Under the same Five - level hurricane conditions, the optimization scheme minimi
 
 \begin{itemize}
   \item The comprehensive evacuation planning model takes the shortest time and lowest risk and low economic losses as the total constraint conditions to get the optimal solution;
-  \item The constraint conditions such as road carrying capacity and the capacity of escape points are considered in the comprehensive evacuation planning model;
-  \item Determine the coverage scope by Thiessen polygon;
-  \item Considering the demand distribution characteristics in the station nodes;
-  \item In terms of model constraints, the shortest evacuation time is obtained for a 1-5 hurricane;
-  \item Considering the economic benefit gap between inland and coastal areas, the optimal plan for economic loss is proposed;
-  \item Analyze the extreme problems, propose solutions, and obtain the optimal solution through comprehensive consideration of evacuation time, evacuation risks and economic losses.
 \end{itemize}
 
 \subsection{Weaknesses and Extensions}
