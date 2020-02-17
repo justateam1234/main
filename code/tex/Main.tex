@@ -267,8 +267,6 @@ $n_2$      & The number  of  crew in small size ferries  \\
   \caption{English Harbor Division}\label{figure1}
 \end{figure}
 
-
-
 \begin{table}[!htb]
 \centering
 \setlength{\abovecaptionskip}{0pt}%    
@@ -283,6 +281,13 @@ Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
 \bottomrule[1.5pt]
 \end{tabular}
 \end{table}
+
+As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a rectangular parallelepiped, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
+
+
+From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt. The speed and flight time are calculated from the speed-related formula.
+
+
 
 \begin{table}[!htb]
 \centering
@@ -319,6 +324,8 @@ Average engine power (kW)&57&127&190&325&641&4327\\
 \end{tabular}
 \end{table}
 
+
+
 \begin{equation}
 \left\{
 \begin{array}{lr}
@@ -333,6 +340,7 @@ V=L\times B\times\ d =\frac{1}{48\times L^3}\\
 \begin{equation}\label{5}
 T=\frac{S}{v}
 \end{equation}
+
 
 \begin{equation}\label{5}
 A_1=c_1 \times T_1
@@ -352,13 +360,13 @@ A=A_1+A_2+A_3+A_e
 
 Where:
 
-$C(t)$ is the cumulative percentage of withdrawal demands from time to time;
+$A_1$ represents the average working cost per hour of the large Scottish vessel.As a Scottish vessel with a length of 40 meters, the purchase price is approximately 44,000 pounds, the number of days of operation is 180 days per year, and the daily working time is 13 hours.
 
-$a$ is the loading rate or the reaction rate of the public to the evacuation instructions, also expressed as the slope of the time curve;
+$A_2$ is the cost that the small company need to pay about 20 crew members during a voyage
 
-$h$ is the time required for half of the demand in the system;
+$A_e$ is a fixed cost of about 20,000 pounds for a small sailing company in Scotland, including depreciation fees for fishing boats, fishing nets, hook fees, port fees, and loss costs during the off-season.
+ 
 
-$t$=0 represents the time the evacuation order is released.
 
 \begin{equation}
 \left\{
@@ -372,6 +380,9 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 \right.
 \end{equation}
 
+The weighted average prices and the proportion of density in different regions of herring and mackerel  is used to calculate the earnings of small Scottish companies during a voyage. 
+
+Since no refrigerant fishing, in order to ensure fresh fish, the return time of Scottish vessel  must be shorter than the fresh-keeping period of the fish
 
 \begin{equation}\label{10}
 \frac{T_1}{2}\leq T_2
@@ -386,9 +397,8 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 
 \begin{itemize}
 
-\item Those who have been registered to evacuate will change their minds and evacuate by private cars or other means, reducing the need for evacuation;
-\item Personnel who have not been registered prepare to evacuate, including tourists or travel agents, and increase evacuation demand.
-
+\item 
+\item 
 \end{itemize}
 
 
@@ -514,8 +524,11 @@ A=A_1+A_2+A_3+A_e \\
 \begin{equation}
 \left\{
 \begin{array}{lr}
-E_0=E \times 10\% \times a \times \frac{p_1+p_2}{2} &\\
-E=12.441\times L -130.82
+E=12.441\times L -130.82&\\
+E_1=E \times 10\% \times a_1 \times p_1 &\\
+E_2=E\times 10\% \times a_2 \times p_2 &\\
+E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 \times p_2}{a_1 \times p_1+ a_2 \times p_2} \times E_2\\
+
 \end{array}
 \right.
 \end{equation}

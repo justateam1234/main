@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  17 FEB 2020 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  17 FEB 2020 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,10 +708,10 @@ LaTeX Warning: Label `5' multiply defined.
 LaTeX Warning: Label `figure1' multiply defined.
 
 
-LaTeX Warning: Label `4' multiply defined.
-
-
 LaTeX Warning: Label `figure1' multiply defined.
+
+
+LaTeX Warning: Label `4' multiply defined.
 
 
 LaTeX Warning: Label `3' multiply defined.
@@ -887,10 +887,10 @@ Overfull \hbox (1.1472pt too wide) in paragraph at lines 199--201
  []
 
 Package epstopdf Info: Source file: <image/general_distribution.eps>
-(epstopdf)                    date: 2020-02-16 16:03:54
-(epstopdf)                    size: 841249 bytes
+(epstopdf)                    date: 2020-02-17 11:21:16
+(epstopdf)                    size: 851528 bytes
 (epstopdf)             Output file: <image/general_distribution-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-02-16 16:04:16
+(epstopdf)                    date: 2020-02-17 11:21:26
 (epstopdf)                    size: 10456 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/general_distribution-eps-converted-to.pdf image/general_distribution.eps>
 (epstopdf)             \includegraphics on input line 211.
@@ -906,10 +906,10 @@ Overfull \hbox (3.41432pt too wide) in paragraph at lines 211--211
  []
 
 Package epstopdf Info: Source file: <image/month_correct.eps>
-(epstopdf)                    date: 2020-02-16 16:06:20
-(epstopdf)                    size: 98378 bytes
+(epstopdf)                    date: 2020-02-17 11:21:16
+(epstopdf)                    size: 100680 bytes
 (epstopdf)             Output file: <image/month_correct-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-02-16 16:06:37
+(epstopdf)                    date: 2020-02-17 11:21:28
 (epstopdf)                    size: 34297 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/month_correct-eps-converted-to.pdf image/month_correct.eps>
 (epstopdf)             \includegraphics on input line 218.
@@ -939,13 +939,9 @@ Package pdftex.def Info: ./picture/figure1.jpeg  used on input line 266.
 <./picture/figure2.jpeg, id=246, 1531.6422pt x 615.7404pt>
 File: ./picture/figure2.jpeg Graphic file (type jpg)
 <use ./picture/figure2.jpeg>
-Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 382.
+Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 393.
 (pdftex.def)             Requested size: 426.79135pt x 171.56993pt.
-
-Overfull \hbox (14.7305pt too wide) in paragraph at lines 390--391
-[]\T1/ppl/m/n/12 Personnel who have not been reg-is-tered pre-pare to evac-u-ate, in-clud-ing tourists
- []
-
+ [7 <./picture/figure2.jpeg>]
 Package epstopdf Info: Source file: <image/profit_dis_afterqua0image.eps>
 (epstopdf)                    date: 2020-02-17 11:01:09
 (epstopdf)                    size: 871727 bytes
@@ -953,15 +949,15 @@ Package epstopdf Info: Source file: <image/profit_dis_afterqua0image.eps>
 (epstopdf)                    date: 2020-02-17 11:01:26
 (epstopdf)                    size: 14142 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/profit_dis_afterqua0image-eps-converted-to.pdf image/profit_dis_afterqua0image.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 425.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua0image-eps-converted-to.pdf, id=250, 421.575pt x 316.18124pt>
+<image/profit_dis_afterqua0image-eps-converted-to.pdf, id=261, 421.575pt x 316.18124pt>
 File: image/profit_dis_afterqua0image-eps-converted-to.pdf Graphic file (type pdf)
 <use image/profit_dis_afterqua0image-eps-converted-to.pdf>
-Package pdftex.def Info: image/profit_dis_afterqua0image-eps-converted-to.pdf  used on input line 415.
+Package pdftex.def Info: image/profit_dis_afterqua0image-eps-converted-to.pdf  used on input line 425.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 415--415
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 425--425
  [][] 
  []
 
@@ -972,20 +968,20 @@ Package epstopdf Info: Source file: <image/profit_dis_afterqua10image.eps>
 (epstopdf)                    date: 2020-02-17 11:01:28
 (epstopdf)                    size: 14170 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/profit_dis_afterqua10image-eps-converted-to.pdf image/profit_dis_afterqua10image.eps>
-(epstopdf)             \includegraphics on input line 422.
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua10image-eps-converted-to.pdf, id=251, 421.575pt x 316.18124pt>
+<image/profit_dis_afterqua10image-eps-converted-to.pdf, id=262, 421.575pt x 316.18124pt>
 File: image/profit_dis_afterqua10image-eps-converted-to.pdf Graphic file (type pdf)
 <use image/profit_dis_afterqua10image-eps-converted-to.pdf>
-Package pdftex.def Info: image/profit_dis_afterqua10image-eps-converted-to.pdf  used on input line 422.
+Package pdftex.def Info: image/profit_dis_afterqua10image-eps-converted-to.pdf  used on input line 432.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 422--422
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 432--432
  [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 415--423
+Overfull \hbox (6.0pt too wide) in paragraph at lines 425--433
  [][][][] 
  []
 
@@ -996,15 +992,15 @@ Package epstopdf Info: Source file: <image/profit_dis_afterqua25image.eps>
 (epstopdf)                    date: 2020-02-17 11:01:30
 (epstopdf)                    size: 14166 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/profit_dis_afterqua25image-eps-converted-to.pdf image/profit_dis_afterqua25image.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 441.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua25image-eps-converted-to.pdf, id=252, 421.575pt x 316.18124pt>
+<image/profit_dis_afterqua25image-eps-converted-to.pdf, id=263, 421.575pt x 316.18124pt>
 File: image/profit_dis_afterqua25image-eps-converted-to.pdf Graphic file (type pdf)
 <use image/profit_dis_afterqua25image-eps-converted-to.pdf>
-Package pdftex.def Info: image/profit_dis_afterqua25image-eps-converted-to.pdf  used on input line 431.
+Package pdftex.def Info: image/profit_dis_afterqua25image-eps-converted-to.pdf  used on input line 441.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 431--431
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 441--441
  [][] 
  []
 
@@ -1015,25 +1011,22 @@ Package epstopdf Info: Source file: <image/profit_dis_afterqua50image.eps>
 (epstopdf)                    date: 2020-02-17 11:01:32
 (epstopdf)                    size: 14075 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/profit_dis_afterqua50image-eps-converted-to.pdf image/profit_dis_afterqua50image.eps>
-(epstopdf)             \includegraphics on input line 438.
+(epstopdf)             \includegraphics on input line 448.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua50image-eps-converted-to.pdf, id=253, 421.575pt x 316.18124pt>
+<image/profit_dis_afterqua50image-eps-converted-to.pdf, id=264, 421.575pt x 316.18124pt>
 File: image/profit_dis_afterqua50image-eps-converted-to.pdf Graphic file (type pdf)
 <use image/profit_dis_afterqua50image-eps-converted-to.pdf>
-Package pdftex.def Info: image/profit_dis_afterqua50image-eps-converted-to.pdf  used on input line 438.
+Package pdftex.def Info: image/profit_dis_afterqua50image-eps-converted-to.pdf  used on input line 448.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 438--438
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 448--448
  [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 424--440
+Overfull \hbox (6.0pt too wide) in paragraph at lines 434--450
  [][][][] 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <image/distance_pro_qua.eps>
 (epstopdf)                    date: 2020-02-17 11:12:47
@@ -1042,15 +1035,15 @@ Package epstopdf Info: Source file: <image/distance_pro_qua.eps>
 (epstopdf)                    date: 2020-02-17 11:15:16
 (epstopdf)                    size: 8036 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/distance_pro_qua-eps-converted-to.pdf image/distance_pro_qua.eps>
-(epstopdf)             \includegraphics on input line 450.
+(epstopdf)             \includegraphics on input line 460.
 Package epstopdf Info: Output file is already uptodate.
-<image/distance_pro_qua-eps-converted-to.pdf, id=254, 421.575pt x 316.18124pt>
+<image/distance_pro_qua-eps-converted-to.pdf, id=265, 421.575pt x 316.18124pt>
 File: image/distance_pro_qua-eps-converted-to.pdf Graphic file (type pdf)
 <use image/distance_pro_qua-eps-converted-to.pdf>
-Package pdftex.def Info: image/distance_pro_qua-eps-converted-to.pdf  used on input line 450.
+Package pdftex.def Info: image/distance_pro_qua-eps-converted-to.pdf  used on input line 460.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 450--450
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 460--460
  [][] 
  []
 
@@ -1061,54 +1054,54 @@ Package epstopdf Info: Source file: <image/ele_time_qua.eps>
 (epstopdf)                    date: 2020-02-17 11:15:18
 (epstopdf)                    size: 7167 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/ele_time_qua-eps-converted-to.pdf image/ele_time_qua.eps>
-(epstopdf)             \includegraphics on input line 457.
+(epstopdf)             \includegraphics on input line 467.
 Package epstopdf Info: Output file is already uptodate.
-<image/ele_time_qua-eps-converted-to.pdf, id=255, 421.575pt x 316.18124pt>
+<image/ele_time_qua-eps-converted-to.pdf, id=266, 421.575pt x 316.18124pt>
 File: image/ele_time_qua-eps-converted-to.pdf Graphic file (type pdf)
 <use image/ele_time_qua-eps-converted-to.pdf>
-Package pdftex.def Info: image/ele_time_qua-eps-converted-to.pdf  used on input line 457.
+Package pdftex.def Info: image/ele_time_qua-eps-converted-to.pdf  used on input line 467.
 (pdftex.def)             Requested size: 216.81pt x 162.61081pt.
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 457--457
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 467--467
  [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 450--458
+Overfull \hbox (6.0pt too wide) in paragraph at lines 460--468
  [][][][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./picture/figure4.jpeg, id=256, 866.5173pt x 318.4698pt>
+<./picture/figure4.jpeg, id=267, 866.5173pt x 318.4698pt>
 File: ./picture/figure4.jpeg Graphic file (type jpg)
 <use ./picture/figure4.jpeg>
-Package pdftex.def Info: ./picture/figure4.jpeg  used on input line 472.
+Package pdftex.def Info: ./picture/figure4.jpeg  used on input line 482.
 (pdftex.def)             Requested size: 426.79135pt x 156.85823pt.
-[7 <./picture/figure2.jpeg>] [8 <d:/model/code_co/main/code/tex/image/profit_dis_afterqua0image-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/profit_dis_afterqua10image-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/profit_dis_afterqua25image-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/profit_dis_afterqua50image-eps-converted-to.pdf>]
-Underfull \hbox (badness 2828) in paragraph at lines 535--535
+[8 <d:/model/code_co/main/code/tex/image/profit_dis_afterqua0image-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/profit_dis_afterqua10image-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/profit_dis_afterqua25image-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/profit_dis_afterqua50image-eps-converted-to.pdf>]
+Underfull \hbox (badness 2828) in paragraph at lines 548--548
 []|\T1/ppl/m/n/12 Maximum sus-
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 538--538
+Underfull \hbox (badness 2181) in paragraph at lines 551--551
 []|\T1/ppl/m/n/12 Most of the build-ings and de-tached
  []
 
-[9 <d:/model/code_co/main/code/tex/image/distance_pro_qua-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/ele_time_qua-eps-converted-to.pdf> <./picture/figure4.jpeg>] [10] [11] [12] [13] (d:/model/code_co/main/code/tex/Main.bbl [14])
-Underfull \hbox (badness 10000) in paragraph at lines 717--718
+[9 <d:/model/code_co/main/code/tex/image/distance_pro_qua-eps-converted-to.pdf> <d:/model/code_co/main/code/tex/image/ele_time_qua-eps-converted-to.pdf> <./picture/figure4.jpeg>] [10] [11] [12] [13] [14] (d:/model/code_co/main/code/tex/Main.bbl) [15]
+Underfull \hbox (badness 10000) in paragraph at lines 730--731
 
  []
 
-[15] 
+
 AED: lastpage setting LastPage
 [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 728.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 728.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 741.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 741.
  (d:/model/code_co/main/code/tex/Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 728.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 728.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 741.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 741.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: DCEEC2A6C55723ADD28B98B97A0EF43A;1684.
 
@@ -1119,13 +1112,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  21740 strings out of 492623
  365300 string characters out of 6133290
- 805750 words of memory out of 5000000
+ 806453 words of memory out of 5000000
  25222 multiletter control sequences out of 15000+600000
  569703 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,12n,92p,917b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on d:/model/code_co/main/code/tex/Main.pdf (18 pages, 2359326 bytes).
+Output written on d:/model/code_co/main/code/tex/Main.pdf (18 pages, 2360442 bytes).
 PDF statistics:
  459 PDF objects out of 1000 (max. 8388607)
  367 compressed objects within 4 object streams
