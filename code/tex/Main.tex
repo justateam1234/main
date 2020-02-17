@@ -200,6 +200,16 @@ $n$      & The number  of  crews in ferries \\
 
   \subsubsection{The yearly change prediction model}
     From the Long's previous work\cite{long2014fast},we know that the major factor of the yearly SST change is related to the concentration of carbon dioxide, which affact SST's retard growth model. By analyzing the yearly avarage SST of the entired area, we found an obviously increasing trend especially after 1980s. However, that model is more precise on a time scale of hundreds of years, and we found a quadratic model is more accurate to predicte the temperature on a time scale over years, fitting the rising segment of the logistic curve, especially with the concider that the concentration of carbon dioxide are only dramatic growth in recent decades and affect the retard growth model. 
+   
+    The quadratic predicted function is:
+    \begin{equation}
+        8.526*10^{-5}*(t-1840)^2-1.327*10^{-2}*(t-1840)+1.017*10^1
+    \end{equation}
+    
+    The logistic predicted function is:
+    \begin{equation}
+      \frac{15.00}{1+(\frac{15.00}{8.615}-1)e^{-0.0026*(t-1822)}}
+    \end{equation}
 
     \begin{figure}[htbp]
       \centering{
