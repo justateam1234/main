@@ -106,9 +106,9 @@ In order to develop the Scottish fishing industries steadily,   we need to analy
 
 \section{Assumptions}
 To simplify our problems, we make the following basic assumptions, each of which is properly justified.
+
 \begin{itemize}
-\item 
-Assumed that the fishing and neting time of Scottish vessels is around two hours.
+
 \item 
 Assumed that the ship travels in a straight line and its sailing route is from the port to the center of the position of fish.
 \item 
@@ -375,7 +375,7 @@ Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
 As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a cuboid, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
 
 
-From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt and. the average tonnage is about 1300 tonnes. The speed and flight time are calculated from the speed-related formula.
+From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt and. the average tonnage is about 1300 tonnes. Considering the fishing and netting time of Scottish vessels  $T_0$, it can.be assumed around two hours. So the speed and flight time are calculated from the speed-related formula.
 
 
 
@@ -424,7 +424,7 @@ Average engine power (kW)&57&127&190&325&641&4327\\
 \left\{
 \begin{array}{lr}
 v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l} &\\
-l=L\approx 40 &\\
+l \approx L= 40 &\\
 P=4000&\\
 V=L\times B\times\ d =\frac{1}{48\times L^3}\\
 \end{array}
@@ -441,7 +441,7 @@ A_1=c_1 \times( T_1+T_0)
 \end{equation}
 
 \begin{equation}\label{6}
-A_2=c_2  \times( T_1+T_0) \times L \times  \frac{1}{2}
+A_2=c_2  \times( T_1+T_0)  \times n =c_2  \times( T_1+T_0) \times L \times  \frac{1}{2}
 \end{equation}
 
 \begin{equation}\label{7}
@@ -493,7 +493,7 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 
 The weighted average prices and the proportion of density in different regions of herring and mackerel  is used to calculate the earnings of small Scottish companies during a voyage. 
 
-Since no refrigerant fishing, in order to ensure fresh fish, the return time of Scottish vessel  must be shorter than the fresh-keeping period of the fish
+Since no refrigerant fishing, in order to ensure fresh fish, the sum of the return time and fishing and netting time  of Scottish vessel must be shorter than the fresh-keeping period of the fish, $T_2$, around 20 hours.
 
 \begin{equation}\label{10}
 \frac{T_1}{2}+T_0\leq T_2
@@ -634,7 +634,7 @@ T_1=\frac{S}{v}
 \end{equation}
 
 \begin{equation}\label{4}
-S<=5\times S_m
+S \leq 5\times S_m
 \end{equation}
 
 \begin{equation}
@@ -646,7 +646,7 @@ a_o=0.8  & \\    p_o=0.5 \\
 \right.
 \end{equation}
 
-By comparing the price of different sizes of refrigerants, it can be inferred that the cost of the refrigerant is about 10\% of the inherent cost of the ship. And both the labor cost and the inherent cost of the ship are positively related to the length of the vessel. Besides, due to the relocation of the port, the proportion of ships, the maintenance cost of the ship and the change in port charges $A_e$ in a single operation will decrease appropriately from 20,000 to 10,000 pounds.
+By comparing the price of different sizes of refrigerants, it can be inferred that the cost of the refrigerant is about 10\% of the inherent cost of the ship. And both the labor cost and the inherent cost of the ship are positively related to the length of the vessel. Besides, due to the relocation of the port, the proportion of ships, the maintenance cost of the ship and the change in port charges $A_e$ in a single operation will decrease appropriately from 20,000 to 10,000 pounds. 
 
 			\begin{equation}
 			\left\{
@@ -665,7 +665,7 @@ A=A_1+A_2+A_3+A_e \\
 \begin{equation}
 \left\{
 \begin{array}{lr}
-E= 0.3203\times L^2 -1.5264\times L -  2.973&\\
+E= -0.0175\times L^3 -1.2525\times L^2 - 15.197 \times L+ 51.952&\\
 E_1=E \times 10\% \times a_1 \times p_1 &\\
 E_2=E\times 10\% \times a_2 \times p_2 &\\
 E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 \times p_2}{a_1 \times p_1+ a_2 \times p_2} \times E_2\\
@@ -683,21 +683,21 @@ It is assumed that the maritime division of the British Overseas Territories use
 \left\{
 \begin{array}{lr}
 A_i=A &\\
-S_i<= 350+22 =372 \\
+S_i \leq 350+22 =372 \\
 \end{array}
 \right.
 \end{equation}
 
 
 
-Assume that Norway ’s entry fee for foreign fishing vessels is the same as that of the member states of the Nauru agreement, which is about 10,000 US dollars per day, which is 320 pounds per hour per boat. At the same time, due to Norwegian fishery restrictions, foreign fishing vessels can only work in 12-200 nautical miles. Scottish fishing boats have a range of 720 kilometers.
+Assume that Norway ’s access fishing fee for foreign fishing vessels is the same as that of the member states of the Nauru agreement about 10,000 US dollars per day, which is 320 pounds per hour per boat. At the same time, due to Norwegian fishery restrictions, foreign fishing vessels can only sail in 12-200 nautical miles. Therefore, Scottish fishing boats have a range of 720 kilometers.
 
 \begin{equation}
 \left\{
 \begin{array}{lr}
 A_o=A+c_o \times ( T_0+T_3) &\\
 T_3=\frac{S-S_i}{v} &\\
-S_o<= 350+370=720 \\
+S_o \leq 350+370=720 \\
 \end{array}
 \right.
 \end{equation}
@@ -705,10 +705,6 @@ S_o<= 350+370=720 \\
 \section{Sensitivity Analysis}
 \subsection{}
 
-
-VRP \cite{Dikas2016Solving,He2015Model} generally 
-
-time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
 
 
 
@@ -756,16 +752,26 @@ In addition to the basic equipment of fishing boats, port rents, access fishing 
 
 Nowadays, due to over-fishing offshore and global warming, there are fewer and fewer fish  offshore, and fishermen have to go north to fish. The cost of equipment and labor has increased significantly. As the density of fish schools decreases, fishermen need to spend more time fishing. With the increase of time cost, fishing companies will use more professional and high-tech transport vessels, which is also a significant expense.
 
+
+Therefore, we propose the following suggestions to ease or avoid the economic impact of fishing to global warming.
+
 \begin{itemize}
+
 \item 
+Use the small size vessels
+The small size vessels will reduce the cost of fishing and increase profits. For example, these short length vessels can get rid of restrictions from land-based support, such as refueling, unloading and so on. They can get those supplies from the large size vessels which might help fishermen to get the further areas to catch and net fishes.
+\item
+ Install the freezer
+Freezers can extend the fish preservation time and greatly prolong the sailing time. Although the freezer also consumes the energy of the vessels, it can also allow fishermen to gain more profits.
 \item 
-\item 
-\item 
- \item 
-\item 
+Migration location
+Relocating the fishing company to the location closer to the fish gathering point will  enable you to enjoy better fishing reduce economic losses(as can be seen in the figure ) 
 \end{itemize}
 
+Among the world's four major fisheries, Newfoundland fisheries have long since lost due to over-fishing. Peruvian fisheries focus on Peruvian catfish that have a poor taste and are mainly used as fodder. Beihai fishing grounds nourished most of Europe, but in recent years the types of Beihai fishing grounds have gradually decreased. 
+The huge amount of carbon dioxide emitted by mankind contributes to global warming, and human greed puts marine life in a dangerous state. We should not only make corresponding economic policies for environmental changes, but also bear our responsibility for the current situation.
 
+As you taste canned herring in Scotland, do not forget to thank these little cute lives!
 
 
 
