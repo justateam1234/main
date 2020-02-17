@@ -1,6 +1,6 @@
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = FALSE,   % 使用 CTeX 套装时，设置为 true
-        tcn = 1900000, problem = A,
+        tcn = 2017334, problem = A,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = false, abstract = true}
 \usepackage{palatino}
@@ -673,26 +673,11 @@ S_o<= 350+370=720 \\
 \right.
 \end{equation}
 
-\section{The Comprehensive Evacuation Planning Model}
-\subsection{Model Preparation}
+\section{Sensitivity Analysis}
+\subsection{}
 
 
 VRP \cite{Dikas2016Solving,He2015Model} generally 
-
-
-Based on the traditional VRP, a comprehensive evacuation planning model is established to satisfy the constraint conditions:
-
-\begin{itemize}
-  \item Time constraint: the total withdrawal time is the shortest in the case of meeting all the evacuees' needs and not violating the constraints;
-\end{itemize}
-
-\subsection{Modeling}
-
-\begin{itemize}
-
-\item 
-\item 
-\end{itemize}
 
 time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
 
@@ -700,14 +685,7 @@ time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
 
 as is shown in Figure ~\ref{figure1}.
 
-ve Evacuation Problem (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
-
-In this mixed integer program we use the following variables: $\delta _{ij}$ denotes traversal of arc (i,j) $ \in $ A. $x_{ij}^t$ denotes the spend time passing arc (i,j). $r_{ij}^t$ denotes the risk factor passing arc (i,j) at time $t$. $f_{ij}^t$ denotes the number of evacuees using cars passing arc (i,j) at time $t$. In contrast, $g_{ij}^t$ denotes the number of evacuees using bus $b$ to go from node $i$ to node $j$ at time $t$. $\eta $ represents the jam factor, which depends on the magnitude of the hurricane, the location of the landing, and the average number of evacuees passing arc (i,j) at time $t$. $B_{ij}^t$ denotes the number of bus driving on arc (i,j) at time $t$.In the same way, $C_{ij}^t$ denotes the number of car driving on arc (i,j) at time $t$. $P_j^t$  denotes the number of people in the $j$ shelter at time $t$. $r$ denotes the capacity factor.
-
-
-\subsection{Model Solution}
-Based on the above model and the parameters involved in the model, the final evacuation time is obtained by programming, and the result is shown in the table below:
-
+ (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
 
 \section{Weaknesses and future improvements}
 
@@ -719,10 +697,9 @@ Based on the above model and the parameters involved in the model, the final eva
 
 \end{itemize}
 
-Optimization method: When the forecast hat hurricane level is high, we can arrange inland evacuation ahead, in the case of ensure the overall time is enough for the coastal areas to evacuate to the site of the corresponding time calculation.
+ Optimization method: 
 
-Advantage: Inland remove first can reduce the road pressure; Coastal remove later can increase the economic benefit. Compare the results again and get the final optimization plan.
-
+Advantage: 
 
 \section{An article for Hook Line and Sinker magazine}
 There are all kinds of interesting repertoires in the ocean at all times. We humans are not only spectators, but hunters. In the 21st century today, the ocean is our last hunting ground, and fishermen continue to bring food back to the whole society. According to statistics, 25\% of the proteins required by humans come directly from the ocean, and with the increase of the global population, this proportion will continue to rise, among which the most contributions are those rich fishing grounds.

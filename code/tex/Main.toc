@@ -17,14 +17,12 @@
 \contentsline {section}{\numberline {6}The third question}{13}{section.6}% 
 \contentsline {subsection}{\numberline {6.1}Costs and profits after port relocation}{13}{subsection.6.1}% 
 \contentsline {section}{\numberline {7}The forth question}{14}{section.7}% 
-\contentsline {section}{\numberline {8}The Comprehensive Evacuation Planning Model}{15}{section.8}% 
-\contentsline {subsection}{\numberline {8.1}Model Preparation}{15}{subsection.8.1}% 
-\contentsline {subsection}{\numberline {8.2}Modeling}{15}{subsection.8.2}% 
-\contentsline {subsection}{\numberline {8.3}Model Solution}{16}{subsection.8.3}% 
-\contentsline {section}{\numberline {9}Weaknesses and future improvements}{16}{section.9}% 
-\contentsline {section}{\numberline {10}An article for Hook Line and Sinker magazine}{16}{section.10}% 
+\contentsline {section}{\numberline {8}Sensitivity Analysis}{15}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}}{15}{subsection.8.1}% 
+\contentsline {section}{\numberline {9}Weaknesses and future improvements}{15}{section.9}% 
+\contentsline {section}{\numberline {10}An article for Hook Line and Sinker magazine}{15}{section.10}% 
 \contentsline {section}{Reference}{17}{figure.9}% 
 \contentsline {section}{Appendices}{18}{section*.2}% 
 \contentsline {section}{Appendix \numberline {A}First appendix}{18}{Appendix.a.A}% 
-\contentsline {section}{Appendix \numberline {B}Second appendix}{19}{Appendix.a.B}% 
+\contentsline {section}{Appendix \numberline {B}Second appendix}{18}{Appendix.a.B}% 
 \contentsfinish 
