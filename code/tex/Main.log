@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  18 FEB 2020 03:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  18 FEB 2020 03:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1510,7 +1510,7 @@ Overfull \hbox (7.96364pt too wide) in paragraph at lines 709--709
 
 Package epstopdf Info: Source file: <picture/maxprofit_year_relation_change_por
 t.eps>
-(epstopdf)                    date: 2020-02-18 01:17:40
+(epstopdf)                    date: 2020-02-18 03:15:50
 (epstopdf)                    size: 21030 bytes
 (epstopdf)             Output file: <picture/maxprofit_year_relation_change_por
 t-eps-converted-to.pdf>
@@ -1520,7 +1520,14 @@ t-eps-converted-to.pdf>
 ation_change_port-eps-converted-to.pdf picture/maxprofit_year_relation_change_p
 ort.eps>
 (epstopdf)             \includegraphics on input line 726.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=picture/maxprofit_year_relation_change_port-eps-c
+onverted-to.pdf picture/maxprofit_year_relation_change_port.eps)...executed saf
+ely (allowed).
+
+Package epstopdf Info: Result file: <picture/maxprofit_year_relation_change_por
+t-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-02-18 03:16:16
+(epstopdf)                    size: 6716 bytes.
 <picture/maxprofit_year_relation_change_port-eps-converted-to.pdf, id=482, 421.
 575pt x 316.18124pt>
 File: picture/maxprofit_year_relation_change_port-eps-converted-to.pdf Graphic 
@@ -1654,7 +1661,7 @@ onts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
 pe1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on Main.pdf (23 pages, 4031065 bytes).
+Output written on Main.pdf (23 pages, 4031061 bytes).
 PDF statistics:
  631 PDF objects out of 1000 (max. 8388607)
  479 compressed objects within 5 object streams
