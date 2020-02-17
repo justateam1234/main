@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  18 FEB 2020 02:23
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  18 FEB 2020 02:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,32 +695,8 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (d:/Applications/texlive/2019/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen256
-) (./Main.aux
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `5' multiply defined.
-
-
-LaTeX Warning: Label `figure1' multiply defined.
-
-
-LaTeX Warning: Label `4' multiply defined.
-
-
-LaTeX Warning: Label `4' multiply defined.
-
 )
+No file Main.aux.
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -742,7 +718,7 @@ LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 51.
- (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
+(d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
@@ -796,7 +772,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
- (./Main.out) (./Main.out)
 \@outlinefile=\write4
 \openout4 = `Main.out'.
 
@@ -839,13 +814,23 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
- (./Main.toc
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
- [1])
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
+ [1]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 113.
+ (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 116.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 116.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -853,68 +838,87 @@ Make it at least 13.59999pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
+[1]
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 187.
+
 [2]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 111.
- (d:/Applications/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
- [1] [2] [3]
-Overfull \hbox (1.77635pt too wide) in paragraph at lines 199--200
-[]\T1/ppl/m/n/12 From the Long's pre-vi-ous work[[]],we know that the ma-jor fac-tor of the yearly
- []
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 198.
+
+[3]
+
+Package natbib Warning: Citation `long2014fast' on page 4 undefined on input line 202.
 
 File: image/predic_log.eps Graphic file (type eps)
 <image/predic_log.eps>
 File: image/predic_qua.eps Graphic file (type eps)
 <image/predic_qua.eps>
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 230.
+
 [4]
 File: image/general_distribution.eps Graphic file (type eps)
 <image/general_distribution.eps>
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 241--241
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 244--244
  [][] 
  []
 
 File: image/month_correct.eps Graphic file (type eps)
 <image/month_correct.eps>
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 248--248
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 251--251
  [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 241--249
+Overfull \hbox (6.0pt too wide) in paragraph at lines 244--252
  [][][][] 
  []
+
+
+Package natbib Warning: Citation `jansen2012migration' on page 5 undefined on input line 258.
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 260.
 
 [5]
 File: image/spatial_distribu_fit.eps Graphic file (type eps)
 <image/spatial_distribu_fit.eps>
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 270--270
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 273--273
  [][] 
  []
 
 File: image/spatial_distribu_fit_err.eps Graphic file (type eps)
 <image/spatial_distribu_fit_err.eps>
 
-Overfull \hbox (3.41432pt too wide) in paragraph at lines 277--277
+Overfull \hbox (3.41432pt too wide) in paragraph at lines 280--280
  [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 270--278
+Overfull \hbox (6.0pt too wide) in paragraph at lines 273--281
  [][][][] 
  []
+
+
+Package natbib Warning: Citation `jansen2012migration' on page 6 undefined on input line 289.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 290.
 
 [6]
 File: picture/fish-temp.jpg Graphic file (type bmp)
 <picture/fish-temp.jpg>
 File: picture/fish-temp_fitting.jpg Graphic file (type bmp)
 <picture/fish-temp_fitting.jpg>
- [7]
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 323.
+
+[7]
 File: image/fish_area_after0years.eps Graphic file (type eps)
 <image/fish_area_after0years.eps>
 File: image/fish_area_after10years.eps Graphic file (type eps)
@@ -924,27 +928,42 @@ File: image/fish_area_after25years.eps Graphic file (type eps)
 File: image/fish_area_after50years.eps Graphic file (type eps)
 <image/fish_area_after50years.eps>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 330--354
+Overfull \hbox (6.0pt too wide) in paragraph at lines 333--357
  [][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 330--354
+Overfull \hbox (6.0pt too wide) in paragraph at lines 333--357
  [][][][] 
  []
 
 File: ./picture/figure1.png Graphic file (type bmp)
 <./picture/figure1.png>
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 370.
+
 [8]
 File: ./picture/figure2.jpeg Graphic file (type bmp)
 <./picture/figure2.jpeg>
- [9] [10]
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 449.
+
+[9]
+Overfull \hbox (373.2151pt too wide) detected at line 457
+[] \OML/cmm/m/it/12 <<<<<<< HEADA[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 c[] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^B \OML/cmm/m/it/12 n \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 c[] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^B \OML/cmm/m/it/12 L \OMS/cmsy/m/n/12 ^^B [] \OT1/cmr/m/n/12 ======= \OML/cmm/m/it/12 A[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 c[] \OMS/cmsy/m/n/12 ^^B \OML/cmm/m/it/12 T[] \OMS/cmsy/m/n/12 ^^B \OML/cmm/m/it/12 L \OMS/cmsy/m/n/12 ^^B [] \OML/cmm/m/it/12 >>>>>>> \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ffe\OT1/cmr/m/n/12 63186\OML/cmm/m/it/12 d\OT1/cmr/m/n/12 781\OML/cmm/m/it/12 ab\OT1/cmr/m/n/12 73\OML/cmm/m/it/12 ee\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 b\OT1/cmr/m/n/12 7603\OML/cmm/m/it/12 ae\OT1/cmr/m/n/12 82230433\OML/cmm/m/it/12 a\OT1/cmr/m/n/12 53\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 3
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 486.
+
+[10]
 File: image/profit_dis_afterqua0image.eps Graphic file (type eps)
 <image/profit_dis_afterqua0image.eps>
 File: image/profit_dis_afterqua10image.eps Graphic file (type eps)
 <image/profit_dis_afterqua10image.eps>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 523--531
+Overfull \hbox (6.0pt too wide) in paragraph at lines 530--538
  [][][][] 
  []
 
@@ -953,120 +972,162 @@ File: image/profit_dis_afterqua25image.eps Graphic file (type eps)
 File: image/profit_dis_afterqua50image.eps Graphic file (type eps)
 <image/profit_dis_afterqua50image.eps>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 532--548
+Overfull \hbox (6.0pt too wide) in paragraph at lines 539--555
  [][][][] 
  []
 
 File: image/distance_pro_qua.eps Graphic file (type eps)
 <image/distance_pro_qua.eps>
 
-Overfull \hbox (11.95198pt too wide) in paragraph at lines 561--561
+Overfull \hbox (11.95198pt too wide) in paragraph at lines 568--568
  [][] 
  []
 
 File: image/ele_time_qua.eps Graphic file (type eps)
 <image/ele_time_qua.eps>
 
-Overfull \hbox (11.95198pt too wide) in paragraph at lines 568--568
+Overfull \hbox (11.95198pt too wide) in paragraph at lines 575--575
  [][] 
  []
 
-[11] [12]
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 578.
+
+[11]
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 589.
+
+[12]
 File: ./picture/figure4.jpeg Graphic file (type bmp)
 <./picture/figure4.jpeg>
- [13]
+
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 614.
+
+[13]
 File: picture/maxprofit_year_relation_ship20.eps Graphic file (type eps)
 <picture/maxprofit_year_relation_ship20.eps>
 
-Overfull \hbox (7.96364pt too wide) in paragraph at lines 670--670
+Overfull \hbox (7.96364pt too wide) in paragraph at lines 677--677
  [][] 
  []
 
 File: picture/maxprofit_year_relation_ship15.eps Graphic file (type eps)
 <picture/maxprofit_year_relation_ship15.eps>
 
-Overfull \hbox (7.96364pt too wide) in paragraph at lines 677--677
+Overfull \hbox (7.96364pt too wide) in paragraph at lines 684--684
  [][] 
  []
 
 File: picture/maxprofit_year_relation_ship10.eps Graphic file (type eps)
 <picture/maxprofit_year_relation_ship10.eps>
 
-Overfull \hbox (7.96364pt too wide) in paragraph at lines 684--684
+Overfull \hbox (7.96364pt too wide) in paragraph at lines 691--691
  [][] 
  []
 
 File: picture/distance_pro__relation_ice.eps Graphic file (type eps)
 <picture/distance_pro__relation_ice.eps>
 
-Overfull \hbox (7.96364pt too wide) in paragraph at lines 701--701
+Overfull \hbox (7.96364pt too wide) in paragraph at lines 708--708
  [][] 
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 701--701
+Underfull \hbox (badness 1762) in paragraph at lines 708--708
 []\T1/ppl/m/n/10 (a) the re-ala-tion-ship be-tween
  []
 
 File: picture/maxprofit_year_relation_ice.eps Graphic file (type eps)
 <picture/maxprofit_year_relation_ice.eps>
 
-Overfull \hbox (7.96364pt too wide) in paragraph at lines 708--708
+Overfull \hbox (7.96364pt too wide) in paragraph at lines 715--715
  [][] 
  []
 
 File: picture/maxprofit_year_relation_change_port.eps Graphic file (type eps)
 <picture/maxprofit_year_relation_change_port.eps>
 
-Overfull \hbox (7.96364pt too wide) in paragraph at lines 725--725
+Overfull \hbox (7.96364pt too wide) in paragraph at lines 732--732
  [][] 
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 725--725
+Underfull \hbox (badness 1762) in paragraph at lines 732--732
 []\T1/ppl/m/n/10 (a) the re-ala-tion-ship be-tween
  []
 
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 735.
+
 [14]
 Missing character: There is no ’ in font pplr8t!
- [15]
+
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 753.
+
+[15]
 File: picture/maxprofit_year_relation_ice_372.eps Graphic file (type eps)
 <picture/maxprofit_year_relation_ice_372.eps>
 
-Overfull \hbox (11.95198pt too wide) in paragraph at lines 767--767
+Overfull \hbox (11.95198pt too wide) in paragraph at lines 774--774
  [][] 
  []
 
 File: picture/maxprofit_year_relation_change_port_2.eps Graphic file (type eps)
 <picture/maxprofit_year_relation_change_port_2.eps>
 
-Overfull \hbox (11.95198pt too wide) in paragraph at lines 774--774
+Overfull \hbox (11.95198pt too wide) in paragraph at lines 781--781
  [][] 
  []
 
-[16] [17]
+
+LaTeX Warning: Reference `figure1' on page 16 undefined on input line 789.
+
+
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 791.
+
+[16]
+
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 812.
+
+[17]
 File: ./picture/figure5.png Graphic file (type bmp)
 <./picture/figure5.png>
 
-Overfull \hbox (42.67912pt too wide) in paragraph at lines 820--821
+Overfull \hbox (42.67912pt too wide) in paragraph at lines 818--819
  [][] 
  []
 
 File: ./picture/figure6.png Graphic file (type bmp)
 <./picture/figure6.png>
-(./Main.bbl [18])
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
+
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 846.
+
+[18]
+No file Main.bbl.
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
 
  []
 
-[19] 
+
+Package lastpage Warning: Rerun to get the references right on input line 880.
+
+
 AED: lastpage setting LastPage
-[20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 872.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 872.
- (./Main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 872.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 872.
+
+LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 880.
+
+[19]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 880.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 880.
+(./Main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 880.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 880.
 
 
 Package rerunfilecheck Warning: File `Main.out' has changed.
@@ -1074,19 +1135,22 @@ Package rerunfilecheck Warning: File `Main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: B045FC009486CD66B53E0CB38C0612EC
-(rerunfilecheck)             After:  CE184149BA4497FEF1DD8F4133AE206C.
+(rerunfilecheck)             Before: 
+(rerunfilecheck)             After:  E90068A771C1D8DBA9D69177AC4C73CF.
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 24202 strings out of 492922
- 400842 string characters out of 6131317
- 825442 words of memory out of 5000000
- 27888 multiletter control sequences out of 15000+600000
- 564938 words of font info for 102 fonts, out of 8000000 for 9000
+ 24124 strings out of 492922
+ 399609 string characters out of 6131317
+ 823118 words of memory out of 5000000
+ 27827 multiletter control sequences out of 15000+600000
+ 558707 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,12n,92p,859b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,13n,92p,859b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (23 pages).
+Output written on Main.pdf (21 pages).
