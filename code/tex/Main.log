@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,14 +1051,14 @@ File: picture/fish-temp_fitting.jpg Graphic file (type jpg)
 Package pdftex.def Info: picture/fish-temp_fitting.jpg  used on input line 259.
 
 (pdftex.def)             Requested size: 341.43437pt x 134.77898pt.
-<./picture/figure1.jpeg, id=250, 803.0pt x 1054.94125pt>
-File: ./picture/figure1.jpeg Graphic file (type jpg)
-<use ./picture/figure1.jpeg>
-Package pdftex.def Info: ./picture/figure1.jpeg  used on input line 271.
-(pdftex.def)             Requested size: 256.07741pt x 336.42911pt.
+<./picture/figure1.png, id=250, 256.96pt x 368.37625pt>
+File: ./picture/figure1.png Graphic file (type png)
+<use ./picture/figure1.png>
+Package pdftex.def Info: ./picture/figure1.png  used on input line 271.
+(pdftex.def)             Requested size: 256.07741pt x 367.13872pt.
  [5 <./picture/fish-temp.jpg> <./picture/fish-temp_fitting.jpg>] [6 <./picture/
-figure1.jpeg>]
-<./picture/figure2.jpeg, id=267, 1531.6422pt x 615.7404pt>
+figure1.png>]
+<./picture/figure2.jpeg, id=269, 1531.6422pt x 615.7404pt>
 File: ./picture/figure2.jpeg Graphic file (type jpg)
 <use ./picture/figure2.jpeg>
 Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 334.
@@ -1075,7 +1075,7 @@ ted-to.pdf>
 image-eps-converted-to.pdf image/profit_dis_afterqua0image.eps>
 (epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua0image-eps-converted-to.pdf, id=293, 421.575pt x 316.
+<image/profit_dis_afterqua0image-eps-converted-to.pdf, id=295, 421.575pt x 316.
 18124pt>
 File: image/profit_dis_afterqua0image-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1099,7 +1099,7 @@ rted-to.pdf>
 0image-eps-converted-to.pdf image/profit_dis_afterqua10image.eps>
 (epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua10image-eps-converted-to.pdf, id=294, 421.575pt x 316
+<image/profit_dis_afterqua10image-eps-converted-to.pdf, id=296, 421.575pt x 316
 .18124pt>
 File: image/profit_dis_afterqua10image-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1128,7 +1128,7 @@ rted-to.pdf>
 5image-eps-converted-to.pdf image/profit_dis_afterqua25image.eps>
 (epstopdf)             \includegraphics on input line 453.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua25image-eps-converted-to.pdf, id=295, 421.575pt x 316
+<image/profit_dis_afterqua25image-eps-converted-to.pdf, id=297, 421.575pt x 316
 .18124pt>
 File: image/profit_dis_afterqua25image-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1152,7 +1152,7 @@ rted-to.pdf>
 0image-eps-converted-to.pdf image/profit_dis_afterqua50image.eps>
 (epstopdf)             \includegraphics on input line 460.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua50image-eps-converted-to.pdf, id=296, 421.575pt x 316
+<image/profit_dis_afterqua50image-eps-converted-to.pdf, id=298, 421.575pt x 316
 .18124pt>
 File: image/profit_dis_afterqua50image-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1184,7 +1184,7 @@ f>
 -converted-to.pdf image/distance_pro_qua.eps>
 (epstopdf)             \includegraphics on input line 472.
 Package epstopdf Info: Output file is already uptodate.
-<image/distance_pro_qua-eps-converted-to.pdf, id=297, 421.575pt x 316.18124pt>
+<image/distance_pro_qua-eps-converted-to.pdf, id=299, 421.575pt x 316.18124pt>
 File: image/distance_pro_qua-eps-converted-to.pdf Graphic file (type pdf)
 <use image/distance_pro_qua-eps-converted-to.pdf>
 Package pdftex.def Info: image/distance_pro_qua-eps-converted-to.pdf  used on i
@@ -1205,7 +1205,7 @@ Package epstopdf Info: Source file: <image/ele_time_qua.eps>
 verted-to.pdf image/ele_time_qua.eps>
 (epstopdf)             \includegraphics on input line 479.
 Package epstopdf Info: Output file is already uptodate.
-<image/ele_time_qua-eps-converted-to.pdf, id=298, 421.575pt x 316.18124pt>
+<image/ele_time_qua-eps-converted-to.pdf, id=300, 421.575pt x 316.18124pt>
 File: image/ele_time_qua-eps-converted-to.pdf Graphic file (type pdf)
 <use image/ele_time_qua-eps-converted-to.pdf>
 Package pdftex.def Info: image/ele_time_qua-eps-converted-to.pdf  used on input
@@ -1225,11 +1225,11 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 472--480
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9]
-<./picture/figure4.jpeg, id=304, 866.5173pt x 318.4698pt>
+<./picture/figure4.jpeg, id=306, 868.2036pt x 317.988pt>
 File: ./picture/figure4.jpeg Graphic file (type jpg)
 <use ./picture/figure4.jpeg>
 Package pdftex.def Info: ./picture/figure4.jpeg  used on input line 499.
-(pdftex.def)             Requested size: 426.79135pt x 156.85823pt.
+(pdftex.def)             Requested size: 426.79135pt x 156.31525pt.
  [10 <./image/profit_dis_afterqua0image-eps-converted-to.pdf> <./image/profit_d
 is_afterqua10image-eps-converted-to.pdf> <./image/profit_dis_afterqua25image-ep
 s-converted-to.pdf> <./image/profit_dis_afterqua50image-eps-converted-to.pdf>] 
@@ -1255,9 +1255,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21785 strings out of 492616
+ 21786 strings out of 492616
  367948 string characters out of 6129482
- 809436 words of memory out of 5000000
+ 809435 words of memory out of 5000000
  25276 multiletter control sequences out of 15000+600000
  569703 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1276,10 +1276,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on Main.pdf (18 pages, 3679579 bytes).
+Output written on Main.pdf (18 pages, 3691910 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
+ 477 PDF objects out of 1000 (max. 8388607)
+ 378 compressed objects within 4 object streams
  96 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 
