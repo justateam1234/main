@@ -2,8 +2,12 @@ clear
 %lat:1deg~=111km;lat:
 [Lon,Lat,time,T]=read();
 T=mean(T,3);
+
+
 % findfish(Lon,Lat,T,10,0.1);
-over_time(Lon,Lat,T);
+over_time(Lon,Lat,T,'qua');
+% plot_profit_distri(Lon,Lat,T)
+
 
 % dTlist=[];
 % for Y_after=0:50
@@ -11,23 +15,35 @@ over_time(Lon,Lat,T);
 %     dTlist=[dTlist,dT];
 % end
 % dTlist
-function over_time(Lon,Lat,T)
-
+function plot_profit_distri(Lon,Lat,T)
+    Y_after_list=[0,10,25,50];
+    for a=1:length(Y_after_list)
+        Y_after=Y_after_list(a);
+        [dT,err]=year_model_and_predicate(Y_after);
+        [dis,pro]=earn(Lon,Lat,T+dT,Y_after,'qua');
+    end
+end
+function over_time(Lon,Lat,T,modeltype)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 a=load('D:\model\A_data\dTlist_quadratic_model.mat');
 dTlist=a.dTlist;dTlist(1)=[];
 thr=100;
 pro=zeros(size(dTlist));
 time=1:50;
 for in=1:length(dTlist)
-    in
-    [dis,pro_now]=earn(Lon,Lat,T+dTlist(in));
+    
+    [dis,pro_now]=earn(Lon,Lat,T+dTlist(in),time(in),'qua');
     dis_in=find(min(abs(dis-thr)));
     pro(in)=pro_now(dis_in);
 end
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+pro_in=find(pro<=0);
 figure
-plot(time,pro);
-return
+    plot(time,pro);hold on;
+    scatter(time(pro_in(1)),pro(pro_in(1)),100,'filled');
+    xlabel('time/year');ylabel('net profit/pound');
+    grid on;
+
 Y_after_list=[0,10,25,50];
 figure
     for a=1:length(Y_after_list)
@@ -37,11 +53,17 @@ figure
         plot(dis,pro);hold on;
         grid on;
     end
+    xlabel('distance/km');ylabel('net profit/pound');
     LL=legend('after 0 years','after 10 years','after 25 years','after 50 years',...
         'Location','southeast');
     set(LL,'Fontsize',10);
+    set(gcf,'Units','Inches');
+        pos = get(gcf,'Position');
+        set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+        saveas(gcf,['D:\model\code_co\main\code\tex\image\distance_pro_',...
+            modeltype,'.eps'],'psc2')
 end
-function [distance_value,dis_max_netpro]=earn(Lon,Lat,T)
+function [distance_value,dis_max_netpro]=earn(Lon,Lat,T,Y_after,model_type)
     x=linspace(0,dLon_to_km(Lon(1),Lon(end),mean(Lat)),length(Lon));
     y=linspace(0,(Lat(1)-Lat(end))*6371*pi/360,length(Lat));y=fliplr(y);
     [xx,yy]=meshgrid(x,y);
@@ -89,8 +111,8 @@ function [distance_value,dis_max_netpro]=earn(Lon,Lat,T)
     c2.*(fish_prize(2)).*density_distribu2/density_max2*130;
 %     profit_distribu=(fish_prize(fishtype))*density_distribu/density_max*180;
     net_profit_distribu=profit_distribu-cost_distribu-stable_cost;
-    net_profit_distribu(land_in)=-1*min(min(net_profit_distribu))...
-        *sign(min(min(net_profit_distribu)))*2;%to show the land
+%     net_profit_distribu(land_in)=-1*min(min(net_profit_distribu))...
+%         *sign(min(min(net_profit_distribu)))*2;%to show the land
     
     
     %caculate the max netprofit in a given distence
@@ -105,6 +127,7 @@ function [distance_value,dis_max_netpro]=earn(Lon,Lat,T)
         current_max_pro=max(net_profit_distribu(current_dist_in));
         dis_max_netpro(in)=current_max_pro;
     end
+    net_profit_distribu(land_in)=0;
     
 %     figure
 %         imagesc([x(1),x(end)],[y(1),y(end)],transpose(T(:,:)));colorbar;hold on;
@@ -127,11 +150,22 @@ function [distance_value,dis_max_netpro]=earn(Lon,Lat,T)
 % %         
 %     figure
 %         imagesc([x(1),x(end)],[y(1),y(end)],transpose(net_profit_distribu(:,:)));colorbar;hold on;
-%         scatter(x_port,y_port,100);hold on;
-%         title('net profit distribu')
-%         set(gca,'YDir','normal')
+%         scatter(x_port,y_port,100,'b','filled');hold on;
+%         
+%         scatter(xx(land_in),yy(land_in),300,'s','MarkerEdgeColor',[.8 .8 .8],...
+%               'MarkerFaceColor',[.8 .8 .8]);hold on;
+%         LL=legend('port','land','Location','southeast');set(LL,'Fontsize',10);
+% %         title(num2str(Y_after))
+%        
 %         xlabel('distance/km');ylabel('distance/km');
 %         
+%         set(gca,'YDir','normal')        
+%         set(gcf,'Units','Inches');
+%         pos = get(gcf,'Position');
+%         set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+% %         saveas(gcf,['D:\model\code_co\main\code\tex\image\',...
+% %             'profit_dis_after',model_type,num2str(Y_after),'image.eps'],'psc2')
+
 %     figure
 %         plot(distance_value,dis_max_netpro);
 %         title('profit vs distance');
