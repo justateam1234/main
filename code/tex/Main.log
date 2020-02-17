@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  17 FEB 2020 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.6.11)  17 FEB 2020 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -829,16 +829,16 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
 
 
-LaTeX Warning: File `./picture/figure3.png' not found on input line 93.
+LaTeX Warning: File `/picture/picture/figure3.png' not found on input line 93.
 
 
-d:/model/code_co/main/code/tex/Main.tex:93: Package pdftex.def Error: File `./picture/figure3.png' not found: using draft setting.
+d:/model/code_co/main/code/tex/Main.tex:93: Package pdftex.def Error: File `/picture/picture/figure3.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 ...[width=1\textwidth]{./picture/figure3.png}
+l.93 ...1\textwidth]{/picture/picture/figure3.png}
                                                   }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -938,31 +938,31 @@ LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 221.
 Package natbib Warning: Citation `jansen2012migration' on page 5 undefined on input line 222.
 
 
-LaTeX Warning: File `./fish-temp.jpg' not found on input line 226.
+LaTeX Warning: File `/picture/fish-temp.jpg' not found on input line 226.
 
 
-d:/model/code_co/main/code/tex/Main.tex:226: Package pdftex.def Error: File `./fish-temp.jpg' not found: using draft setting.
+d:/model/code_co/main/code/tex/Main.tex:226: Package pdftex.def Error: File `/picture/fish-temp.jpg' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 ...cs[width = .8\textwidth]{./fish-temp.jpg}
+l.226 ...h = .8\textwidth]{/picture/fish-temp.jpg}
                                                   }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `./fish-temp_fitting.jpg' not found on input line 250.
+LaTeX Warning: File `/picture/fish-temp_fitting.jpg' not found on input line 250.
 
 
-d:/model/code_co/main/code/tex/Main.tex:250: Package pdftex.def Error: File `./fish-temp_fitting.jpg' not found: using draft setting.
+d:/model/code_co/main/code/tex/Main.tex:250: Package pdftex.def Error: File `/picture/fish-temp_fitting.jpg' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.250 ... = .8\textwidth]{./fish-temp_fitting.jpg}
+l.250 ...extwidth]{/picture/fish-temp_fitting.jpg}
                                                   }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1098,15 +1098,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 21658 strings out of 492623
- 362432 string characters out of 6133290
+ 21660 strings out of 492623
+ 362612 string characters out of 6133290
  804565 words of memory out of 5000000
  25144 multiletter control sequences out of 15000+600000
  564046 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,92p,917b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on d:/model/code_co/main/code/tex/Main.pdf (18 pages, 1841715 bytes).
+Output written on d:/model/code_co/main/code/tex/Main.pdf (18 pages, 1841730 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  197 compressed objects within 2 object streams
