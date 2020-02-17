@@ -1,6 +1,6 @@
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = FALSE,   % 使用 CTeX 套装时，设置为 true
-        tcn = 2017334, problem = A,
+        tcn = {\color{red}2017334}, problem = A,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = false, abstract = true}
 \usepackage{palatino}
@@ -110,6 +110,9 @@ To simplify our problems, we make the following basic assumptions, each of which
 \begin{itemize}
 
 \item 
+Assumed that the fishing time of Scottish vessels negligible
+
+\item 
 Assumed that the ship travels in a straight line and its sailing route is from the port to the center of the position of fish.
 \item 
 Supposed that the salaries of crews in Scotland are equal to the average wage of the British people, at 7 pounds per hour.
@@ -162,7 +165,7 @@ $c_o$      &access fishing fee\\
 $T_1$     & The time spent in fishing of a Scottish vessel      \\
 $T_2$       & Fish preservation time at ambient temperature        \\
 $T_3$     & The time spent in fishing of a Scottish vessel      \\
-$T_0$   &Time for fishing and netting \\
+$T_{annual}$     & The annual avarage temperature      \\
 $S$      & The distance sailed of a Scottish vessel  in the waters of another country  \\
 $S_m$      & The maximum distance sailed of a large Scottish vessel that small fishing companies continue to operate out of their current  location \\
 $S_o$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country \\
@@ -211,7 +214,7 @@ $n$      & The number  of  crews in ferries \\
     
   
     
-  \subsubsection{Monthly correct of the prediction}
+  \subsubsection{Monthly correction model}
     The monthly or even dayly rate of SST change is much stronger than the rate of yearly SST change and is important to the analysis of the fishes distrbution. In our model, we assume that the monthly change has a central value related to its annual avarage temperature. We also assume that the monthly change are determined by the seasonal change and independent of the factors which affect the yrarly change of avachange temperature. Then we are going to use the predicted annual avarage temperature above and add a monthly correction to get the actual temperature accurate to month. 
     A long-term dayly avarage and a spatial avarage are made based on SST data from 1981 to 2010 in the area we Analyzed. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. And we find the monthly correction is: 
     \begin{equation}\label{}
@@ -312,14 +315,14 @@ $n$      & The number  of  crews in ferries \\
     \centering
 
     \subfigure[fish gathering area after 0 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after0years.eps}
     %\caption{fig1}
     \end{minipage}%
     }%
     \subfigure[fish gathering areas after 10 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after10years.eps}
     %\caption{fig2}
@@ -327,23 +330,23 @@ $n$      & The number  of  crews in ferries \\
     }%
     \quad
     \subfigure[fish gathering areas after 25 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after25years.eps}
     %\caption{fig1}
     \end{minipage}%
     }%
     \subfigure[fish gathering areas after 50 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after50years.eps}
     %\caption{fig2}
-    \end{minipage}%
+    \end{minipage}% 
     }
     \centering
   \end{figure}
 
-  \begin{figure}[htbp]
+  \begin{figure}[h]
     \centering{
     \includegraphics[width=0.9\textwidth]{image/fishpath.eps}}
     \caption{the moving path for the max density location}\label{figure1}
@@ -432,16 +435,20 @@ V=L\times B\times\ d =\frac{1}{48\times L^3}\\
 \end{equation}
 
 \begin{equation}\label{5}
-T_1=\frac{S}{v}
+T=\frac{S}{v}
 \end{equation}
 
 
 \begin{equation}\label{5}
-A_1=c_1 \times( T_1+T_0)
+A_1=c_1 \times T_1
 \end{equation}
 
 \begin{equation}\label{6}
+<<<<<<< HEAD
 A_2=c_2  \times( T_1+T_0)  \times n =c_2  \times( T_1+T_0) \times L \times  \frac{1}{2}
+=======
+A_2=c_2  \times T_1 \times L \times  \frac{1}{2}
+>>>>>>> 0ffe63186d781ab73ee1b7603ae82230433a53f3
 \end{equation}
 
 \begin{equation}\label{7}
@@ -451,7 +458,7 @@ A_3=V_o  \times p_o
 \begin{equation}
 \left\{
 \begin{array}{lr}
-V_o=r_o \times P \times ( T_1+T_0)\times a_o &\\
+V_o=r_o \times P \times T_1 \times a_o &\\
 a_o=0.8&\\
 p_o=0.5&\\
 A_3=V_o  \times p_o\\
@@ -496,7 +503,7 @@ The weighted average prices and the proportion of density in different regions o
 Since no refrigerant fishing, in order to ensure fresh fish, the sum of the return time and fishing and netting time  of Scottish vessel must be shorter than the fresh-keeping period of the fish, $T_2$, around 20 hours.
 
 \begin{equation}\label{10}
-\frac{T_1}{2}+T_0\leq T_2
+\frac{T_1}{2}\leq T_2
 \end{equation}
 
 
@@ -640,7 +647,7 @@ S \leq 5\times S_m
 \begin{equation}
 \left\{
 \begin{array}{lr}
-V_o=r_o \times P \times ( T_1+T_0) \times a_o &\\
+V_o=r_o \times P \times T_1 \times a_o &\\
 a_o=0.8  & \\    p_o=0.5 \\
 \end{array}
 \right.
@@ -652,8 +659,8 @@ By comparing the price of different sizes of refrigerants, it can be inferred th
 			\left\{
 			\begin{array}{lr}
 
-A_1=c_3 \times ( T_1+T_0\times L \times (1+10\%) &\\
-A_2=c_2  \times ( T_1+T_0) \times L \times  \frac{1}{2} &\\
+A_1=c_3 \times T_1\times L \times (1+10\%) &\\
+A_2=c_2  \times T_1 \times L \times  \frac{1}{2} &\\
 A_3=V_o  \times P_o &\\
 A=A_1+A_2+A_3+A_e \\		
 			\end{array}
@@ -695,7 +702,7 @@ Assume that Norway ’s access fishing fee for foreign fishing vessels is the sa
 \begin{equation}
 \left\{
 \begin{array}{lr}
-A_o=A+c_o \times ( T_0+T_3) &\\
+A_o=A+c_o \times T_3 &\\
 T_3=\frac{S-S_i}{v} &\\
 S_o \leq 350+370=720 \\
 \end{array}
@@ -768,10 +775,10 @@ Migration location
 Relocating the fishing company to the location closer to the fish gathering point will  enable you to enjoy better fishing reduce economic losses(as can be seen in the figure ) 
 \end{itemize}
 
-Among the world's four major fisheries, Newfoundland fisheries have long since lost due to over-fishing. Peruvian fisheries focus on Peruvian catfish that have a poor taste and are mainly used as fodder. Beihai fishing grounds nourished most of Europe, but in recent years the types of Beihai fishing grounds have gradually decreased. 
+Among the world's four major fisheries, Newfoundland fisheries have long since lost due to over-fishing. Peruvian fisheries focus on Peruvian catfish that have a poor taste and are mainly used as fodder. North Atlantic fishery nourished most of Europe, but in recent years the types of North Atlantic fishery have gradually decreased. 
 The huge amount of carbon dioxide emitted by mankind contributes to global warming, and human greed puts marine life in a dangerous state. We should not only make corresponding economic policies for environmental changes, but also bear our responsibility for the current situation.
 
-As you taste canned herring in Scotland, do not forget to thank these little cute lives!
+As you taste canned herring in Scotland, do not forget to thank these cute lives!
 
 
 
