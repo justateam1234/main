@@ -3,7 +3,7 @@
 [Lon,Lat,time,tempe]=read();
 tempe=mean(tempe,3);
 x=Lon;y=Lat;
-T_cen=9.8;
+T_cen=10.1;
 T_dis=0.3;
 % predicfish_dis(Lon,Lat,time,tempe,T_cen,T_dis)
 fish_move_path(Lon,Lat,time,tempe,T_cen,T_dis)
@@ -22,10 +22,6 @@ function fish_move_path(Lon,Lat,time,tempe_start,T_cen,T_dis)
     peterhead=[-1.785429,57.499584];%biggist
     scraber=[-3.544892;58.608053] ;peterhead=scraber;
     x_port=peterhead(1);y_port=peterhead(2);
-    
-    
-    
-        
     x=[];y=[];
     for Y_after=0:10:50
         [dT,err]=year_model_and_predicate(Y_after);
@@ -33,14 +29,10 @@ function fish_move_path(Lon,Lat,time,tempe_start,T_cen,T_dis)
         x=[x,a];y=[y,b];
     end 
     figure
-%     imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(T(:,:)));colorbar;hold on;
     imagesc([Lon(1),Lon(end)],[Lat(1),Lat(end)],transpose(tempe_start(:,:)));colorbar;hold on;
     scatter(x_port,y_port,100,'b','filled');hold on;
-%     scatter(500,400,100);hold on;
-%     scatter(x,y,'r','filled');hold on;
     quiver(x(1:end-1),y(1:end-1),x(2:end)-x(1:end-1),y(2:end)-y(1:end-1),0,'b');
-%%%%%%%%%%%%%%%%%%%%%%%%%%%use when many point
-%     colorlist={'r','b','k'};colorlist{mod(a+2,3)+1};
+
     for a=1:length(x)
 %         quiver(x(a),y(a),x(a+1)-x(a),y(a+1)-y(a),0);hold on;
         scatter(x(a),y(a),'filled');hold on;
@@ -48,10 +40,15 @@ function fish_move_path(Lon,Lat,time,tempe_start,T_cen,T_dis)
     LL=legend('port','path','after 0 years','after 10 years','after 20 years','after 30 years',...
         'after 40 years','after 50 years','Location','southeast');
     set(LL,'Fontsize',10);
+    xlabel('Lon/бу');ylabel('Lat/бу')
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
     
     set(gca,'YDir','normal')
-    xlabel('Lon/бу');ylabel('Lat/бу')
+    set(gca,'YDir','normal')
+    set(gcf,'Units','Inches');
+    pos = get(gcf,'Position');
+%     set(gcf,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)]);
+%     saveas(gcf,'D:\model\code_co\main\code\tex\image\fishpath.eps','psc2') 
 end
 function fishhere=findfish_area(Lon,Lat,T,T_cen,T_dis,Y_after)
     
