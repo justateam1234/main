@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1247,15 +1247,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 646.
  (./Main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 646.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 646.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 10AACA10FC5D5F3FCB625350F85EADD5;1837.
 
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: 169B4D2AAE0F29A2A3D7FF88C81FE07B;1827
-(rerunfilecheck)             After:  10AACA10FC5D5F3FCB625350F85EADD5;1837.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1263,7 +1257,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  21778 strings out of 492616
  367869 string characters out of 6129482
- 807309 words of memory out of 5000000
+ 807359 words of memory out of 5000000
  25274 multiletter control sequences out of 15000+600000
  569703 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1282,7 +1276,7 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on Main.pdf (17 pages, 3654799 bytes).
+Output written on Main.pdf (17 pages, 3677483 bytes).
 PDF statistics:
  456 PDF objects out of 1000 (max. 8388607)
  361 compressed objects within 4 object streams
