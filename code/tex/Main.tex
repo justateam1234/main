@@ -282,7 +282,7 @@ Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
 \end{tabular}
 \end{table}
 
-As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a rectangular parallelepiped, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
+As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a cuboid, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
 
 
 From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt and. the average tonnage is about 1300 tonnes. The speed and flight time are calculated from the speed-related formula.
@@ -412,7 +412,12 @@ as is shown in Figure ~\ref{figure1}.
 
 
 
-\section{The Comprehensive Evacuation Planning Model}
+\section{The third question}
+
+Assume that the fishing boat is a cuboid with a length of L, and its width and height are consistent with the previous assumptions.
+
+Based on the data in Table 5, the power and mass corresponding to the different lengths of small fishing boats in Scotland are fitted to the relevant functional relations.The speed and flight time are calculated from the speed-related formula.
+
 
 \begin{equation}\label{1}
 v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
@@ -453,7 +458,7 @@ T_1=\frac{S}{v}
 			\begin{array}{lr}
 
 A_1=k_1 \times T_1\times L  &\\
-A_2=c_4  \times T_1 \times n_1 &\\
+A_2=c_4  \times T_1 \times n_2 &\\
 A_3=c_3  \times T_1 &\\
 A=A_1+A_2+A_3+A_e \\		
 			\end{array}
