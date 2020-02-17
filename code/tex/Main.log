@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 21:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1407,11 +1407,11 @@ Overfull \hbox (3.41432pt too wide) in paragraph at lines 571--571
  []
 
 Package epstopdf Info: Source file: <image/ele_time_qua.eps>
-(epstopdf)                    date: 2020-02-17 11:44:07
-(epstopdf)                    size: 21532 bytes
+(epstopdf)                    date: 2020-02-17 21:38:52
+(epstopdf)                    size: 21504 bytes
 (epstopdf)             Output file: <image/ele_time_qua-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-02-17 11:44:07
-(epstopdf)                    size: 7167 bytes
+(epstopdf)                    date: 2020-02-17 21:39:38
+(epstopdf)                    size: 7050 bytes
 (epstopdf)             Command: <repstopdf --outfile=image/ele_time_qua-eps-con
 verted-to.pdf image/ele_time_qua.eps>
 (epstopdf)             \includegraphics on input line 578.
@@ -1442,47 +1442,66 @@ File: ./picture/figure4.jpeg Graphic file (type jpg)
 <use ./picture/figure4.jpeg>
 Package pdftex.def Info: ./picture/figure4.jpeg  used on input line 598.
 (pdftex.def)             Requested size: 426.79135pt x 156.31525pt.
- [14 <./picture/figure4.jpeg>] [15] [16] [17]
-<./picture/figure5.png, id=524, 505.89pt x 295.1025pt>
+ [14 <./picture/figure4.jpeg>]
+<./picture/figure5.png, id=490, 505.89pt x 295.1025pt>
 File: ./picture/figure5.png Graphic file (type png)
 <use ./picture/figure5.png>
-Package pdftex.def Info: ./picture/figure5.png  used on input line 779.
+Package pdftex.def Info: ./picture/figure5.png  used on input line 673.
 (pdftex.def)             Requested size: 256.0748pt x 149.37904pt.
 
-Overfull \hbox (42.67912pt too wide) in paragraph at lines 779--780
+Overfull \hbox (42.67912pt too wide) in paragraph at lines 673--674
  [][] 
  []
 
-<./picture/figure6.png, id=525, 554.07pt x 562.1pt>
+<./picture/figure6.png, id=491, 554.07pt x 562.1pt>
 File: ./picture/figure6.png Graphic file (type png)
 <use ./picture/figure6.png>
-Package pdftex.def Info: ./picture/figure6.png  used on input line 783.
+Package pdftex.def Info: ./picture/figure6.png  used on input line 677.
 (pdftex.def)             Requested size: 128.0374pt x 129.88924pt.
-[18 <./picture/figure5.png> <./picture/figure6.png (PNG copy)>] (./Main.bbl)
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+[15 <./picture/figure5.png> <./picture/figure6.png (PNG copy)>] [16] [17]
+File: ./picture/figure5.png Graphic file (type png)
+<use ./picture/figure5.png>
+Package pdftex.def Info: ./picture/figure5.png  used on input line 790.
+(pdftex.def)             Requested size: 256.0748pt x 149.37904pt.
+
+Overfull \hbox (42.67912pt too wide) in paragraph at lines 790--791
+ [][] 
+ []
+
+File: ./picture/figure6.png Graphic file (type png)
+<use ./picture/figure6.png>
+Package pdftex.def Info: ./picture/figure6.png  used on input line 794.
+(pdftex.def)             Requested size: 128.0374pt x 129.88924pt.
+[18] (./Main.bbl [19])
+Underfull \hbox (badness 10000) in paragraph at lines 831--832
 
  []
 
 
 AED: lastpage setting LastPage
 [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 831.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 831.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 842.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 842.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 831.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 831.
-Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: CD15371F4CDED6482E436CA8056C5418;2386.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 842.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 842.
 
+
+Package rerunfilecheck Warning: File `Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Main.out':
+(rerunfilecheck)             Before: CD15371F4CDED6482E436CA8056C5418;2386
+(rerunfilecheck)             After:  BFBF91402DC64E34C35E41CC745E5D0D;2386.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21863 strings out of 492616
- 370496 string characters out of 6129482
- 809518 words of memory out of 5000000
+ 21864 strings out of 492616
+ 370505 string characters out of 6129482
+ 808147 words of memory out of 5000000
  25322 multiletter control sequences out of 15000+600000
  569703 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1502,10 +1521,10 @@ onts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
 pe1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on Main.pdf (23 pages, 4007737 bytes).
+Output written on Main.pdf (23 pages, 4008383 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 476 compressed objects within 5 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 619 PDF objects out of 1000 (max. 8388607)
+ 477 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
  396 words of extra memory for PDF output out of 10000 (max. 10000000)
 

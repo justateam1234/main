@@ -24,12 +24,12 @@
 \contentsline {section}{\numberline {10}The Comprehensive Evacuation Planning Model}{16}{section.10}% 
 \contentsline {subsection}{\numberline {10.1}Model Preparation}{16}{subsection.10.1}% 
 \contentsline {subsection}{\numberline {10.2}Modeling}{16}{subsection.10.2}% 
-\contentsline {subsection}{\numberline {10.3}Model Solution}{16}{subsection.10.3}% 
+\contentsline {subsection}{\numberline {10.3}Model Solution}{17}{subsection.10.3}% 
 \contentsline {section}{\numberline {11}Strengths and Weaknesses}{17}{section.11}% 
 \contentsline {subsection}{\numberline {11.1}Strengths}{17}{subsection.11.1}% 
 \contentsline {subsection}{\numberline {11.2}Weaknesses and Extensions}{17}{subsection.11.2}% 
 \contentsline {section}{\numberline {12}An article for Hook Line and Sinker magazine}{18}{section.12}% 
-\contentsline {section}{Reference}{19}{figure.10}% 
+\contentsline {section}{Reference}{19}{figure.11}% 
 \contentsline {section}{Appendices}{20}{section*.2}% 
 \contentsline {section}{Appendix \numberline {A}First appendix}{20}{Appendix.a.A}% 
 \contentsline {section}{Appendix \numberline {B}Second appendix}{20}{Appendix.a.B}% 
