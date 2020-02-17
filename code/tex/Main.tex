@@ -123,7 +123,7 @@ Assumed that the ship travels in a straight line and its sailing route is from t
 \item 
 Supposed that the salaries of crews in Scotland are equal to the average wage of the British people, at 7 pounds per hour.
 \item 
-Supposed that large size ferries in Scotland generally have 20 crew members and small Scottish ships generally have 8 crew members.
+Supposed the number of crew members is related to the length of the Scottish boats, about one person every two meters
 \item 
 Assumed that the maximum catch per vessel of a small Scottish company is 10 percent of its own weight
 \item 
@@ -165,8 +165,7 @@ $A_e$      &Extra cost for one voyage.  \\
 $c_1$     & The purchase cost of a Scottish vessel per hour
                                                         \\
 $c_2$       & The salary of a crew member per hour                                                     \\
-$c_3$      & The fuel cost of a Scottish vessel per hour                                       \\
-
+$c_3$      & Unit fixed cost of the ship  \\
 $T_1$     & The time spent in fishing of a Scottish vessel   
                                                         \\
 $T_2$       & Fish preservation time at ambient temperature        \\
@@ -174,7 +173,6 @@ $T_2$       & Fish preservation time at ambient temperature        \\
 $S$      & The distance sailed of a Scottish vessel   \\
 $a$      & Fish density ratio \\
 $a_o$      & Oil density \\
-$k$      & Unit fixed cost of the ship  \\
 $r_o$      & Fuel consumption ratio \\
 $E$      & The earnings  of herrings and mackerels \\
 $E_0$      & The small Scottish vessel's earnings  of herrings and mackerels \\
@@ -183,8 +181,7 @@ $E_2$      & The earnings  of mackerels\\
 $p_1$      & The price  of herrings \\
 $p_2$      & The price  of mackerels  \\
 $p_o$      & The price  of oil  \\
-$n_1$      & The number  of  crew in large size ferries \\
-$n_2$      & The number  of  crew in small size ferries  \\
+$n$      & The number  of  crews in ferries \\
 
 
 
@@ -259,7 +256,8 @@ $n_2$      & The number  of  crew in small size ferries  \\
 \caption{Fitting result}\label{figure1}
 \end{figure}
 
-  \subsection{The predicted fish accumutation distribution}
+
+ \subsection{The predicted fish accumutation distribution}
 
 
 \section{The Demand Distribution Model}
@@ -354,7 +352,7 @@ A_1=c_1 \times T_1
 \end{equation}
 
 \begin{equation}\label{6}
-A_2=c_2  \times T_1 \times n_1
+A_2=c_2  \times T_1 \times L \times  \frac{1}{2}
 \end{equation}
 
 \begin{equation}\label{7}
@@ -485,7 +483,7 @@ However, when the distance is more than 200 kilometers, due to the higher inhere
 Assume that the fishing boat is a cuboid with a length of L, and its width and height are consistent with the previous assumptions.
 
 Based on the data in Table 5, the power and mass corresponding to the different lengths of small fishing boats in Scotland are fitted to the relevant functional relations.The speed and flight time are calculated from the speed-related formula.
-
+It is assumed that the operation of the refrigerant on the small fishing boat is supplied by the Scotland vessel, and that the refrigerator and engine at the same rated power consume the same amount of oil. Based on the density of the refrigerator, the price of diesel, and its comparison with the capacity of the vessel and its rated power, considering natural losses and energy conversion rates, it can be calculated that the operation of the refrigerant requires about 20\%  from the Scotland vessel the rated power
 
 \begin{equation}\label{1}
 v=1.84\times \ (\frac{P_0}{V}) ^{0.237} \times \sqrt{l}
@@ -500,7 +498,7 @@ v=1.84\times \ (\frac{P_0}{V}) ^{0.237} \times \sqrt{l}
 \begin{equation}
 \left\{
 \begin{array}{lr}
-P_0=P \times (1-0.2) &\\
+P_0=P \times (1-20\%) &\\
 P= 0.3358\times L^2 -9.4446\times L - 3.6361
 
 \end{array}
@@ -525,21 +523,19 @@ T_1=\frac{S}{v}
 \left\{
 \begin{array}{lr}
 V_o=r_o \times P \times T_1 \times a_o &\\
-a_o=0.8&\\
-p_o=0.5&\\
-A_3=V_o  \times p_o\\
+a_o=0.8  & \\    p_o=0.5 \\
 \end{array}
 \right.
 \end{equation}
 
-
+By comparing the price of different sizes of refrigerants, it can be inferred that the cost of the refrigerant is about 10\% of the inherent cost of the ship. And both the labor cost and the inherent cost of the ship are positively related to the length of the vessel.
 
 			\begin{equation}
 			\left\{
 			\begin{array}{lr}
 
-A_1=k_1 \times T_1\times L  &\\
-A_2=c_4  \times T_1 \times n_2 &\\
+A_1=c_3 \times T_1\times L \times (1+10\%) &\\
+A_2=c_2  \times T_1 \times L \times  \frac{1}{2} &\\
 A_3=V_o  \times P_o &\\
 A=A_1+A_2+A_3+A_e \\		
 			\end{array}
