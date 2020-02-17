@@ -1,8 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}% 
 \contentsline {subsection}{\numberline {1.1}Background}{1}{subsection.1.1}% 
 \contentsline {subsection}{\numberline {1.2}Problem Restatement}{1}{subsection.1.2}% 
-\contentsline {subsection}{\numberline {1.3}Our Work}{2}{subsection.1.3}% 
-\contentsline {section}{\numberline {2}Assumptions}{2}{section.2}% 
+\contentsline {section}{\numberline {2}Assumptions}{1}{section.2}% 
 \contentsline {section}{\numberline {3}List of Notation}{2}{section.3}% 
 \contentsline {section}{\numberline {4}Analysis and Modeling}{3}{section.4}% 
 \contentsline {section}{\numberline {5}The fish accumutation model}{3}{section.5}% 
