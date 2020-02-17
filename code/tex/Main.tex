@@ -110,7 +110,7 @@ To simplify our problems, we make the following basic assumptions, each of which
 \begin{itemize}
 
 \item 
-Assumed that the fishing time of Scottish vessels negligible
+Assumed that the fishing and netting time of Scottish vessel around two hours each time.
 
 \item 
 Assumed that the ship travels in a straight line and its sailing route is from the port to the center of the position of fish.
@@ -162,10 +162,11 @@ $c_1$     & The purchase cost of a Scottish vessel per hour
 $c_2$       & The salary of a crew member per hour                                                     \\
 $c_3$      & Unit fixed cost of the ship  \\
 $c_o$      &access fishing fee\\
-$T_1$     & The time spent in fishing of a Scottish vessel      \\
+$T_0$     & The time spent in fishing and boating of a Scottish vessel      \\
+$T_1$     & The time spent in sailing of a Scottish vessel      \\
 $T_2$       & Fish preservation time at ambient temperature        \\
-$T_3$     & The time spent in fishing of a Scottish vessel      \\
-$T_{annual}$     & The annual avarage temperature      \\
+$T_3$     & The time spent in sailing  of a Scottish vessel      \\
+$T_{annual}$     & The annual average temperature      \\
 $S$      & The distance sailed of a Scottish vessel  in the waters of another country  \\
 $S_m$      & The maximum distance sailed of a large Scottish vessel that small fishing companies continue to operate out of their current  location \\
 $S_o$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country \\
@@ -189,7 +190,7 @@ $n$      & The number  of  crews in ferries \\
 
  \section{The fish accumutation model}
  \subsection{basic idea}
-    Below, we are going to find the trend of the yearly change and demonstrate a monthly correct and a reference expression of the spatial distribution to reach the prediction of the temperature after years, then find the relationship between temperature and the density of fishes, and finally obtain the change of fish gathering area over time. 
+   Below, we are going to find the trend of the yearly change and demonstrate a monthly correct and a reference expression of the spatial distribution to reach the prediction of the temperature after years, then find the relationship between temperature and the density of fishes, and finally obtain the change of fish gathering area over time. 
  \subsection{The varying temperature model}
  
   
@@ -213,18 +214,18 @@ $n$      & The number  of  crews in ferries \\
 
     \begin{figure}[htbp]
       \centering{
-      \includegraphics[width=0.9\textwidth]{image/predic_log.eps}}
+      \includegraphics[width=0.8\textwidth]{image/predic_log.eps}}
       \caption{using logistic model}\label{figure1}
     \end{figure}
     \begin{figure}[htbp]
       \centering{
-      \includegraphics[width=0.9\textwidth]{image/predic_qua.eps}}
+      \includegraphics[width=0.8\textwidth]{image/predic_qua.eps}}
       \caption{using quadratic model}\label{figure1}
     \end{figure}
     
   
     
-  \subsubsection{Monthly correction model}
+  \subsubsection{Monthly correct of the prediction}
     The monthly or even dayly rate of SST change is much stronger than the rate of yearly SST change and is important to the analysis of the fishes distrbution. In our model, we assume that the monthly change has a central value related to its annual avarage temperature. We also assume that the monthly change are determined by the seasonal change and independent of the factors which affect the yrarly change of avachange temperature. Then we are going to use the predicted annual avarage temperature above and add a monthly correction to get the actual temperature accurate to month. 
     A long-term dayly avarage and a spatial avarage are made based on SST data from 1981 to 2010 in the area we Analyzed. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. And we find the monthly correction is: 
     \begin{equation}\label{}
@@ -319,74 +320,69 @@ $n$      & The number  of  crews in ferries \\
  \end{figure}
 
 \subsection{The prediction of fish accumutation distribution}
-  We have obtained the relationship between fish density and temperature as well as the basic model to caculate the temperature distribution in the future. The following figure are going to reveal the sea surface temperature distribution and gathering area in the current and after 10,25,50 years. In the accumutation model, the spatial density distribution has the same form as the temperature distribution which will be converte into profit distribution in next section. Here we are going to show the yearly change of the gathering area. Since the central value of the temperature-density's normal distribution are almost identical for both fish, we demonstrate the yearly change by marking the locations where the value of fish density is within the half-width of that normal distribution. To offer a prediction of the moving path, we find the locations where the density reaches the maximum in different years. 
+  We have obtained the relationship between fish density and temperature as well as the basic model to caculate the temperature distribution in the future. The following figure are going to reveal the sea surface temperature distribution and fish accumulation area in the current and after 10,25,50 years. 
 
-  \begin{figure}[htbp]
-    \centering
+\begin{figure}[htbp]
+  \centering
 
-    \subfigure[fish gathering area after 0 years]{
-    \begin{minipage}[pt]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/fish_area_after0years.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[fish gathering areas after 10 years]{
-    \begin{minipage}[pt]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/fish_area_after10years.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    }%
-    \quad
-    \subfigure[fish gathering areas after 25 years]{
-    \begin{minipage}[pt]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/fish_area_after25years.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[fish gathering areas after 50 years]{
-    \begin{minipage}[pt]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/fish_area_after50years.eps}
-    %\caption{fig2}
-    \end{minipage}% 
-    }
-    \centering
-  \end{figure}
-
-  \begin{figure}[h]
-    \centering{
-    \includegraphics[width=0.9\textwidth]{image/fishpath.eps}}
-    \caption{the moving path for the max density location}\label{figure1}
-  \end{figure}
- 
-\section{The Demand Distribution Model}
-\subsection{Initial costs and profits}
-\begin{figure}[h]
-  \centering{
-  \includegraphics[width=0.8\textwidth]{./picture/figure1.png}}
-  \caption{the spatial profit distribution model}\label{figure1}
+  \subfigure[fish accumulation areas after 0 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/fish_area_after0years.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[fish accumulation areas after 10 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/fish_area_after10years.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }%
+  \quad
+  \subfigure[fish accumulation areas after 25 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/fish_area_after25years.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[fish accumulation areas after 50 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/fish_area_after50years.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{fish accumulation areas}
 \end{figure}
 
-\begin{table}[!htb]
-\centering
-\setlength{\abovecaptionskip}{0pt}%    
-\setlength{\belowcaptionskip}{15pt}%
-\caption{The range dimension ratios of  trawlers}
-\begin{tabular}{ccccccccc}
-\toprule[1.5pt]
-parameter &L/B&B/d&D/d\\
-\toprule[1.5pt]
-Range of steel materials&3.93-5.00&2.38-3.65&1.19-1.38\\
-Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
-\bottomrule[1.5pt]
-\end{tabular}
-\end{table}
+\section{The Distribution Model}
+\subsection{Initial costs and profits}
+\begin{figure}[ht]
+  \centering{
+  \includegraphics[width=0.8\textwidth]{./picture/figure1.png}}
+  \caption{the spatial profit distribution model}
+\end{figure}
+
 
 As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a cuboid, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
 
+\begin{table}[!htb]
+  \centering
+  \setlength{\abovecaptionskip}{0pt}%    
+  \setlength{\belowcaptionskip}{15pt}%
+  \caption{The range dimension ratios of  trawlers}
+  \begin{tabular}{ccccccccc}
+  \toprule[1.5pt]
+  parameter &L/B&B/d&D/d\\
+  \toprule[1.5pt]
+  Range of steel materials&3.93-5.00&2.38-3.65&1.19-1.38\\
+  Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
+  \bottomrule[1.5pt]
+  \end{tabular}
+  \end{table}
 
 From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt and. the average tonnage is about 1300 tonnes. Considering the fishing and netting time of Scottish vessels  $T_0$, it can.be assumed around two hours. So the speed and flight time are calculated from the speed-related formula.
 
@@ -445,20 +441,16 @@ V=L\times B\times\ d =\frac{1}{48\times L^3}\\
 \end{equation}
 
 \begin{equation}\label{5}
-T=\frac{S}{v}
+T_1=\frac{S}{v}
 \end{equation}
 
 
 \begin{equation}\label{5}
-A_1=c_1 \times T_1
+A_1=c_1 \times ( T_1+T_0)
 \end{equation}
 
 \begin{equation}\label{6}
-<<<<<<< HEAD
 A_2=c_2  \times( T_1+T_0)  \times n =c_2  \times( T_1+T_0) \times L \times  \frac{1}{2}
-=======
-A_2=c_2  \times T_1 \times L \times  \frac{1}{2}
->>>>>>> 0ffe63186d781ab73ee1b7603ae82230433a53f3
 \end{equation}
 
 \begin{equation}\label{7}
@@ -468,7 +460,7 @@ A_3=V_o  \times p_o
 \begin{equation}
 \left\{
 \begin{array}{lr}
-V_o=r_o \times P \times T_1 \times a_o &\\
+V_o=r_o \times P \times ( T_1+T_0) \times a_o &\\
 a_o=0.8&\\
 p_o=0.5&\\
 A_3=V_o  \times p_o\\
@@ -513,7 +505,7 @@ The weighted average prices and the proportion of density in different regions o
 Since no refrigerant fishing, in order to ensure fresh fish, the sum of the return time and fishing and netting time  of Scottish vessel must be shorter than the fresh-keeping period of the fish, $T_2$, around 20 hours.
 
 \begin{equation}\label{10}
-\frac{T_1}{2}\leq T_2
+\frac{T_1}{2}+T_0\leq T_2
 \end{equation}
 
 
@@ -523,91 +515,69 @@ Since no refrigerant fishing, in order to ensure fresh fish, the sum of the retu
   
 Ignoring national territorial limits, it can be seen from the figure(a) and (b) that there is no obvious change in the income of fishing in 10 years, which is because the slow increase of sea temperature has a time lag to the migration of fish. After 25 years (c), the largest income gradually migrates northward. Fifty years later, the school of fish is obviously moving north. At this time, the port is far from the school of fish, and the fishing cost will increase significantly (d)
 
+\begin{figure}[htbp]
+  \centering
+
+  \subfigure[spatial net profit distribution after 0 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua0image.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[spatial net profit distribution after 10 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua10image.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }%
+
+  \quad
+  \subfigure[spatial net profit distribution after 25 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua25image.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[spatial net profit distribution after 50 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua50image.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{spatial net profit distribution}
+\end{figure}
+
 Due to the limitation of fish preservation time,  Scotland small company can make a large profit offshore. From the comparison about the offshore distance and income (e), it can be concluded that when the distance is less than 200 kilometers, the company's profit is positively related to the density of the local fish school. There are obvious differences in various years, because the fish school moves northward with the change in temperature. As can be seen from the figure (f) that after about 40 years, the net profit will drop to 0. Therefore, these small companies should take measures in advance to deal with changes in fish stocks.
 
+\begin{figure}[htbp]
+  \centering
+  \subfigure[the realationship between distance and net profit]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{image/distance_pro_qua.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[the elapsed time]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{image/ele_time_qua.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{profit graph}
+\end{figure}
 
+However, when the distance is more than 200 kilometers, due to the higher inherent cost of navigation, the fishing income will decline rapidly, showing a consistent downward trend among different years. At the same time, the 50-year net profit  curve fluctuated slightly compared to others due to the change in the position of fish density.
 
-  \begin{figure}[htbp]
-    \centering
-
-    \subfigure[spatial net profit distribution after 0 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua0image.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[spatial net profit distribution after 10 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua10image.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    }%
-
-    \quad
-    \subfigure[spatial net profit distribution after 25 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua25image.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[spatial net profit distribution after 50 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua50image.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    }
-    \centering
-  \end{figure}
-  However, when the distance is more than 200 kilometers, due to the higher inherent cost of navigation, the fishing income will decline rapidly, showing a consistent downward trend among different years. At the same time, the 50-year net profit  curve fluctuated slightly compared to others due to the change in the position of fish density.
-  From section 4 we can find that actually the change of temperature is damping over years, and the standard deviation represent the reasonable correction of our prediction. That is why we use the temperature fluctuates above and below the standerd deviation range to predict the best and the worst cases. In the best cast, the fish company can still profit from fishing after 50years, however, in the worst case, the fishing company can no longer keep profit after 25 years. We should also notice that based on temperature's damping model, the profit-time model is also damping, and if the company has make some preparation for a temporary loss, 45 years is the most valuable predictions.
-
-  \begin{figure}[htbp]
-    \centering
-    \subfigure[the realationship between distance and net profit]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/distance_pro_qua.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[the elapsed time]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/ele_time_qua.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    } 
-  %   \centering
-  %   \caption{}
-  % \end{figure}
- 
-  
-  % \begin{figure}[htbp]
-  %   \centering
-    \subfigure[the elapsed time for the best case]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/eleptime_bestcase.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[the elapsed time for the worst case]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/eleptime_worstcase.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    } 
-    \centering
-    \caption{}
-  \end{figure}
- 
-\section{The third question}
-\subsection{Costs and profits after port relocation}
+\section{Strategies we recommend}
+\subsection{Using some proportion of small fishing vessels}
 
 Assume that the fishing boat is a cuboid with a length of L, and its width and height are consistent with the previous assumptions.
 
@@ -640,9 +610,6 @@ P= 0.3358\times L^2 -9.4446\times L - 3.6361
 V=L\times B\times\ d =\frac{1}{48\times L^3}
 \end{equation}
 
-\begin{equation}\label{4}
-l=L\approx 40
-\end{equation}
 
 Due to the limitation of fuel storage space, fresh water, food and fishing supplies, it is assumed that the ship's navigation distance does not exceed fifth the original maximum navigation distance.
 
@@ -657,7 +624,7 @@ S \leq 5\times S_m
 \begin{equation}
 \left\{
 \begin{array}{lr}
-V_o=r_o \times P \times T_1 \times a_o &\\
+V_o=r_o \times P \times ( T_1+T_0)  \times a_o &\\
 a_o=0.8  & \\    p_o=0.5 \\
 \end{array}
 \right.
@@ -669,8 +636,8 @@ By comparing the price of different sizes of refrigerants, it can be inferred th
 			\left\{
 			\begin{array}{lr}
 
-A_1=c_3 \times T_1\times L \times (1+10\%) &\\
-A_2=c_2  \times T_1 \times L \times  \frac{1}{2} &\\
+A_1=c_3 \times ( T_1+T_0) \times L \times (1+10\%) &\\
+A_2=c_2  \times ( T_1+T_0)  \times L \times  \frac{1}{2} &\\
 A_3=V_o  \times P_o &\\
 A=A_1+A_2+A_3+A_e \\		
 			\end{array}
@@ -691,8 +658,77 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 \right.
 \end{equation}
 
+Then the profit graph change. In Figure 11 we can see small vessels Profit reduction rate reduce, but more importantly, small vessels (but not ) are capable of operating without land-based support, which mean they can go further to fish. In this way, they can reach the fish colony easily. 
 
-\section{The forth question}
+\begin{figure}[htbp]
+  \centering
+  \subfigure[20m ship]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ship20.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[15m ship]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ship15.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \subfigure[10m ship]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ship10.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{Small vessels' profit graph}
+\end{figure}
+
+
+\subsection{Equip freezers for fishing vessels}
+Freezers can extend the fish preservation time and greatly prolong the sailing time. However, the refrigerator will also consume the energy of the vessels, so we changed some values of the model and removed the sailing time limit of the fishing boat. It can be assumed that the cost of the refrigerant is occupies 10\% of the inherent cost of a vessel while the operation of the refrigerant requires about 20\%  from the Scotland vessel the rated power. As seen from the Figure 11 that the addition of the freezer does not increase the fishing benefit.
+
+\begin{figure}[htbp]
+  \centering
+  \subfigure[the realationship between distance and net profit]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/distance_pro__relation_ice.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[the elapsed time]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ice.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{Vessels with freezers profit graph}
+\end{figure}
+
+\subsection{Relocate to other port}
+
+Assumed that the location of the company is transferred to the port of Oslo, which is closer to the higher density of fishes. It can be found in Figure 12 that decreasing the rate of global warming has a significant impact on the profits of mackerel and herring fishing.
+
+\begin{figure}[htbp]
+  \centering
+  \subfigure[the realationship between distance and net profit]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_change_port.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \centering
+  \caption{Vessels with freezers profit graph}
+\end{figure}
+
+\section{Model affected by territorial sea problem}
 As can be known that territorial Waters is a belt of coastal waters extending at most 12 nautical miles (22.2 km) from the baseline (usually the mean low-water mark) of a coastal state, which are allowed innocent passage through it, or transit passage for straits.
 It is assumed that the maritime division of the British Overseas Territories uses an equal distance method. As the waters of Scotland and Norway meet for 700 kilometers, it can be estimated that the range of Scottish fishing boats is within 350 kilometers.
 
@@ -712,12 +748,34 @@ Assume that Norway ’s access fishing fee for foreign fishing vessels is the sa
 \begin{equation}
 \left\{
 \begin{array}{lr}
-A_o=A+c_o \times T_3 &\\
+A_o=A+c_o \times ( T_3+T_0)  &\\
 T_3=\frac{S-S_i}{v} &\\
 S_o \leq 350+370=720 \\
 \end{array}
 \right.
 \end{equation}
+
+For example, we use the vessels with freezers model and change the distance limitation to 372km (Figure 14 (a)), which means can't go into other territorial sea. Or we add the entry fee (Figure 14(b)), which means they go into other territorial sea. They both reduce profit.
+
+\begin{figure}[htbp]
+  \centering
+  \subfigure[can't go into other territorial sea]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{picture/maxprofit_year_relation_ice_372.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[pay fee]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{picture/maxprofit_year_relation_change_port_2.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }%
+  \centering
+  \caption{profit graph}
+\end{figure}
 
 \section{Sensitivity Analysis}
 \subsection{}
@@ -734,9 +792,10 @@ figure~\ref{figure1}.
 
 \end{itemize}
 
- Optimization method: 
+Optimization method: When the forecast hat hurricane level is high, we can arrange inland evacuation ahead, in the case of ensure the overall time is enough for the coastal areas to evacuate to the site of the corresponding time calculation.
 
-Advantage: 
+Advantage: Inland remove first can reduce the road pressure; Coastal remove later can increase the economic benefit. Compare the results again and get the final optimization plan.
+
 
 \section{An article for Hook Line and Sinker magazine}
 There are all kinds of interesting repertoires in the ocean at all times. We humans are not only spectators, but hunters. In the 21st century today, the ocean is our last hunting ground, and fishermen continue to bring food back to the whole society. According to statistics, 25\% of the proteins required by humans come directly from the ocean, and with the increase of the global population, this proportion will continue to rise, among which the most contributions are those rich fishing grounds.
