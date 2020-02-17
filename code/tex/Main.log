@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  18 FEB 2020 02:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.16)  18 FEB 2020 02:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,14 +800,10 @@ LaTeX Info: Redefining \nameref on input line 51.
 \@outlinefile=\write4
 \openout4 = `Main.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for U+msa on input line 62.
-(d:/Applications/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (d:/Applications/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 62.
@@ -1066,24 +1062,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 876.
  (./Main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 876.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 876.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: CE184149BA4497FEF1DD8F4133AE206C.
 
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: B045FC009486CD66B53E0CB38C0612EC
-(rerunfilecheck)             After:  CE184149BA4497FEF1DD8F4133AE206C.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24181 strings out of 492922
- 400353 string characters out of 6131317
- 824697 words of memory out of 5000000
- 27867 multiletter control sequences out of 15000+600000
+ 24179 strings out of 492922
+ 400307 string characters out of 6131317
+ 824732 words of memory out of 5000000
+ 27865 multiletter control sequences out of 15000+600000
  564938 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,12n,92p,859b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
