@@ -150,7 +150,8 @@ $d$      & The   waterline length of the Scottish vessels \\
 $l$       & Length between perpendiculars                                                           \\
 $v$      & The average velocity  of the Scottish vessels                                            \\
 $P$      & The average power of the Scottish vessels\\
-$P_0$      & The average power of small Scottish vessels\\                                                      
+$P_0$      & The average power of small Scottish vessels\\    
+                                     
 $V$      & The displacement of the Scottish vessels 
                                                           \\
 $V_o$      & The volume of the fuel consumption
@@ -173,6 +174,7 @@ $T_2$       & Fish preservation time at ambient temperature        \\
 
 $S$      & The distance sailed of a Scottish vessel   \\
 $a$      & Fish density ratio \\
+$a_o$      & Oil density \\
 $k$      & Unit fixed cost of the ship  \\
 $r_o$      & Fuel consumption ratio \\
 $E$      & The earnings  of herrings and mackerels \\
@@ -181,6 +183,7 @@ $E_1$      & The earnings  of herrings\\
 $E_2$      & The earnings  of mackerels\\
 $p_1$      & The price  of herrings \\
 $p_2$      & The price  of mackerels  \\
+$p_o$      & The price  of oil  \\
 $n_1$      & The number  of  crew in large size ferries \\
 $n_2$      & The number  of  crew in small size ferries  \\
 
@@ -261,7 +264,8 @@ $n_2$      & The number  of  crew in small size ferries  \\
 
 
 \section{The Demand Distribution Model}
-\begin{figure}[tbp]
+\subsection{Cost and profit}
+\begin{figure}[h]
   \centering{
   \includegraphics[width=0.6\textwidth]{./picture/figure1.jpeg}}
   \caption{English Harbor Division}\label{figure1}
@@ -351,8 +355,23 @@ A_2=c_2  \times T_1 \times n_1
 \end{equation}
 
 \begin{equation}\label{7}
-A_3=c_3  \times T_1
+A_3=V_o  \times p_o
 \end{equation}
+
+\begin{equation}
+\left\{
+\begin{array}{lr}
+V_o=r_o \times P \times T_1 \times a_o &\\
+a_o=0.8&\\
+p_o=0.5&\\
+A_3=V_o  \times p_o\\
+\end{array}
+\right.
+\end{equation}
+
+
+
+
 
 \begin{equation}\label{8}
 A=A_1+A_2+A_3+A_e
@@ -416,7 +435,7 @@ as is shown in Figure ~\ref{figure1}.
 
 
 
-\section{the spatial profit distribution model}
+\subsection{the spatial profit distribution model}
   We have obtained the predicted fish density distribution in last section, and after the work above we can caculate the net profit by the sailing cost, the gross profit from fishing, and a constant cost appears on every yoyage.
   
   \begin{figure}[h]
@@ -484,7 +503,7 @@ Based on the data in Table 5, the power and mass corresponding to the different 
 
 
 \begin{equation}\label{1}
-v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
+v=1.84\times \ (\frac{P_0}{V}) ^{0.237} \times \sqrt{l}
 \end{equation}
 
 \begin{figure}[tbp]
@@ -497,7 +516,8 @@ v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
 \left\{
 \begin{array}{lr}
 P_0=P \times (1-0.2) &\\
-P=25.278\times L -169.31
+P= 0.3358\times L^2 -9.4446\times L - 3.6361
+
 \end{array}
 \right.
 \end{equation}
@@ -516,6 +536,18 @@ l=L\approx 40
 T_1=\frac{S}{v}
 \end{equation}
 
+\begin{equation}
+\left\{
+\begin{array}{lr}
+V_o=r_o \times P \times T_1 \times a_o &\\
+a_o=0.8&\\
+p_o=0.5&\\
+A_3=V_o  \times p_o\\
+\end{array}
+\right.
+\end{equation}
+
+
 
 			\begin{equation}
 			\left\{
@@ -523,7 +555,7 @@ T_1=\frac{S}{v}
 
 A_1=k_1 \times T_1\times L  &\\
 A_2=c_4  \times T_1 \times n_2 &\\
-A_3=c_3  \times T_1 &\\
+A_3=V_o  \times P_o &\\
 A=A_1+A_2+A_3+A_e \\		
 			\end{array}
 			\right.
@@ -534,7 +566,7 @@ A=A_1+A_2+A_3+A_e \\
 \begin{equation}
 \left\{
 \begin{array}{lr}
-E=12.441\times L -130.82&\\
+E= 0.3203\times L^2 -1.5264\times L -  2.973&\\
 E_1=E \times 10\% \times a_1 \times p_1 &\\
 E_2=E\times 10\% \times a_2 \times p_2 &\\
 E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 \times p_2}{a_1 \times p_1+ a_2 \times p_2} \times E_2\\
@@ -547,114 +579,29 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 
 \section{The Comprehensive Evacuation Planning Model}
 \subsection{Model Preparation}
-\begin{table}[!ht]
-\caption{The categories of hurricanes}
- \renewcommand\arraystretch{1.5}
- \setlength{\abovecaptionskip}{0pt}%    
-\setlength{\belowcaptionskip}{10pt}%
-\begin{center}
-\begin{tabular}{p{.2\textwidth}p{.2\textwidth}m{.5\textwidth}}
-\toprule[1.5pt]
-Category& Maximum sustained winds & Potential damage \\
- \midrule
 
-  Category 5 & $ \geq $ 250 km/h &   Most of the buildings and detached houses were completely destroyed, and some houses were blown away completely. \\  \bottomrule[1.5pt]
- \end{tabular}
- \end{center} 
- \end{table}
-\begin{itemize}
 
-\item 
-\item 
-\item \end{itemize}
-
-VRP \cite{Dikas2016Solving,He2015Model} generally defined as: on a range of clients point (location known or can be estimated) in satisfying certain constraints (such as the demand for goods, the delivery time of delivery, the vehicle capacity constraints, etc.), reasonably arrange the vehicle distribution route, making the vehicle through them in an orderly way to achieve a certain goal (such as the shortest mileage and least cost, least time, use as little as possible and so on). The representation of VPR can be seen in Figure 3.
+VRP \cite{Dikas2016Solving,He2015Model} generally 
 
 
 Based on the traditional VRP, a comprehensive evacuation planning model is established to satisfy the constraint conditions:
+
 \begin{itemize}
   \item Time constraint: the total withdrawal time is the shortest in the case of meeting all the evacuees' needs and not violating the constraints;
-  \item Risk constraint: minimum risk of meeting the minimum evacuation time;
-  \item Carrying capacity constraint: the number of customers on each vehicle path is limited no more than a constant;
-  \item Road afford ability constraint: the total carrying capacity on the road is not allowed to exceed the road capacity;
-  \item Shelter capacity constraint: the total population in the shelter shall is not allowed to exceed the capacity limit;
-  \item Priority relationship constraints: the more endangered areas have priority access;
-  \item Path first constraint: after every vehicle completes its mission, records its shelter and the time to reach the sanctuary, preparing for the assignment of the next mission.
 \end{itemize}
-
-Before each task, we need to update the network node demand, shelter of residual capacity and the starting position of the vehicles, where each task should be according to the last mission at the end of the vehicle at the beginning of status to the caller, get the transport vehicles in the task.
 
 \subsection{Modeling}
 
-We now describe an optimization model that includes the assumptions of the previous section %%\cite{Goerigk2014Combining}.
 
-The considered time horizon is denoted by $T$. This is not the evacuation time we are aiming for, but an upper bound on the evacuation time that is needed by our model. This quantity is used to build the time expanded network.
 
-For public transportation we assume that there is already an established set of collection points, where evacuees gather for further transportation to shelters. For each collection point it is known how many people will appear at this point in each time step. We also given a set of possible shelter location. For each such location we are given the number of people ${W_j}$ that this shelter can hold and additionally the parking space ${C_j}$ available near this shelter.
-
-The set of buses available for the public evacuation transit is denoted by B. For simplicity, we assume that all buses have the same capacity ${N_0}$ (however, different capacities can easily be included in our model). Besides all cars carry the same number of people.
-
-Once the used shelter locations have been chosen, the public and private traffic will pour into the shelter. The private traffic is modeled as a dynamic network flow, the public traffic (the buses) as a dynamic multi commodity network flow. The private traffic is a single commodity whereas each bus is a commodity of its own. The flow of the buses has to be chosen such that all people that need public transportation can be brought to shelter locations while respecting the bus capacity. Both flows are chosen simultaneously in a system optimal way.
-
-The total risk exposure is given by the sum of the risks of the individual arcs over all time steps. The risk of a single arc at a time step is given by the risk value of the arc multiplied with the number of people on this arc at this time step.
-
-Formulating these aspects mathematically, we propose the following multi-criteria mixed-integer programming model, which we call the Comprehensive Evacuation Problem (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
+ve Evacuation Problem (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
 
 In this mixed integer program we use the following variables: $\delta _{ij}$ denotes traversal of arc (i,j) $ \in $ A. $x_{ij}^t$ denotes the spend time passing arc (i,j). $r_{ij}^t$ denotes the risk factor passing arc (i,j) at time $t$. $f_{ij}^t$ denotes the number of evacuees using cars passing arc (i,j) at time $t$. In contrast, $g_{ij}^t$ denotes the number of evacuees using bus $b$ to go from node $i$ to node $j$ at time $t$. $\eta $ represents the jam factor, which depends on the magnitude of the hurricane, the location of the landing, and the average number of evacuees passing arc (i,j) at time $t$. $B_{ij}^t$ denotes the number of bus driving on arc (i,j) at time $t$.In the same way, $C_{ij}^t$ denotes the number of car driving on arc (i,j) at time $t$. $P_j^t$  denotes the number of people in the $j$ shelter at time $t$. $r$ denotes the capacity factor.
 
 
-\begin{equation}\label{3}
-\Delta \min (\Delta ,R)
-\end{equation}
-
-\begin{equation}\label{4}
-\Delta  \ge (2n - 1) \times \max (\sum\limits_{(i,j) \in A} {\sum\limits_{t \in T} {\delta _{ij}^tx_{ij}^t} } ) + \Delta t
-\end{equation}
-
-The objective (1) is to minimize the evacuation time $\Delta $ and the risk $R$ ,These objectives are computed using constraints (2)-(4). Constraints (2) ensure that $\Delta $ is the maximal evacuation time. The risk $R$ depends on the number of people passing a link. This relation is expressed in constraint (3)and(4).
-
-
-
-In the equation (5), $n$ means the number of journeys that the bus needs to transport, and the calculation should Integer plus one. Equation (8) - (10) is the road traffic that is used to constrain not to exceed its maximum capacity at time $t$.
-
-When a hurricane is stronger, it may require a massive evacuation, that is, to consider the interaction of the three states. The site selection, risk coefficient, road congestion, and site accommodation will be affected, we need to reset the influence parameters to get the minimum required time and the site situation again.
-
-Optimization method: When the forecast hat hurricane level is high, we can arrange inland evacuation ahead, in the case of ensure the overall time is enough for the coastal areas to evacuate to the site of the corresponding time calculation.
-
-Advantage: Inland remove first can reduce the road pressure; Coastal remove later can increase the economic benefit.Compare the results again and get the final optimization plan.
-
 \subsection{Model Solution}
 Based on the above model and the parameters involved in the model, the final evacuation time is obtained by programming, and the result is shown in the table below:
-\begin{table}[!htb]
-\centering
-\setlength{\abovecaptionskip}{0pt}%    
-\setlength{\belowcaptionskip}{10pt}%
-\caption{The Evacuation time}
-\begin{tabular}{ccccccc}
-\toprule[1.5pt]
-Hurricane level &1&2&3&4&5&6\\
-Evacuation time &11.4&18.2&24.28&33.6&47.8&49.6\\
-\bottomrule[1.5pt]
-\end{tabular}
-\end{table}
-%\begin{figure}[h]
-%  \centering{
-%  \includegraphics[width=0.7\textwidth]{./picture/figure4.png}}
-%  \caption{The Evacuation Time}\label{Table1}
-%\end{figure}
 
-
-
-As shown in the figure above, it is necessary to calculate the time required for a category 1- 5 hurricane, including the withdrawal time required for the optimization programme.
-
-Because the evacuation and time of personnel also satisfied the curve of $S$ type curve, it can be used to draw the time-varying personnel evacuation curve of hurricane from category 1 - 5, which can be seen in figure4.
-
-
-
-On the basis of guarantee the safety of life, we put forward the optimization scheme, when hurricane prediction level too high, let let evacuated inland areas, in order to improve the economic benefit of coastal, and reduce economic loss. The maximum population density due to coastal areas, and abide by the $S$ type curve evacuation rules.
-
-
-Under the same Five - level hurricane conditions, the optimization scheme minimizes the economic loss under the conditions of increasing the cost of the smaller time. It has been proved that evacuating in the right time can get better effect, which has a positive effect on the subsequent development of evacuation plan.
 
 \section{Strengths and Weaknesses}
 
@@ -662,12 +609,6 @@ Under the same Five - level hurricane conditions, the optimization scheme minimi
 
 \begin{itemize}
   \item The comprehensive evacuation planning model takes the shortest time and lowest risk and low economic losses as the total constraint conditions to get the optimal solution;
-  \item The constraint conditions such as road carrying capacity and the capacity of escape points are considered in the comprehensive evacuation planning model;
-  \item Determine the coverage scope by Thiessen polygon;
-  \item Considering the demand distribution characteristics in the station nodes;
-  \item In terms of model constraints, the shortest evacuation time is obtained for a 1-5 hurricane;
-  \item Considering the economic benefit gap between inland and coastal areas, the optimal plan for economic loss is proposed;
-  \item Analyze the extreme problems, propose solutions, and obtain the optimal solution through comprehensive consideration of evacuation time, evacuation risks and economic losses.
 \end{itemize}
 
 \subsection{Weaknesses and Extensions}
