@@ -108,7 +108,7 @@ In order to develop the Scottish fishing industries steadily,   we need to analy
 To simplify our problems, we make the following basic assumptions, each of which is properly justified.
 \begin{itemize}
 \item 
-Assumed that the fishing time of Scottish vessels negligible
+Assumed that the fishing and neting time of Scottish vessels is around two hours.
 \item 
 Assumed that the ship travels in a straight line and its sailing route is from the port to the center of the position of fish.
 \item 
@@ -162,6 +162,7 @@ $c_o$      &access fishing fee\\
 $T_1$     & The time spent in fishing of a Scottish vessel      \\
 $T_2$       & Fish preservation time at ambient temperature        \\
 $T_3$     & The time spent in fishing of a Scottish vessel      \\
+$T_0$   &Time for fishing and netting \\
 $S$      & The distance sailed of a Scottish vessel  in the waters of another country  \\
 $S_m$      & The maximum distance sailed of a large Scottish vessel that small fishing companies continue to operate out of their current  location \\
 $S_o$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country \\
@@ -431,16 +432,16 @@ V=L\times B\times\ d =\frac{1}{48\times L^3}\\
 \end{equation}
 
 \begin{equation}\label{5}
-T=\frac{S}{v}
+T_1=\frac{S}{v}
 \end{equation}
 
 
 \begin{equation}\label{5}
-A_1=c_1 \times T_1
+A_1=c_1 \times( T_1+T_0)
 \end{equation}
 
 \begin{equation}\label{6}
-A_2=c_2  \times T_1 \times L \times  \frac{1}{2}
+A_2=c_2  \times( T_1+T_0) \times L \times  \frac{1}{2}
 \end{equation}
 
 \begin{equation}\label{7}
@@ -450,7 +451,7 @@ A_3=V_o  \times p_o
 \begin{equation}
 \left\{
 \begin{array}{lr}
-V_o=r_o \times P \times T_1 \times a_o &\\
+V_o=r_o \times P \times ( T_1+T_0)\times a_o &\\
 a_o=0.8&\\
 p_o=0.5&\\
 A_3=V_o  \times p_o\\
@@ -495,7 +496,7 @@ The weighted average prices and the proportion of density in different regions o
 Since no refrigerant fishing, in order to ensure fresh fish, the return time of Scottish vessel  must be shorter than the fresh-keeping period of the fish
 
 \begin{equation}\label{10}
-\frac{T_1}{2}\leq T_2
+\frac{T_1}{2}+T_0\leq T_2
 \end{equation}
 
 
@@ -639,7 +640,7 @@ S<=5\times S_m
 \begin{equation}
 \left\{
 \begin{array}{lr}
-V_o=r_o \times P \times T_1 \times a_o &\\
+V_o=r_o \times P \times ( T_1+T_0) \times a_o &\\
 a_o=0.8  & \\    p_o=0.5 \\
 \end{array}
 \right.
@@ -651,8 +652,8 @@ By comparing the price of different sizes of refrigerants, it can be inferred th
 			\left\{
 			\begin{array}{lr}
 
-A_1=c_3 \times T_1\times L \times (1+10\%) &\\
-A_2=c_2  \times T_1 \times L \times  \frac{1}{2} &\\
+A_1=c_3 \times ( T_1+T_0\times L \times (1+10\%) &\\
+A_2=c_2  \times ( T_1+T_0) \times L \times  \frac{1}{2} &\\
 A_3=V_o  \times P_o &\\
 A=A_1+A_2+A_3+A_e \\		
 			\end{array}
@@ -694,7 +695,7 @@ Assume that Norway ’s entry fee for foreign fishing vessels is the same as tha
 \begin{equation}
 \left\{
 \begin{array}{lr}
-A_o=A+c_o \times T_3 &\\
+A_o=A+c_o \times ( T_0+T_3) &\\
 T_3=\frac{S-S_i}{v} &\\
 S_o<= 350+370=720 \\
 \end{array}
