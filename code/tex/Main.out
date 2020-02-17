@@ -1,8 +1,7 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Background}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Problem\040Restatement}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Problem Restatement}{section.1}% 3
 \BOOKMARK [1][-]{section.2}{Assumptions}{}% 4
-<<<<<<< HEAD
 \BOOKMARK [1][-]{section.3}{List of Notation}{}% 5
 \BOOKMARK [1][-]{section.4}{The fish accumutation model}{}% 6
 \BOOKMARK [2][-]{subsection.4.1}{basic idea}{section.4}% 7
@@ -28,30 +27,3 @@
 \BOOKMARK [1][-]{section*.2}{Appendices}{}% 27
 \BOOKMARK [1][-]{Appendix.a.A}{Appendix First appendix}{}% 28
 \BOOKMARK [1][-]{Appendix.a.B}{Appendix Second appendix}{}% 29
-=======
-\BOOKMARK [1][-]{section.3}{List\040of\040Notation}{}% 5
-\BOOKMARK [1][-]{section.4}{The\040fish\040accumutation\040model}{}% 6
-\BOOKMARK [2][-]{subsection.4.1}{basic\040idea}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.2}{The\040varying\040temperature\040model}{section.4}% 8
-\BOOKMARK [3][-]{subsubsection.4.2.1}{The\040yearly\040change\040prediction\040model}{subsection.4.2}% 9
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Monthly\040correct\040of\040the\040prediction}{subsection.4.2}% 10
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Spatial\040distribution\040model}{subsection.4.2}% 11
-\BOOKMARK [2][-]{subsection.4.3}{The\040fish-temperature\040model}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.4}{The\040prediction\040of\040fish\040accumutation\040distribution}{section.4}% 13
-\BOOKMARK [1][-]{section.5}{The\040Distribution\040Model}{}% 14
-\BOOKMARK [2][-]{subsection.5.1}{Initial\040costs\040and\040profits}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.2}{the\040spatial\040profit\040distribution\040model}{section.5}% 16
-\BOOKMARK [1][-]{section.6}{Strategies\040we\040recommend}{}% 17
-\BOOKMARK [2][-]{subsection.6.1}{Using\040some\040proportion\040of\040small\040fishing\040vessels}{section.6}% 18
-\BOOKMARK [2][-]{subsection.6.2}{Equip\040freezers\040for\040fishing\040vessels}{section.6}% 19
-\BOOKMARK [2][-]{subsection.6.3}{Relocate\040to\040other\040port}{section.6}% 20
-\BOOKMARK [1][-]{section.7}{Model\040affected\040by\040territorial\040sea\040problem}{}% 21
-\BOOKMARK [1][-]{section.8}{Sensitivity\040Analysis}{}% 22
-\BOOKMARK [2][-]{subsection.8.1}{}{section.8}% 23
-\BOOKMARK [1][-]{section.9}{Weaknesses\040and\040future\040improvements}{}% 24
-\BOOKMARK [1][-]{section.10}{An\040article\040for\040Hook\040Line\040and\040Sinker\040magazine}{}% 25
-\BOOKMARK [1][-]{figure.15}{Reference}{}% 26
-\BOOKMARK [1][-]{section*.2}{Appendices}{}% 27
-\BOOKMARK [1][-]{Appendix.a.A}{Appendix\040First\040appendix}{}% 28
-\BOOKMARK [1][-]{Appendix.a.B}{Appendix\040Second\040appendix}{}% 29
->>>>>>> 0bd5863959f98f44e40ae8556622fa014fe4df44

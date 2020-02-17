@@ -16,21 +16,12 @@
 \contentsline {subsection}{\numberline {5.2}the spatial profit distribution model}{11}{subsection.5.2}% 
 \contentsline {section}{\numberline {6}Strategies we recommend}{13}{section.6}% 
 \contentsline {subsection}{\numberline {6.1}Using some proportion of small fishing vessels}{13}{subsection.6.1}% 
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {6.2}Equip freezers for fishing vessels}{15}{subsection.6.2}% 
 \contentsline {subsection}{\numberline {6.3}Relocate to other port}{15}{subsection.6.3}% 
 \contentsline {section}{\numberline {7}Model affected by territorial sea problem}{16}{section.7}% 
 \contentsline {section}{\numberline {8}Sensitivity Analysis}{17}{section.8}% 
 \contentsline {subsection}{\numberline {8.1}}{17}{subsection.8.1}% 
 \contentsline {section}{\numberline {9}Weaknesses and future improvements}{17}{section.9}% 
-=======
-\contentsline {subsection}{\numberline {6.2}Equip freezers for fishing vessels}{14}{subsection.6.2}% 
-\contentsline {subsection}{\numberline {6.3}Relocate to other port}{15}{subsection.6.3}% 
-\contentsline {section}{\numberline {7}Model affected by territorial sea problem}{15}{section.7}% 
-\contentsline {section}{\numberline {8}Sensitivity Analysis}{16}{section.8}% 
-\contentsline {subsection}{\numberline {8.1}}{16}{subsection.8.1}% 
-\contentsline {section}{\numberline {9}Weaknesses and future improvements}{16}{section.9}% 
->>>>>>> 0bd5863959f98f44e40ae8556622fa014fe4df44
 \contentsline {section}{\numberline {10}An article for Hook Line and Sinker magazine}{17}{section.10}% 
 \contentsline {section}{Reference}{19}{figure.15}% 
 \contentsline {section}{Appendices}{19}{section*.2}% 
