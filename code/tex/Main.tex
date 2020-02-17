@@ -274,7 +274,7 @@ $n$      & The number  of  crews in ferries \\
  \subsection{The fish-temperature model}
   As we known, fish need the proper habitat to service, and temperature play an important role in multiply of fish, such as the mackerel population is found further upstream in warmer waters as the current cools through winter\cite{jansen2012migration}. In our previous predictions, the increase of  SST because global warming is obvious, so we take fisheries data  from The International Council for the Exploration of the Sea(ICES) and make a comparison. 
 
- \begin{figure}[tbp]
+ \begin{figure}[htbp]
  \centering{
 \includegraphics[width = .8\textwidth]{picture/fish-temp.jpg}}
 \caption{Comparison graph}\label{figure1}
@@ -298,7 +298,7 @@ $n$      & The number  of  crews in ferries \\
 
   So it's highly correlative. Then we use them to fitting the Gaussian distribution, and get the desired relationship between temperature and fish density.
 
- \begin{figure}[h]
+ \begin{figure}[htbp]
    \centering{
    \includegraphics[width = .8\textwidth]{picture/fish-temp_fitting.jpg}}
    \caption{Fitting result}\label{figure1}
@@ -313,14 +313,14 @@ $n$      & The number  of  crews in ferries \\
   \subfigure[fish accumulation areas after 0 years]{
   \begin{minipage}[t]{0.5\linewidth}
   \centering
-  \includegraphics[width=3in]{image/fish_area_after0years.eps}
+  \includegraphics[width=2.5in]{image/fish_area_after0years.eps}
   %\caption{fig1}
   \end{minipage}%
   }%
   \subfigure[fish accumulation areas after 10 years]{
   \begin{minipage}[t]{0.5\linewidth}
   \centering
-  \includegraphics[width=3in]{image/fish_area_after10years.eps}
+  \includegraphics[width=2.5in]{image/fish_area_after10years.eps}
   %\caption{fig2}
   \end{minipage}%
   }%
@@ -328,45 +328,46 @@ $n$      & The number  of  crews in ferries \\
   \subfigure[fish accumulation areas after 25 years]{
   \begin{minipage}[t]{0.5\linewidth}
   \centering
-  \includegraphics[width=3in]{image/fish_area_after25years.eps}
+  \includegraphics[width=2.5in]{image/fish_area_after25years.eps}
   %\caption{fig1}
   \end{minipage}%
   }%
   \subfigure[fish accumulation areas after 50 years]{
   \begin{minipage}[t]{0.5\linewidth}
   \centering
-  \includegraphics[width=3in]{image/fish_area_after50years.eps}
+  \includegraphics[width=2.5in]{image/fish_area_after50years.eps}
   %\caption{fig2}
   \end{minipage}%
   }
   \centering
+  \caption{fish accumulation areas}
 \end{figure}
 
 \section{The Distribution Model}
 \subsection{Initial costs and profits}
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering{
   \includegraphics[width=0.8\textwidth]{./picture/figure1.png}}
-  \caption{the spatial profit distribution model}\label{figure1}
+  \caption{the spatial profit distribution model}
 \end{figure}
 
-\begin{table}[!htb]
-\centering
-\setlength{\abovecaptionskip}{0pt}%    
-\setlength{\belowcaptionskip}{15pt}%
-\caption{The range dimension ratios of  trawlers}
-\begin{tabular}{ccccccccc}
-\toprule[1.5pt]
-parameter &L/B&B/d&D/d\\
-\toprule[1.5pt]
-Range of steel materials&3.93-5.00&2.38-3.65&1.19-1.38\\
-Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
-\bottomrule[1.5pt]
-\end{tabular}
-\end{table}
 
 As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a cuboid, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
 
+\begin{table}[!htb]
+  \centering
+  \setlength{\abovecaptionskip}{0pt}%    
+  \setlength{\belowcaptionskip}{15pt}%
+  \caption{The range dimension ratios of  trawlers}
+  \begin{tabular}{ccccccccc}
+  \toprule[1.5pt]
+  parameter &L/B&B/d&D/d\\
+  \toprule[1.5pt]
+  Range of steel materials&3.93-5.00&2.38-3.65&1.19-1.38\\
+  Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
+  \bottomrule[1.5pt]
+  \end{tabular}
+  \end{table}
 
 From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt and. the average tonnage is about 1300 tonnes. The speed and flight time are calculated from the speed-related formula.
 
@@ -499,69 +500,69 @@ Since no refrigerant fishing, in order to ensure fresh fish, the return time of 
   
 Ignoring national territorial limits, it can be seen from the figure(a) and (b) that there is no obvious change in the income of fishing in 10 years, which is because the slow increase of sea temperature has a time lag to the migration of fish. After 25 years (c), the largest income gradually migrates northward. Fifty years later, the school of fish is obviously moving north. At this time, the port is far from the school of fish, and the fishing cost will increase significantly (d)
 
+\begin{figure}[htbp]
+  \centering
+
+  \subfigure[spatial net profit distribution after 0 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua0image.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[spatial net profit distribution after 10 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua10image.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }%
+
+  \quad
+  \subfigure[spatial net profit distribution after 25 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua25image.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[spatial net profit distribution after 50 years]{
+  \begin{minipage}[t]{0.5\linewidth}
+  \centering
+  \includegraphics[width=2.5in]{image/profit_dis_afterqua50image.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{spatial net profit distribution}
+\end{figure}
+
 Due to the limitation of fish preservation time,  Scotland small company can make a large profit offshore. From the comparison about the offshore distance and income (e), it can be concluded that when the distance is less than 200 kilometers, the company's profit is positively related to the density of the local fish school. There are obvious differences in various years, because the fish school moves northward with the change in temperature. As can be seen from the figure (f) that after about 40 years, the net profit will drop to 0. Therefore, these small companies should take measures in advance to deal with changes in fish stocks.
+
+\begin{figure}[htbp]
+  \centering
+  \subfigure[the realationship between distance and net profit]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{image/distance_pro_qua.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[the elapsed time]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{image/ele_time_qua.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{profit graph}
+\end{figure}
 
 However, when the distance is more than 200 kilometers, due to the higher inherent cost of navigation, the fishing income will decline rapidly, showing a consistent downward trend among different years. At the same time, the 50-year net profit  curve fluctuated slightly compared to others due to the change in the position of fish density.
 
-  \begin{figure}[htbp]
-    \centering
-
-    \subfigure[spatial net profit distribution after 0 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua0image.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[spatial net profit distribution after 10 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua10image.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    }%
-
-    \quad
-    \subfigure[spatial net profit distribution after 25 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua25image.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[spatial net profit distribution after 50 years]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/profit_dis_afterqua50image.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    }
-    \centering
-  \end{figure}
-
-  \begin{figure}[htbp]
-    \centering
-    \subfigure[the realationship between distance and net profit]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/distance_pro_qua.eps}
-    %\caption{fig1}
-    \end{minipage}%
-    }%
-    \subfigure[the elapsed time]{
-    \begin{minipage}[t]{0.5\linewidth}
-    \centering
-    \includegraphics[width=3in]{image/ele_time_qua.eps}
-    %\caption{fig2}
-    \end{minipage}%
-    }
-    
-    \centering
-    \caption{}
-  \end{figure}
-  
-\section{The third question}
-\subsection{Costs and profits after port relocation}
+\section{Strategies we recommend}
+\subsection{Using some proportion of small fishing vessels}
 
 Assume that the fishing boat is a cuboid with a length of L, and its width and height are consistent with the previous assumptions.
 
@@ -645,8 +646,77 @@ E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 
 \right.
 \end{equation}
 
+Then the profit graph change. In Figure 11 we can see small vessels Profit reduction rate reduce, but more importantly, small vessels (but not ) are capable of operating without land-based support, which mean they can go further to fish. In this way, they can reach the fish colony easily. 
 
-\section{The forth question}
+\begin{figure}[htbp]
+  \centering
+  \subfigure[20m ship]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ship20.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[15m ship]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ship15.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \subfigure[10m ship]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ship10.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{Small vessels' profit graph}
+\end{figure}
+
+
+\subsection{Equip freezers for fishing vessels}
+111
+
+\begin{figure}[htbp]
+  \centering
+  \subfigure[the realationship between distance and net profit]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/distance_pro__relation_ice.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[the elapsed time]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_ice.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{Vessels with freezers profit graph}
+\end{figure}
+
+\subsection{Relocate to other port}
+
+222
+
+\begin{figure}[htbp]
+  \centering
+  \subfigure[the realationship between distance and net profit]{
+  \begin{minipage}[t]{0.32\linewidth}
+  \centering
+  \includegraphics[width=2in]{picture/maxprofit_year_relation_change_port.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \centering
+  \caption{Vessels with freezers profit graph}
+\end{figure}
+
+\section{Model affected by territorial sea problem}
 As can be known that territorial Waters is a belt of coastal waters extending at most 12 nautical miles (22.2 km) from the baseline (usually the mean low-water mark) of a coastal state, which are allowed innocent passage through it, or transit passage for straits.
 It is assumed that the maritime division of the British Overseas Territories uses an equal distance method. As the waters of Scotland and Norway meet for 700 kilometers, it can be estimated that the range of Scottish fishing boats is within 350 kilometers.
 
@@ -673,40 +743,27 @@ S_o<= 350+370=720 \\
 \right.
 \end{equation}
 
-\section{The Comprehensive Evacuation Planning Model}
-\subsection{Model Preparation}
+For example, we use the vessels with freezers model and change the distance limitation to 372km (Figure 14 (a)), which means can't go into other territorial sea. Or we add the entry fee (Figure 14(b)), which means they go into other territorial sea. They both reduce profit.
 
-
-VRP \cite{Dikas2016Solving,He2015Model} generally 
-
-
-Based on the traditional VRP, a comprehensive evacuation planning model is established to satisfy the constraint conditions:
-
-\begin{itemize}
-  \item Time constraint: the total withdrawal time is the shortest in the case of meeting all the evacuees' needs and not violating the constraints;
-\end{itemize}
-
-\subsection{Modeling}
-
-\begin{itemize}
-
-\item 
-\item 
-\end{itemize}
-
-time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
-
-
-
-as is shown in Figure ~\ref{figure1}.
-
-ve Evacuation Problem (CEP)\cite{Murray2013Evacuation,Ng2015Sharp,Ng2010Reliable}
-
-In this mixed integer program we use the following variables: $\delta _{ij}$ denotes traversal of arc (i,j) $ \in $ A. $x_{ij}^t$ denotes the spend time passing arc (i,j). $r_{ij}^t$ denotes the risk factor passing arc (i,j) at time $t$. $f_{ij}^t$ denotes the number of evacuees using cars passing arc (i,j) at time $t$. In contrast, $g_{ij}^t$ denotes the number of evacuees using bus $b$ to go from node $i$ to node $j$ at time $t$. $\eta $ represents the jam factor, which depends on the magnitude of the hurricane, the location of the landing, and the average number of evacuees passing arc (i,j) at time $t$. $B_{ij}^t$ denotes the number of bus driving on arc (i,j) at time $t$.In the same way, $C_{ij}^t$ denotes the number of car driving on arc (i,j) at time $t$. $P_j^t$  denotes the number of people in the $j$ shelter at time $t$. $r$ denotes the capacity factor.
-
-
-\subsection{Model Solution}
-Based on the above model and the parameters involved in the model, the final evacuation time is obtained by programming, and the result is shown in the table below:
+\begin{figure}[htbp]
+  \centering
+  \subfigure[can't go into other territorial sea]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{image/distance_pro_qua.eps}
+  %\caption{fig1}
+  \end{minipage}%
+  }%
+  \subfigure[pay fee]{
+  \begin{minipage}[t]{0.48\linewidth}
+  \centering
+  \includegraphics[width=3in]{image/ele_time_qua.eps}
+  %\caption{fig2}
+  \end{minipage}%
+  }
+  \centering
+  \caption{profit graph}
+\end{figure}
 
 
 \section{Weaknesses and future improvements}
