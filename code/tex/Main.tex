@@ -1,6 +1,6 @@
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = FALSE,   % 使用 CTeX 套装时，设置为 true
-        tcn = 2017334, problem = A,
+        tcn = {\color{red}2017334}, problem = A,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = false, abstract = true}
 \usepackage{palatino}
@@ -162,6 +162,7 @@ $c_o$      &access fishing fee\\
 $T_1$     & The time spent in fishing of a Scottish vessel      \\
 $T_2$       & Fish preservation time at ambient temperature        \\
 $T_3$     & The time spent in fishing of a Scottish vessel      \\
+$T_{annual}$     & The annual avarage temperature      \\
 $S$      & The distance sailed of a Scottish vessel  in the waters of another country  \\
 $S_m$      & The maximum distance sailed of a large Scottish vessel that small fishing companies continue to operate out of their current  location \\
 $S_o$      & The maximum distance sailed of a Scottish vessel   if  some proportion of fishery moves into the territorial waters of another country \\
@@ -210,7 +211,7 @@ $n$      & The number  of  crews in ferries \\
     
   
     
-  \subsubsection{Monthly correct of the prediction}
+  \subsubsection{Monthly correction model}
     The monthly or even dayly rate of SST change is much stronger than the rate of yearly SST change and is important to the analysis of the fishes distrbution. In our model, we assume that the monthly change has a central value related to its annual avarage temperature. We also assume that the monthly change are determined by the seasonal change and independent of the factors which affect the yrarly change of avachange temperature. Then we are going to use the predicted annual avarage temperature above and add a monthly correction to get the actual temperature accurate to month. 
     A long-term dayly avarage and a spatial avarage are made based on SST data from 1981 to 2010 in the area we Analyzed. Since the seasonal change of temperature are mostly related to the rotation of the earth, it is convenience to suppose this change has a trigonometric form. And we find the monthly correction is: 
     \begin{equation}\label{}
@@ -311,14 +312,14 @@ $n$      & The number  of  crews in ferries \\
     \centering
 
     \subfigure[fish gathering area after 0 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after0years.eps}
     %\caption{fig1}
     \end{minipage}%
     }%
     \subfigure[fish gathering areas after 10 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after10years.eps}
     %\caption{fig2}
@@ -326,14 +327,14 @@ $n$      & The number  of  crews in ferries \\
     }%
     \quad
     \subfigure[fish gathering areas after 25 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after25years.eps}
     %\caption{fig1}
     \end{minipage}%
     }%
     \subfigure[fish gathering areas after 50 years]{
-    \begin{minipage}[t]{0.5\linewidth}
+    \begin{minipage}[pt]{0.5\linewidth}
     \centering
     \includegraphics[width=3in]{image/fish_area_after50years.eps}
     %\caption{fig2}
@@ -342,7 +343,7 @@ $n$      & The number  of  crews in ferries \\
     \centering
   \end{figure}
 
-  \begin{figure}[htbp]
+  \begin{figure}[h]
     \centering{
     \includegraphics[width=0.9\textwidth]{image/fishpath.eps}}
     \caption{the moving path for the max density location}\label{figure1}
