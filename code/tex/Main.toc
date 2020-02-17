@@ -21,12 +21,10 @@
 \contentsline {subsection}{\numberline {8.1}Model Preparation}{15}{subsection.8.1}% 
 \contentsline {subsection}{\numberline {8.2}Modeling}{15}{subsection.8.2}% 
 \contentsline {subsection}{\numberline {8.3}Model Solution}{16}{subsection.8.3}% 
-\contentsline {section}{\numberline {9}Strengths and Weaknesses}{16}{section.9}% 
-\contentsline {subsection}{\numberline {9.1}Strengths}{16}{subsection.9.1}% 
-\contentsline {subsection}{\numberline {9.2}Weaknesses and Extensions}{16}{subsection.9.2}% 
+\contentsline {section}{\numberline {9}Weaknesses and future improvements}{16}{section.9}% 
 \contentsline {section}{\numberline {10}An article for Hook Line and Sinker magazine}{16}{section.10}% 
-\contentsline {section}{Reference}{18}{figure.9}% 
-\contentsline {section}{Appendices}{19}{section*.2}% 
-\contentsline {section}{Appendix \numberline {A}First appendix}{19}{Appendix.a.A}% 
+\contentsline {section}{Reference}{17}{figure.9}% 
+\contentsline {section}{Appendices}{18}{section*.2}% 
+\contentsline {section}{Appendix \numberline {A}First appendix}{18}{Appendix.a.A}% 
 \contentsline {section}{Appendix \numberline {B}Second appendix}{19}{Appendix.a.B}% 
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.3)  17 FEB 2020 22:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1004,7 +1004,7 @@ Package epstopdf Info: Source file: <image/predic_log.eps>
 rted-to.pdf image/predic_log.eps>
 (epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
-<image/predic_log-eps-converted-to.pdf, id=236, 722.7pt x 361.35pt>
+<image/predic_log-eps-converted-to.pdf, id=218, 722.7pt x 361.35pt>
 File: image/predic_log-eps-converted-to.pdf Graphic file (type pdf)
 <use image/predic_log-eps-converted-to.pdf>
 Package pdftex.def Info: image/predic_log-eps-converted-to.pdf  used on input l
@@ -1020,7 +1020,7 @@ Package epstopdf Info: Source file: <image/predic_qua.eps>
 rted-to.pdf image/predic_qua.eps>
 (epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
-<image/predic_qua-eps-converted-to.pdf, id=237, 722.7pt x 361.35pt>
+<image/predic_qua-eps-converted-to.pdf, id=219, 722.7pt x 361.35pt>
 File: image/predic_qua-eps-converted-to.pdf Graphic file (type pdf)
 <use image/predic_qua-eps-converted-to.pdf>
 Package pdftex.def Info: image/predic_qua-eps-converted-to.pdf  used on input l
@@ -1038,7 +1038,7 @@ o.pdf>
 -eps-converted-to.pdf image/general_distribution.eps>
 (epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
-<image/general_distribution-eps-converted-to.pdf, id=251, 421.575pt x 316.18124
+<image/general_distribution-eps-converted-to.pdf, id=233, 421.575pt x 316.18124
 pt>
 File: image/general_distribution-eps-converted-to.pdf Graphic file (type pdf)
 <use image/general_distribution-eps-converted-to.pdf>
@@ -1060,7 +1060,7 @@ Package epstopdf Info: Source file: <image/month_correct.eps>
 nverted-to.pdf image/month_correct.eps>
 (epstopdf)             \includegraphics on input line 237.
 Package epstopdf Info: Output file is already uptodate.
-<image/month_correct-eps-converted-to.pdf, id=252, 421.575pt x 316.18124pt>
+<image/month_correct-eps-converted-to.pdf, id=234, 421.575pt x 316.18124pt>
 File: image/month_correct-eps-converted-to.pdf Graphic file (type pdf)
 <use image/month_correct-eps-converted-to.pdf>
 Package pdftex.def Info: image/month_correct-eps-converted-to.pdf  used on inpu
@@ -1089,7 +1089,7 @@ o.pdf>
 -eps-converted-to.pdf image/spatial_distribu_fit.eps>
 (epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
-<image/spatial_distribu_fit-eps-converted-to.pdf, id=280, 421.575pt x 316.18124
+<image/spatial_distribu_fit-eps-converted-to.pdf, id=262, 421.575pt x 316.18124
 pt>
 File: image/spatial_distribu_fit-eps-converted-to.pdf Graphic file (type pdf)
 <use image/spatial_distribu_fit-eps-converted-to.pdf>
@@ -1112,7 +1112,7 @@ ed-to.pdf>
 _err-eps-converted-to.pdf image/spatial_distribu_fit_err.eps>
 (epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
-<image/spatial_distribu_fit_err-eps-converted-to.pdf, id=281, 421.575pt x 316.1
+<image/spatial_distribu_fit_err-eps-converted-to.pdf, id=263, 421.575pt x 316.1
 8124pt>
 File: image/spatial_distribu_fit_err-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1130,7 +1130,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 259--267
  [][][][] 
  []
 
-<picture/fish-temp.jpg, id=283, 896.3889pt x 328.1058pt>
+<picture/fish-temp.jpg, id=265, 896.3889pt x 328.1058pt>
 File: picture/fish-temp.jpg Graphic file (type jpg)
 <use picture/fish-temp.jpg>
 Package pdftex.def Info: picture/fish-temp.jpg  used on input line 279.
@@ -1140,7 +1140,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <./image/spatial_distribu_fit-eps-converted-to.pdf> <./image/spatial_distrib
 u_fit_err-eps-converted-to.pdf>]
-<picture/fish-temp_fitting.jpg, id=308, 1103.322pt x 435.5472pt>
+<picture/fish-temp_fitting.jpg, id=290, 1103.322pt x 435.5472pt>
 File: picture/fish-temp_fitting.jpg Graphic file (type jpg)
 <use picture/fish-temp_fitting.jpg>
 Package pdftex.def Info: picture/fish-temp_fitting.jpg  used on input line 303.
@@ -1157,7 +1157,7 @@ to.pdf>
 s-eps-converted-to.pdf image/fish_area_after0years.eps>
 (epstopdf)             \includegraphics on input line 319.
 Package epstopdf Info: Output file is already uptodate.
-<image/fish_area_after0years-eps-converted-to.pdf, id=309, 421.575pt x 316.1812
+<image/fish_area_after0years-eps-converted-to.pdf, id=291, 421.575pt x 316.1812
 4pt>
 File: image/fish_area_after0years-eps-converted-to.pdf Graphic file (type pdf)
 <use image/fish_area_after0years-eps-converted-to.pdf>
@@ -1180,7 +1180,7 @@ Package epstopdf Info: Source file: <image/fish_area_after10years.eps>
 rs-eps-converted-to.pdf image/fish_area_after10years.eps>
 (epstopdf)             \includegraphics on input line 326.
 Package epstopdf Info: Output file is already uptodate.
-<image/fish_area_after10years-eps-converted-to.pdf, id=310, 421.575pt x 316.181
+<image/fish_area_after10years-eps-converted-to.pdf, id=292, 421.575pt x 316.181
 24pt>
 File: image/fish_area_after10years-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1204,7 +1204,7 @@ Package epstopdf Info: Source file: <image/fish_area_after25years.eps>
 rs-eps-converted-to.pdf image/fish_area_after25years.eps>
 (epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
-<image/fish_area_after25years-eps-converted-to.pdf, id=311, 421.575pt x 316.181
+<image/fish_area_after25years-eps-converted-to.pdf, id=293, 421.575pt x 316.181
 24pt>
 File: image/fish_area_after25years-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1228,7 +1228,7 @@ Package epstopdf Info: Source file: <image/fish_area_after50years.eps>
 rs-eps-converted-to.pdf image/fish_area_after50years.eps>
 (epstopdf)             \includegraphics on input line 341.
 Package epstopdf Info: Output file is already uptodate.
-<image/fish_area_after50years-eps-converted-to.pdf, id=312, 421.575pt x 316.181
+<image/fish_area_after50years-eps-converted-to.pdf, id=294, 421.575pt x 316.181
 24pt>
 File: image/fish_area_after50years-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1251,7 +1251,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 319--343
  [][][][] 
  []
 
-<./picture/figure1.png, id=313, 702.48161pt x 415.12231pt>
+<./picture/figure1.png, id=295, 702.48161pt x 415.12231pt>
 File: ./picture/figure1.png Graphic file (type png)
 <use ./picture/figure1.png>
 Package pdftex.def Info: ./picture/figure1.png  used on input line 349.
@@ -1263,7 +1263,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 h_area_after0years-eps-converted-to.pdf> <./image/fish_area_after10years-eps-co
 nverted-to.pdf> <./image/fish_area_after25years-eps-converted-to.pdf> <./image/
 fish_area_after50years-eps-converted-to.pdf>]
-<./picture/figure2.jpeg, id=362, 1531.6422pt x 615.7404pt>
+<./picture/figure2.jpeg, id=344, 1531.6422pt x 615.7404pt>
 File: ./picture/figure2.jpeg Graphic file (type jpg)
 <use ./picture/figure2.jpeg>
 Package pdftex.def Info: ./picture/figure2.jpeg  used on input line 412.
@@ -1281,7 +1281,7 @@ ted-to.pdf>
 image-eps-converted-to.pdf image/profit_dis_afterqua0image.eps>
 (epstopdf)             \includegraphics on input line 515.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua0image-eps-converted-to.pdf, id=388, 421.575pt x 316.
+<image/profit_dis_afterqua0image-eps-converted-to.pdf, id=370, 421.575pt x 316.
 18124pt>
 File: image/profit_dis_afterqua0image-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1305,7 +1305,7 @@ rted-to.pdf>
 0image-eps-converted-to.pdf image/profit_dis_afterqua10image.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua10image-eps-converted-to.pdf, id=389, 421.575pt x 316
+<image/profit_dis_afterqua10image-eps-converted-to.pdf, id=371, 421.575pt x 316
 .18124pt>
 File: image/profit_dis_afterqua10image-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1334,7 +1334,7 @@ rted-to.pdf>
 5image-eps-converted-to.pdf image/profit_dis_afterqua25image.eps>
 (epstopdf)             \includegraphics on input line 531.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua25image-eps-converted-to.pdf, id=390, 421.575pt x 316
+<image/profit_dis_afterqua25image-eps-converted-to.pdf, id=372, 421.575pt x 316
 .18124pt>
 File: image/profit_dis_afterqua25image-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1358,7 +1358,7 @@ rted-to.pdf>
 0image-eps-converted-to.pdf image/profit_dis_afterqua50image.eps>
 (epstopdf)             \includegraphics on input line 538.
 Package epstopdf Info: Output file is already uptodate.
-<image/profit_dis_afterqua50image-eps-converted-to.pdf, id=391, 421.575pt x 316
+<image/profit_dis_afterqua50image-eps-converted-to.pdf, id=373, 421.575pt x 316
 .18124pt>
 File: image/profit_dis_afterqua50image-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1387,7 +1387,7 @@ f>
 -converted-to.pdf image/distance_pro_qua.eps>
 (epstopdf)             \includegraphics on input line 550.
 Package epstopdf Info: Output file is already uptodate.
-<image/distance_pro_qua-eps-converted-to.pdf, id=392, 421.575pt x 316.18124pt>
+<image/distance_pro_qua-eps-converted-to.pdf, id=374, 421.575pt x 316.18124pt>
 File: image/distance_pro_qua-eps-converted-to.pdf Graphic file (type pdf)
 <use image/distance_pro_qua-eps-converted-to.pdf>
 Package pdftex.def Info: image/distance_pro_qua-eps-converted-to.pdf  used on i
@@ -1408,7 +1408,7 @@ Package epstopdf Info: Source file: <image/ele_time_qua.eps>
 verted-to.pdf image/ele_time_qua.eps>
 (epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
-<image/ele_time_qua-eps-converted-to.pdf, id=393, 421.575pt x 316.18124pt>
+<image/ele_time_qua-eps-converted-to.pdf, id=375, 421.575pt x 316.18124pt>
 File: image/ele_time_qua-eps-converted-to.pdf Graphic file (type pdf)
 <use image/ele_time_qua-eps-converted-to.pdf>
 Package pdftex.def Info: image/ele_time_qua-eps-converted-to.pdf  used on input
@@ -1429,84 +1429,74 @@ it_dis_afterqua10image-eps-converted-to.pdf> <./image/profit_dis_afterqua25imag
 e-eps-converted-to.pdf> <./image/profit_dis_afterqua50image-eps-converted-to.pd
 f> <./image/distance_pro_qua-eps-converted-to.pdf> <./image/ele_time_qua-eps-co
 nverted-to.pdf>]
-<./picture/figure4.jpeg, id=451, 868.2036pt x 317.988pt>
+<./picture/figure4.jpeg, id=433, 868.2036pt x 317.988pt>
 File: ./picture/figure4.jpeg Graphic file (type jpg)
 <use ./picture/figure4.jpeg>
 Package pdftex.def Info: ./picture/figure4.jpeg  used on input line 577.
 (pdftex.def)             Requested size: 426.79135pt x 156.31525pt.
  [13 <./picture/figure4.jpeg>] [14] [15] [16]
-<./picture/figure5.png, id=500, 505.89pt x 295.1025pt>
+<./picture/figure5.png, id=482, 505.89pt x 295.1025pt>
 File: ./picture/figure5.png Graphic file (type png)
 <use ./picture/figure5.png>
-Package pdftex.def Info: ./picture/figure5.png  used on input line 746.
+Package pdftex.def Info: ./picture/figure5.png  used on input line 739.
 (pdftex.def)             Requested size: 256.0748pt x 149.37904pt.
 
-Overfull \hbox (42.67912pt too wide) in paragraph at lines 746--747
+Overfull \hbox (42.67912pt too wide) in paragraph at lines 739--740
  [][] 
  []
 
-<./picture/figure6.png, id=501, 554.07pt x 562.1pt>
+<./picture/figure6.png, id=483, 554.07pt x 562.1pt>
 File: ./picture/figure6.png Graphic file (type png)
 <use ./picture/figure6.png>
-Package pdftex.def Info: ./picture/figure6.png  used on input line 750.
+Package pdftex.def Info: ./picture/figure6.png  used on input line 743.
 (pdftex.def)             Requested size: 128.0374pt x 129.88924pt.
-[17 <./picture/figure5.png> <./picture/figure6.png (PNG copy)>] (./Main.bbl)
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 787--788
+(./Main.bbl [17 <./picture/figure5.png> <./picture/figure6.png (PNG copy)>])
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
 
  []
 
-
+[18] 
 AED: lastpage setting LastPage
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 798.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 798.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 791.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 791.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 798.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 798.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 791.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 791.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 4B692A029815693DED5773A2AE35A9A4;1968.
 
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: 437149E28D942E90D55017D39DAE2601;2150
-(rerunfilecheck)             After:  58108A5BC16CF3AAADEC7F3D2E197ED6;2092.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21855 strings out of 492616
- 370395 string characters out of 6129482
- 809308 words of memory out of 5000000
- 25319 multiletter control sequences out of 15000+600000
+ 21849 strings out of 492616
+ 370305 string characters out of 6129482
+ 809178 words of memory out of 5000000
+ 25316 multiletter control sequences out of 15000+600000
  569703 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,12n,92p,886b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/p
-alatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino
-/uplri8a.pfb>
-Output written on Main.pdf (22 pages, 4001776 bytes).
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
+pe1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
+/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palati
+no/uplri8a.pfb>
+Output written on Main.pdf (22 pages, 4001041 bytes).
 PDF statistics:
- 593 PDF objects out of 1000 (max. 8388607)
- 455 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 575 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 
