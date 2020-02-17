@@ -123,7 +123,7 @@ Assumed that the ship travels in a straight line and its sailing route is from t
 \item 
 Supposed that the salaries of crews in Scotland are equal to the average wage of the British people, at 7 pounds per hour.
 \item 
-Supposed that large size ferries in Scotland generally have 20 crew members and small ships generally have 8 crew members.
+Supposed that large size ferries in Scotland generally have 20 crew members and small Scottish ships generally have 8 crew members.
 \item 
 Assumed that the maximum catch per vessel of a small Scottish company is 10 percent of its own weight
 \item 
@@ -160,6 +160,8 @@ $A_1$     & Total purchase cost of a Scottish vessel
 $A_2$       & Total salary of a crew member                                                           \\
 $A_3$      & Total fuel cost of a Scottish vessel                                        \\
 $A$      & total cost of a Scottish vessel                                        \\
+$A$      & total cost of a Scottish vessel                                        \\
+$A_e$      &Extra cost for one voyage.  \\
 $c_1$     & The purchase cost of a Scottish vessel per hour
                                                         \\
 $c_2$       & The salary of a crew member per hour                                                     \\
@@ -175,8 +177,12 @@ $k$      & Unit fixed cost of the ship  \\
 $r_o$      & Fuel consumption ratio \\
 $E$      & The earnings  of herrings and mackerels \\
 $E_0$      & The small Scottish vessel's earnings  of herrings and mackerels \\
+$E_1$      & The earnings  of herrings\\
+$E_2$      & The earnings  of mackerels\\
 $p_1$      & The price  of herrings \\
 $p_2$      & The price  of mackerels  \\
+$n_1$      & The number  of  crew in large size ferries \\
+$n_2$      & The number  of  crew in small size ferries  \\
 
 
 
@@ -333,7 +339,7 @@ A_1=c_1 \times T_1
 \end{equation}
 
 \begin{equation}\label{6}
-A_2=c_2  \times T_1
+A_2=c_2  \times T_1 \times n_1
 \end{equation}
 
 \begin{equation}\label{7}
@@ -341,8 +347,9 @@ A_3=c_3  \times T_1
 \end{equation}
 
 \begin{equation}\label{8}
-A=A_1+A_2+A_3
+A=A_1+A_2+A_3+A_e
 \end{equation}
+
 Where:
 
 $C(t)$ is the cumulative percentage of withdrawal demands from time to time;
@@ -353,10 +360,16 @@ $h$ is the time required for half of the demand in the system;
 
 $t$=0 represents the time the evacuation order is released.
 
+\begin{equation}
+\left\{
+\begin{array}{lr}
 
+E_1=1300 \times 10\% \times a_1 \times p_1 &\\
+E_2=1300 \times 10\% \times a_2 \times p_2 &\\
+E= \frac{a_1 \times p_1}{a_1 \times p_1+ a_2 \times p_2} \times E_1 + \frac{a_2 \times p_2}{a_1 \times p_1+ a_2 \times p_2} \times E_2\\
 
-\begin{equation}\label{9}
-E=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
+\end{array}
+\right.
 \end{equation}
 
 
@@ -381,17 +394,6 @@ E=1800 \times 10\% \times a \times \frac{p_1+p_2}{2}
 
 
 
-
-\begin{equation}\label{1}
-C(t) = \frac{1}{{(1 + {e^{ - \alpha (t - h)}})}}
-\end{equation}
-
-\begin{equation}\label{2}
-C(0) = 0
-\end{equation}
-
-
-
 time is crucial~\cite{Sayyady2010Optimizing,So2010Managing}.
 
 
@@ -405,6 +407,12 @@ as is shown in Figure ~\ref{figure1}.
 \begin{equation}\label{1}
 v=1.84\times \ (\frac{P}{V}) ^{0.237} \times \sqrt{l}
 \end{equation}
+
+\begin{figure}[tbp]
+  \centering{
+  \includegraphics[width=1\textwidth]{./picture/figure4.jpeg}}
+  \caption{The model of a ship}\label{figure1}
+\end{figure}
 
 \begin{equation}
 \left\{
@@ -435,9 +443,9 @@ T_1=\frac{S}{v}
 			\begin{array}{lr}
 
 A_1=k_1 \times T_1\times L  &\\
-A_2=c_4  \times T_1  &\\
+A_2=c_4  \times T_1 \times n_1 &\\
 A_3=c_3  \times T_1 &\\
-A=A_1+A_2+A_3 \\		
+A=A_1+A_2+A_3+A_e \\		
 			\end{array}
 			\right.
 			\end{equation}
