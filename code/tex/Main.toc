@@ -11,17 +11,16 @@
 \contentsline {subsection}{\numberline {4.2}The fish-temperature model}{4}{subsection.4.2}% 
 \contentsline {subsection}{\numberline {4.3}The predicted fish accumutation distribution}{5}{subsection.4.3}% 
 \contentsline {section}{\numberline {5}The Demand Distribution Model}{5}{section.5}% 
-\contentsline {section}{\numberline {6}The third question}{8}{section.6}% 
-\contentsline {section}{\numberline {7}the spatial profit distribution model}{8}{section.7}% 
-\contentsline {section}{\numberline {8}The Comprehensive Evacuation Planning Model}{8}{section.8}% 
-\contentsline {section}{\numberline {9}The Comprehensive Evacuation Planning Model}{9}{section.9}% 
-\contentsline {subsection}{\numberline {9.1}Model Preparation}{9}{subsection.9.1}% 
-\contentsline {subsection}{\numberline {9.2}Modeling}{11}{subsection.9.2}% 
-\contentsline {subsection}{\numberline {9.3}Model Solution}{13}{subsection.9.3}% 
-\contentsline {section}{\numberline {10}Strengths and Weaknesses}{14}{section.10}% 
-\contentsline {subsection}{\numberline {10.1}Strengths}{14}{subsection.10.1}% 
-\contentsline {subsection}{\numberline {10.2}Weaknesses and Extensions}{14}{subsection.10.2}% 
-\contentsline {section}{Reference}{14}{subsection.10.2}% 
+\contentsline {section}{\numberline {6}the spatial profit distribution model}{8}{section.6}% 
+\contentsline {section}{\numberline {7}The third question}{8}{section.7}% 
+\contentsline {section}{\numberline {8}The Comprehensive Evacuation Planning Model}{10}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}Model Preparation}{10}{subsection.8.1}% 
+\contentsline {subsection}{\numberline {8.2}Modeling}{11}{subsection.8.2}% 
+\contentsline {subsection}{\numberline {8.3}Model Solution}{13}{subsection.8.3}% 
+\contentsline {section}{\numberline {9}Strengths and Weaknesses}{13}{section.9}% 
+\contentsline {subsection}{\numberline {9.1}Strengths}{13}{subsection.9.1}% 
+\contentsline {subsection}{\numberline {9.2}Weaknesses and Extensions}{14}{subsection.9.2}% 
+\contentsline {section}{Reference}{14}{subsection.9.2}% 
 \contentsline {section}{Appendices}{15}{section*.2}% 
 \contentsline {section}{Appendix \numberline {A}First appendix}{15}{Appendix.a.A}% 
 \contentsline {section}{Appendix \numberline {B}Second appendix}{16}{Appendix.a.B}% 
