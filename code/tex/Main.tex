@@ -285,7 +285,7 @@ Range of wood materials&3.19-4.53&2.61-4.67&1.06-1.44\\
 As can be seen from the 2016 Scottish Marine Statistics (Table 3), most of the Scottish vessels that capture herring and mackerel are larger than 40 meters in length. Figure 6 is the structural model of the ship. We simplified the structure of the ship to a rectangular parallelepiped, and the relationship between its length, width, and height is shown in Table 3. We assume that the length of the Scottish vessels in small company is about 40 meters, the width is one quarter of its length, the height of the waterline is one twelfth of the length, and the length between the  perpendiculars  is equal to the length of the boat.
 
 
-From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt. The speed and flight time are calculated from the speed-related formula.
+From Table 4, it is estimated that the average power of a 40-meter-long Scottish vessel is 4000 kilowatt and. the average tonnage is about 1300 tonnes. The speed and flight time are calculated from the speed-related formula.
 
 
 
@@ -293,13 +293,13 @@ From Table 4, it is estimated that the average power of a 40-meter-long Scottish
 \centering
 \setlength{\abovecaptionskip}{0pt}%    
 \setlength{\belowcaptionskip}{13pt}%
-\caption{The prices (pround  per tonne) of two species : 2012 to 2016}
+\caption{The prices of two species : 2012 to 2016}
 \begin{tabular}{ccccccc}
 \toprule[1.5pt]
 Year&2012&2013&2014&2015&2016&average\\
 \bottomrule[1.5pt]
-Herring &565&408&308&369&665&463\\
-Mackerel &1034&979&832&664&895&880.8\\
+Herring (pound  per tonne)  &565&408&308&369&665&463\\
+Mackerel (pound  per tonne)  &1034&979&832&664&895&880.8\\
 \bottomrule[1.5pt]
 \end{tabular}
 \end{table}
@@ -316,8 +316,8 @@ vessel length (metres)&<=10&10-12&12-15&15-24&24-40&>=40\\
 \bottomrule[1.5pt]
 Herring (tonnes)&0&0&0&7&1505&63031\\
 Mackerel (tonnes) &811&0&0&42&3802&183831\\
-Average tonnage of &4&13&22&110&273&1748\\
-Average age&26&33&29&31&28&17\\
+Average tonnage (tonnes)&4&13&22&110&273&1748\\
+Average age (year)&26&33&29&31&28&17\\
 Average engine power (kW)&57&127&190&325&641&4327\\
 
 \bottomrule[1.5pt]
@@ -604,53 +604,9 @@ In this mixed integer program we use the following variables: $\delta _{ij}$ den
 
 The objective (1) is to minimize the evacuation time $\Delta $ and the risk $R$ ,These objectives are computed using constraints (2)-(4). Constraints (2) ensure that $\Delta $ is the maximal evacuation time. The risk $R$ depends on the number of people passing a link. This relation is expressed in constraint (3)and(4).
 
-\begin{equation}\label{5}
- R = \sum\limits_{(i,j) \in A} {\sum\limits_{t \in T} {r_{ij}^t} } (f_{ij}^t + \sum\limits_{(i,j) \in A} {{\rm{g}}_{ij}^t} ) + W + V
-\end{equation}
 
-\begin{equation}\label{6}
-\sum\limits_{(i,j) \in A} {\sum\limits_{t \in T} {f_{ij}^t} }  = {N_i} \times a\%
-\end{equation}
-
-\begin{equation}\label{7}
-n = \left[ {\frac{{{N_{\rm{i}}} \times (1 - a\% )}}{{{B_i} \times {N_0}}}} \right]{\rm{ + }}1
-\end{equation}
-
-\begin{equation}\label{8}
-x_{ij}^t = \eta \frac{{{S_{ij}}}}{{{v_b}}}
-\end{equation}
-
-\begin{equation}\label{9}
-{\rm{g}}_{ij}^t = {N_0} \times B_{ij}^t
-\end{equation}
-
-\begin{equation}\label{10}
-C_{ij}^t{\rm{ = p}} \times {{\rm{C}}_i}
-\end{equation}
 
 In the equation (5), $n$ means the number of journeys that the bus needs to transport, and the calculation should Integer plus one. Equation (8) - (10) is the road traffic that is used to constrain not to exceed its maximum capacity at time $t$.
-
-\begin{equation}\label{11}
-B_{ij}^t = {\rm{p}} \times {{\rm{B}}_i}
-\end{equation}
-
-\begin{equation}\label{12}
-C_{ij}^t + B_{ij}^t \le {V_{ij}}
-\end{equation}
-
-The individual and the public traffic are linked together in the edge capacity constraints (11)-(12). Each used shelter must supply enough parking space and enough room to support evacuees.
-
-\begin{equation}\label{13}
-C_j^t \le {C_j}
-\end{equation}
-
-\begin{equation}\label{14}
-P_j^t \le r{W_j}
-\end{equation}
-
-\begin{equation}\label{15}
-r = \frac{{{N_{\rm{i}}}}}{{{W_j}}}
-\end{equation}
 
 When a hurricane is stronger, it may require a massive evacuation, that is, to consider the interaction of the three states. The site selection, risk coefficient, road congestion, and site accommodation will be affected, we need to reset the influence parameters to get the minimum required time and the site situation again.
 
